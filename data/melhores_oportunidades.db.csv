@@ -1,0 +1,16 @@
+cidade,nicho,empresas,nota_media,total_reviews,pct_baixa_qualidade,pct_sem_reviews,score_oportunidade,classificacao,timestamp_processamento
+Itajubá,Legalização de obras e imóveis rurais,1,4.2,195.0,0.0,0.0,0.733,Alta,2025-11-07 03:25:00.216427
+Itajubá,Regularização de galpões e áreas industriais perante prefeitura,1,4.2,195.0,0.0,0.0,0.733,Alta,2025-11-07 03:32:36.407069
+Itajubá,Certificação de acessibilidade e laudos para edificações públicas,3,3.9,377.0,66.66666666666666,0.0,0.721,Alta,2025-11-07 03:38:41.748715
+Itajubá,Projetos de drenagem e contenção de encostas,2,4.6,206.0,0.0,0.0,0.694,Alta,2025-11-07 03:19:27.478765
+Itajubá,Instalação e regularização de poços artesianos,1,4.9,65.0,0.0,0.0,0.691,Alta,2025-11-07 03:11:11.673389
+Itajubá,Projetos de acessibilidade e laudos ,2,4.65,55.0,0.0,0.0,0.691,Alta,2025-11-07 03:32:36.407069
+Itajubá,Regularização de outorga de uso de água,5,4.14,389.0,40.0,0.0,0.677,Alta,2025-11-07 03:19:27.478765
+Itajubá,Consultoria em licenciamento sanitário e ambiental para clínicas e fábricas,5,4.5200000000000005,67.0,20.0,0.0,0.654,Média,2025-11-07 03:32:36.407069
+Itajubá,restauração de carros antigos Itajubá,4,4.9,6950.0,0.0,25.0,0.646,Média,2025-11-07 03:02:30.382298
+Itajubá,fotografia com drone Itajubá,4,4.925,74.0,0.0,0.0,0.645,Média,2025-11-07 03:02:30.382298
+Itajubá,regularização de imóveis Itajubá,1,3.3,32.0,100.0,0.0,0.643,Média,2025-11-07 03:02:30.382298
+Itajubá,Projetos e regularização de usinas fotovoltaicas coletivas,6,4.5,223.0,16.666666666666664,0.0,0.64,Média,2025-11-07 03:32:36.407069
+Itajubá,Assessoria técnica em inventário e partilha de imóveis rurais,7,4.266666666666667,133.0,28.57142857142857,14.285714285714285,0.639,Média,2025-11-07 03:32:36.407069
+Itajubá,Projetos e licenciamento de pequenas centrais hidrelétricas,6,4.566666666666666,716.0,16.666666666666664,0.0,0.636,Média,2025-11-07 03:38:41.748715
+Itajubá,Projetos de energia solar para propriedades rurais e pousadas,5,4.88,141.0,0.0,0.0,0.632,Média,2025-11-07 03:11:11.673389
