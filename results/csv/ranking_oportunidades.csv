@@ -1,11 +1,10 @@
 ﻿cidade,nicho,empresas,nota_media,total_reviews,pct_baixa_qualidade,pct_sem_reviews,score_oportunidade,classificacao
-Itajubá,Legalização de obras e imóveis rurais,1,4.2,195.0,0.0,0.0,0.733,Alta
-Itajubá,Projetos e instalação de energia eólica de pequeno porte,6,4.88,111.0,0.0,16.666666666666664,0.617,Média
-Itajubá,Engenharia de contenção e muros de arrimo residenciais,3,4.2,37.0,33.33333333333333,0.0,0.599,Média
-Itajubá,Automação e monitoramento de estufas agrícolas,2,5.0,25.0,0.0,0.0,0.47,Média
-Itajubá,Perícia e vistoria técnica para seguros e obras,17,4.705882352941177,601.0,5.88235294117647,0.0,0.463,Média
-Itajubá,Consultoria em eficiência acústica e isolamento residencial,20,4.584210526315789,447.0,5.0,5.0,0.425,Média
-Itajubá,Climatização industrial e ventilação técnica,20,4.66,498.0,5.0,0.0,0.42,Média
-Itajubá,Consultoria para implantação de painéis acústicos e térmicos sustentáveis,20,4.661111111111111,454.0,10.0,10.0,0.42,Média
-Itajubá,Consultoria em geotecnia e estabilidade de taludes,20,4.85,208.0,5.0,10.0,0.409,Média
-Itajubá,Instalação de reservatórios e sistemas de combate a incêndio,1,4.7,12.0,0.0,0.0,0.399,Baixa
+Itajubá,Regularização de galpões e áreas industriais perante prefeitura,1,4.2,195.0,0.0,0.0,0.733,Alta
+Itajubá,Projetos de acessibilidade e laudos ,2,4.65,55.0,0.0,0.0,0.691,Alta
+Itajubá,Consultoria em licenciamento sanitário e ambiental para clínicas e fábricas,5,4.5200000000000005,67.0,20.0,0.0,0.654,Média
+Itajubá,Projetos e regularização de usinas fotovoltaicas coletivas,6,4.5,223.0,16.666666666666664,0.0,0.64,Média
+Itajubá,Assessoria técnica em inventário e partilha de imóveis rurais,7,4.266666666666667,133.0,28.57142857142857,14.285714285714285,0.639,Média
+Itajubá,Avaliação patrimonial e laudo técnico para financiamento imobiliário,9,4.55,188.0,22.22222222222222,11.11111111111111,0.592,Média
+Itajubá,Inspeção predial e manutenção obrigatória,1,5.0,3.0,0.0,0.0,0.309,Baixa
+Itajubá,Regularização fundiária urbana e condomínios irregulares,1,5.0,1.0,0.0,0.0,0.293,Baixa
+Itajubá,Georreferenciamento e desmembramento de terrenos rurais,1,,0.0,0.0,100.0,0.0,Baixa
