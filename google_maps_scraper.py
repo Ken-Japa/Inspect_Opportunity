@@ -9,7 +9,7 @@ import json
 import logging
 
 import pandas as pd
-from serpapi import GoogleSearch
+import serpapi
 from dotenv import load_dotenv
 
 # Configuração do logger
@@ -45,7 +45,7 @@ if not API_KEY:
 # FUNÇÃO PRINCIPAL
 # ----------------------------------------
 def buscar_empresas(nicho, cidade):
-    """Busca empresas no Google Maps via SerpAPI"""
+    """Busca empresas no Google Maps via SerpAPI com retentativas e backoff exponencial."""
     logging.info(f"🔍 Buscando: {nicho} em {cidade}...")
     params = {
         "engine": "google_maps",
@@ -55,17 +55,34 @@ def buscar_empresas(nicho, cidade):
         "api_key": API_KEY
     }
 
-    try:
-        search = GoogleSearch(params)
-        results = search.get_dict()
+    max_retries = 5
+    initial_delay = 1  # segundos
 
-        if "error" in results:
-            logging.warning(f"⚠️ Erro da SerpAPI para {nicho} em {cidade}: {results["error"]}")
-            return []
+    for attempt in range(max_retries):
+        try:
+            client = serpapi.Client(api_key=API_KEY)
+            results = client.search(params)
 
-    except Exception as e:
-        logging.error(f"⚠️ Erro ao chamar a SerpAPI para {nicho} em {cidade}: {e}")
-        return []
+            if "error" in results:
+                error_message = results["error"]
+                if "daily limit" in error_message.lower() or "api key" in error_message.lower():
+                    logging.error(f"❌ Erro fatal da SerpAPI para {nicho} em {cidade}: {error_message}. Não será feita nova tentativa.")
+                    return []
+                else:
+                    logging.warning(f"⚠️ Erro da SerpAPI para {nicho} em {cidade} (tentativa {attempt + 1}/{max_retries}): {error_message}")
+            else:
+                return results.get("local_results", [])
+
+        except Exception as e:
+            logging.warning(f"⚠️ Erro ao chamar a SerpAPI para {nicho} em {cidade} (tentativa {attempt + 1}/{max_retries}): {e}")
+
+        if attempt < max_retries - 1:
+            delay = initial_delay * (2 ** attempt) + random.uniform(0, 1) # Backoff exponencial com jitter
+            logging.info(f"Aguardando {delay:.2f} segundos antes de tentar novamente...")
+            time.sleep(delay)
+
+    logging.error(f"❌ Falha ao buscar empresas para {nicho} em {cidade} após {max_retries} tentativas.")
+    return []
 
     empresas = []
     for local in results.get("local_results", []):
@@ -91,6 +108,14 @@ def main():
 
     cidades = carregar_lista_de_arquivo("cidades", "cidades")
     nichos = carregar_lista_de_arquivo("nichos", "nichos")
+
+    if not cidades:
+        logging.error("❌ A lista de cidades está vazia. Verifique o arquivo cidades.csv ou cidades.json.")
+        return
+
+    if not nichos:
+        logging.error("❌ A lista de nichos está vazia. Verifique o arquivo nichos.csv ou nichos.json.")
+        return
 
     todas_empresas = []
 
