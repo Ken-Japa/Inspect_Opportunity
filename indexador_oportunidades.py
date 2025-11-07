@@ -43,7 +43,7 @@ def indexar_e_consolidar_oportunidades():
 
     df_consolidado.sort_values(by='timestamp_processamento', ascending=False, inplace=True)
     df_consolidado.drop_duplicates(subset=['nicho', 'cidade'], keep='first', inplace=True)
-    df_consolidado.sort_values(by='timestamp_processamento', ascending=True, inplace=True) # Opcional: reordenar por data
+    df_consolidado.sort_values(by='timestamp_processamento', ascending=True, inplace=True)
 
     print(f"Banco de dados consolidado com {len(df_consolidado)} entradas após remover duplicatas.")
 

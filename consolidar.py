@@ -1,4 +1,3 @@
-# consolidar.py
 # Este script consolida e organiza os dados de oportunidades e empresas.
 
 import pandas as pd
@@ -54,7 +53,6 @@ def criar_nichos_especificos(df_oportunidades, df_empresas_master, consolidated_
 
     for nicho in nichos_interessantes:
         df_nicho = df_empresas_master[df_empresas_master["nicho"] == nicho]
-        # Limpar o nome do nicho para usar como nome de arquivo
         nicho_filename = nicho.replace(" ", "_").replace("/", "_").replace("\\", "_").replace(":", "").replace("*", "").replace("?", "").replace("\"", "").replace("<", "").replace(">", "").replace("|", "")
         output_path = os.path.join(especificos_path, f"{nicho_filename}_empresas_googlemaps.csv")
         df_nicho.to_csv(output_path, index=False)
@@ -142,17 +140,17 @@ def gerar_grafico_oportunidades(df_melhores_oportunidades, data_path): # Alterad
                  ha='left', va='center')
 
     plt.tight_layout()
-    graph_output_path = os.path.join(data_path, "grafico_oportunidades.png") # Alterado para data_path
+    graph_output_path = os.path.join(data_path, "imagens", "grafico_oportunidades.png") 
     plt.savefig(graph_output_path)
     print(f"Gráfico de oportunidades salvo em: {graph_output_path}")
     plt.close()
 
-def registrar_log_consolidacao(data_path, num_arquivos_processados, tempo_execucao): # Alterado para data_path
+def registrar_log_consolidacao(data_path, num_arquivos_processados, tempo_execucao): 
     """
     Registra os metadados da consolidação em um arquivo log_consolidacao.csv.
     """
     print("Registrando log de consolidação...")
-    log_file_path = os.path.join(data_path, "log_consolidacao.csv") # Alterado para data_path
+    log_file_path = os.path.join(data_path, "log_consolidacao.csv") 
     
     log_entry = {
         "timestamp_consolidacao": pd.Timestamp.now(),
@@ -185,7 +183,7 @@ def main():
     num_processed_files = len(glob.glob(os.path.join(results_path, "csv", "dados_empresas_googlemaps_sub_*.csv")))
 
     # 2. Organizar oportunidades.db.csv e criar melhores_oportunidades.db.csv
-    df_oportunidades_sorted, df_melhores_oportunidades = organizar_oportunidades_db(data_path) # Alterado para data_path
+    df_oportunidades_sorted, df_melhores_oportunidades = organizar_oportunidades_db(data_path) 
 
     # 3. Criar arquivos específicos por nicho (se houver dados de empresas)
     if not df_empresas_master.empty:
@@ -194,14 +192,14 @@ def main():
         print("Não há dados de empresas para criar arquivos específicos por nicho.")
 
     # 4. Gerar representação visual
-    gerar_grafico_oportunidades(df_melhores_oportunidades, data_path) # Alterado para data_path
+    gerar_grafico_oportunidades(df_melhores_oportunidades, data_path) 
 
     end_time = time.time()
     tempo_execucao = end_time - start_time
     print(f"Tempo total de execução: {tempo_execucao:.2f} segundos")
 
     # 5. Registrar log de consolidação
-    registrar_log_consolidacao(data_path, num_processed_files, tempo_execucao) # Alterado para data_path
+    registrar_log_consolidacao(data_path, num_processed_files, tempo_execucao) 
 
     print("Processo de consolidação concluído!")
 

@@ -169,9 +169,9 @@ def gerar_relatorio_top_oportunidades(df_oportunidades, num_top=10):
     print("-----------------------------------------")
 
 if __name__ == "__main__":
-    # Exemplo de uso (ajuste o caminho conforme necessário)
-    caminho_diretorio_csv_exemplo = r"c:\Users\Ken\Desktop\Projeto\Oportunidades Empresa\Trae - Negocios\results\csv"
-    caminho_db_csv_exemplo = r"c:\Users\Ken\Desktop\Projeto\Oportunidades Empresa\Trae - Negocios\db_oportunidades.csv"
+    # Exemplo de uso (ajuste os caminhos conforme necessário para o seu ambiente)
+    caminho_diretorio_csv_exemplo = os.path.join(os.getcwd(), "results", "csv")
+    caminho_db_csv_exemplo = os.path.join(os.getcwd(), "data", "oportunidades.db.csv")
 
     df_oportunidades = analisar_oportunidades(caminho_diretorio_csv_exemplo, caminho_db_csv_exemplo)
 

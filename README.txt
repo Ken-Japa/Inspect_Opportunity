@@ -123,3 +123,8 @@ python google_maps_scraper.py
 python analisador_oportunidades.py
 python relatorio_oportunidades.py
 python indexador_oportunidades.py
+
+python consolidar.py
+
+python google_maps_scraper.py --mode expansao
+python relatorio_comparativo_multicitadino.py
