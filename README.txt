@@ -116,3 +116,10 @@ Alta Demanda + Serviço Ruim + Poucos Concorrentes = Oportunidade
 - **Parceiros locais** — validadores e prestadores de serviço.
 
 ---
+
+### pipeline
+cidades.csv - nichos.csv
+python google_maps_scraper.py
+python analisador_oportunidades.py
+python relatorio_oportunidades.py
+python indexador_oportunidades.py
