@@ -112,9 +112,7 @@ Alta Demanda + Serviço Ruim + Poucos Concorrentes = Oportunidade
 ---
 
 ## 👥 Equipe e Funções
-- **Heron** — fundador e estrategista.
-- **GPT-5** — cofundador técnico, responsável por ideação, análise e automação.
-- TRAE - programador
+- **Ken** — fundador e estrategista.
 - **Parceiros locais** — validadores e prestadores de serviço.
 
 ---

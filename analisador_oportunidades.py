@@ -1,10 +1,11 @@
-# Autor: Ken
 # Objetivo: analisar dados do scraper e gerar ranking de oportunidades
 
 import pandas as pd
 import logging
 import sys
 import argparse
+import os
+import datetime
 
 # Configuração do logger
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -95,6 +96,13 @@ def salvar_resultados(resumo, output_file):
         resumo (pd.DataFrame): DataFrame com o ranking de oportunidades.
         output_file (str): Caminho para o arquivo CSV de saída.
     """
+    if os.path.exists(output_file):
+        timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+        base, ext = os.path.splitext(output_file)
+        new_name = f"{base}_sub_{timestamp}{ext}"
+        os.rename(output_file, new_name)
+        logging.info(f"Arquivo existente renomeado para: {new_name}")
+
     resumo = resumo.sort_values("score_oportunidade", ascending=False)
     resumo.to_csv(output_file, index=False, encoding="utf-8-sig")
 
@@ -104,9 +112,9 @@ def salvar_resultados(resumo, output_file):
 
 def main():
     parser = argparse.ArgumentParser(description="Analisa dados de empresas e gera um ranking de oportunidades.")
-    parser.add_argument("--input_file", type=str, default="dados_empresas_googlemaps.csv",
+    parser.add_argument("--input_file", type=str, default="results/csv/dados_empresas_googlemaps.csv",
                         help="Caminho para o arquivo CSV de entrada gerado pelo scraper.")
-    parser.add_argument("--output_file", type=str, default="ranking_oportunidades.csv",
+    parser.add_argument("--output_file", type=str, default="results/csv/ranking_oportunidades.csv",
                         help="Caminho para o arquivo CSV de saída com o ranking de oportunidades.")
     parser.add_argument("--demanda_peso", type=float, default=0.4,
                         help="Peso para o componente de demanda no cálculo do score.")
