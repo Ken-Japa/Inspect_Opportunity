@@ -1,6 +1,12 @@
 # Projeto Boring Business Brasil 🧠🇧🇷
 Automação e IA para encontrar, validar e monetizar negócios locais de alta margem.
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white)
+![SerpApi](https://img.shields.io/badge/SerpApi-000000?style=for-the-badge&logo=google&logoColor=white)
+![python-dotenv](https://img.shields.io/badge/python--dotenv-F7DF1E?style=for-the-badge&logo=python&logoColor=black)
+
 ---
 
 ## 🎯 Objetivo Geral
@@ -8,73 +14,37 @@ Criar uma operação sustentável de geração de renda baseada em **identifica�
 
 ---
 
-## 🧱 Etapas Principais
+## 🚀 Evolução do Projeto e Tomada de Decisões
+Este projeto evoluiu para otimizar a identificação e análise de oportunidades de negócios locais. As decisões foram tomadas com base na necessidade de automatizar, consolidar e visualizar dados de forma eficiente.
 
-### 1. Definição de Nichos e Cidades
-- Usar GPT para gerar 20+ ideias de serviços locais com alta margem (> R$ 2.000).
-- Focar em cidades de médio porte (Itajubá, Juiz de Fora, Campinas) e zonas específicas do Rio.
-- Critérios:
-  - Alta demanda local.
-  - Baixa concorrência digital.
-  - Ticket médio alto.
-  - Público com poder aquisitivo.
+Inicialmente, o fluxo envolvia scripts separados para scraping, análise e indexação. No entanto, para melhorar a eficiência e reduzir a redundância, a lógica de remoção de duplicatas e consolidação de dados, que antes era responsabilidade do `indexador_oportunidades.py`, foi integrada diretamente ao `analisador_oportunidades.py`. Isso simplificou o pipeline e garantiu que os dados fossem processados e armazenados de forma otimizada em `oportunidades.db.csv`.
 
-### 2. Pesquisa Automatizada (Google Maps + n8n)
-- Configurar stack:
-  - **Hostinger VPS** (ou outro servidor leve).
-  - **n8n.io** para orquestração.
-  - **API do Google Maps / SerpAPI / Outscraper** para scraping.
-- Dados coletados:
-  - Nome, endereço, site, telefone.
-  - Quantidade e nota média de reviews.
-  - Análise de sentimento das reviews (IA).
-  - Volume de novos reviews (indicador de demanda).
-- Saída:
-  - Planilha ou dashboard com “Score de Oportunidade”.
+A introdução do `relatorio_comparativo_multicitadino.py` e do `visualizar_comparativo_citadino.py` foi uma resposta à necessidade de uma análise mais aprofundada e visual das oportunidades em múltiplas cidades. O `relatorio_comparativo_multicitadino.py` gera métricas chave como "Nº de cidades analisadas", "Média do score", "Desvio padrão" e "Replicabilidade (%)" por nicho, permitindo uma visão comparativa robusta. O `visualizar_comparativo_citadino.py` complementa isso, transformando esses dados em gráficos e tabelas coloridas, facilitando a identificação de nichos promissores e a compreensão da consistência e replicabilidade das oportunidades.
 
-### 3. Validação e Relatório
-- Fórmula de Arbitragem:
-Alta Demanda + Serviço Ruim + Poucos Concorrentes = Oportunidade
+---
 
-- Checklist:
-- +100 reviews/mês (mercado ativo).
-- Média < 4.0 (problemas de qualidade).
-- < 20 provedores (baixa concorrência).
-- Ticket > R$ 1.000.
-- Resultado: relatório PDF/Google Sheets com ranking de nichos por cidade.
+## 🧱 Etapas Principais (Fluxo Atual)
 
-### 4. Criação do Ativo Digital
-- Construir **newsletter**, **site local** ou **diretório de serviços**.
-- Publicar conteúdo automatizado com IA (resumo de reviews, dores, tendências).
-- Captar leads via:
-- Formulários + WhatsApp Business.
-- Anúncios segmentados (Google, Instagram).
-- Monetização:
-- Venda de leads (R$ 100–300/unidade).
-- Patrocínios locais.
-- Marketplace de prestadores.
+### 1. Coleta de Dados (google_maps_scraper.py)
+- Utiliza o `google_maps_scraper.py` no modo "expansão" para coletar dados de empresas em diversas cidades e nichos, alimentando o banco de dados de oportunidades.
 
-### 5. Escala e Replicação
-- Replicar em novas cidades.
-- Criar modelos padronizados por nicho.
-- Automatizar:
-- Scraping.
-- Publicação.
-- Relatórios.
-- Envio de leads.
+### 2. Análise e Consolidação (analisador_oportunidades.py)
+- O `analisador_oportunidades.py` processa os dados brutos, calcula o "Score de Oportunidade" e consolida as informações no `oportunidades.db.csv`, gerenciando duplicatas e mantendo os registros mais recentes.
+
+### 3. Geração de Relatório Comparativo (relatorio_comparativo_multicitadino.py)
+- O `relatorio_comparativo_multicitadino.py` lê o `oportunidades.db.csv` e gera um relatório comparativo detalhado por nicho, incluindo métricas de consistência e replicabilidade, salvando-o em `data/relatorio_comparativo_multicitadino.csv`.
+
+### 4. Visualização de Dados (visualizar_comparativo_citadino.py)
+- O `visualizar_comparativo_citadino.py` cria visualizações gráficas (scatter plots, bar charts, heatmaps) e tabelas coloridas a partir do relatório comparativo, salvando-as em `data/imagens/`, para facilitar a interpretação e tomada de decisão.
 
 ---
 
 ## ⚙️ Stack Técnica
-
-| Função | Ferramenta | Alternativas |
-|--------|-------------|---------------|
-| IA / Análise | ChatGPT (GPT-5) | Claude, Gemini |
-| Automação | n8n | Make, Zapier |
-| Scraping | Google Maps API, Outscraper | PhantomBuster |
-| Hosting | Hostinger VPS | Render, Vercel |
-| Dados | Google Sheets / Notion | Airtable |
-| Conteúdo | Notion AI + Framer | WordPress, Webflow |
+- **Python**: Linguagem de programação principal.
+- **Pandas**: Manipulação e análise de dados.
+- **Matplotlib**: Geração de gráficos e visualizações.
+- **google-search-results (SerpApi)**: Para scraping de dados do Google Maps.
+- **python-dotenv**: Gerenciamento de variáveis de ambiente.
 
 ---
 
@@ -128,3 +98,6 @@ python consolidar.py
 
 python google_maps_scraper.py --mode expansao
 python relatorio_comparativo_multicitadino.py
+python visualizar_comparativo_citadino.py
+
+python filtrar_nichos_campeoes.py

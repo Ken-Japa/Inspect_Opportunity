@@ -1,0 +1,87 @@
+Atue como um analista de inteligência de mercado local especializado em negócios de alto valor B2B e B2G no Brasil.
+
+Use os dados fornecidos (empresas, cidade, nota média, reviews, concorrência, score, etc.) para elaborar um relatório estratégico completo sobre o nicho.
+
+Nicho analisado: {NOME DO NICHO}
+Arquivo base: {nome_do_arquivo.csv} - dados serão enviados no final da mensagem em formato .csv 
+
+Gere um relatório estruturado em Markdown com os seguintes tópicos:
+
+1. Panorama Geral
+
+Contexto do nicho no Brasil e nas cidades analisadas.
+
+Tipo de cliente-alvo (empresas, governo, autônomos, etc).
+
+Relevância econômica e tendência regulatória ou ambiental.
+
+2. Concorrência e Saturação
+
+Quantidade média de empresas por cidade.
+
+Concentração (muitas empresas em poucas cidades ou dispersas?).
+
+Qualidade média (nota/reviews).
+
+Gaps de presença digital (empresas sem site, pouca avaliação).
+
+3. Oportunidades Latentes
+
+Quais sinais mostram demanda não atendida?
+
+Que tipos de problemas práticos (regulatórios, operacionais, técnicos) essas empresas resolvem ou deixam de resolver?
+
+Existe espaço para consultoria especializada, serviço recorrente ou plataforma digital?
+
+4. Barreiras e Dificuldades
+
+Requisitos técnicos, licenças ou capital necessário.
+
+Se há risco de depender de órgãos públicos (ex: prefeituras, órgãos ambientais).
+
+Grau de dependência de profissionais altamente qualificados.
+
+5. Viabilidade Comercial
+
+Avalie o nível de entrada (baixo/médio/alto).
+
+Tipo de modelo de entrada recomendado:
+
+Consultoria especializada
+
+Intermediação digital / Marketplace
+
+Execução direta (contratar equipe)
+
+SaaS / Ferramenta de automação
+
+6. Perspectiva de Escala
+
+Quais cidades têm maior potencial de replicação?
+
+Existe efeito de rede (ex: prefeituras, licenças, engenheiros regionais)?
+
+Quais indicadores sugerem que o nicho pode escalar regional ou nacionalmente?
+
+7. Conclusão e Recomendação
+
+Dê uma nota final de oportunidade (0–10) considerando:
+
+Demanda real
+
+Concorrência
+
+Barreiras de entrada
+
+Potencial de escala
+
+Margem provável
+
+Finalize com 3 recomendações práticas para validação de mercado (ações simples, baratas e rápidas).
+
+Use o CSV abaixo e gere o relatório estratégico conforme o modelo.
+Analise as cidades, concorrência e scores.
+Considere o contexto de Minas Gerais e interior do Brasil.
+
+CSV do nicho:
+"

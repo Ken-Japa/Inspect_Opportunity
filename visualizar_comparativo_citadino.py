@@ -130,4 +130,25 @@ if not df.empty:
 else:
     print("Nenhum dado encontrado no relatório comparativo para gerar a tabela.")
 
+# --- Filtrar e Salvar Nichos com Alta Oportunidade e Replicabilidade ---
+# Filtra nichos com média > 0.70 e replicabilidade >= 70%
+def filtrar_e_salvar_nichos_de_alta_oportunidade(df: pd.DataFrame, output_path: str):
+    """
+    Filtra o DataFrame de nichos com base em critérios de score médio e replicabilidade,
+    e salva o resultado em um arquivo CSV.
+
+    Args:
+        df (pd.DataFrame): DataFrame contendo os dados comparativos dos nichos.
+        output_path (str): Caminho completo para salvar o arquivo CSV filtrado.
+    """
+    df_filtrado = df[(df["Média do score"] > 0.70) & (df["Replicabilidade (%)"] >= 70)]
+    if not df_filtrado.empty:
+        df_filtrado.to_csv(output_path, index=False)
+        print(f"Nichos filtrados salvos em: {output_path}")
+    else:
+        print("Nenhum nicho encontrado com Média do score > 0.70 e Replicabilidade (%) >= 70.")
+
+output_filtered_niches_path = os.path.join("data", "nichos_campeoes.csv")
+filtrar_e_salvar_nichos_de_alta_oportunidade(df, output_filtered_niches_path)
+
 print(f"Gráficos e tabelas salvos em: {output_image_dir}")
