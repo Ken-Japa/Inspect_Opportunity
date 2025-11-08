@@ -1,2 +1,5 @@
 .env
 results/cidadesVizinhas
+archived_results
+__pycache__
+tests/__pycache__
