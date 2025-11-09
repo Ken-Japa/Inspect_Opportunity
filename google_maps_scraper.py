@@ -64,7 +64,7 @@ def buscar_empresas(nicho: str, cidade: str, max_pages: int = 3) -> list[dict]:
             start_offset = page * 20 
             params = {
                 "engine": engine,
-                "q": f"{nicho} em {cidade}, Minas Gerais",
+                "q": f"{nicho} em {cidade}, Rio de Janeiro",
                 "hl": "pt",
                 "gl": "br",
                 "api_key": API_KEY,
@@ -166,14 +166,14 @@ def main():
     """
     parser = argparse.ArgumentParser(description="Scraper de empresas do Google Maps.")
     parser.add_argument("--mode", type=str, default="default",
-                        help="Modo de execução: 'default' para cidades.csv e nichos.csv, 'expansao' para melhores_oportunidades.db.csv e cidades_vizinhas_Itajuba.csv.")
+                        help="Modo de execução: 'default' para cidades.csv e nichos.csv, 'expansao' para melhores_oportunidades.db.csv e cidades_vizinhas.csv.")
     args = parser.parse_args()
 
     if args.mode == "expansao":
-        cidades = carregar_lista_de_arquivo("cidades_vizinhas_Itajuba", "cidades vizinhas")
+        cidades = carregar_lista_de_arquivo("cidades_vizinhas", "cidades vizinhas")
         nichos_df = pd.read_csv(os.path.join(os.getcwd(), "data", "melhores_oportunidades.db.csv"))
         nichos = nichos_df["nicho"].tolist()
-        logging.info("Modo 'expansao' ativado. Carregando nichos de melhores_oportunidades.db.csv e cidades de cidades_vizinhas_Itajuba.csv.")
+        logging.info("Modo 'expansao' ativado. Carregando nichos de melhores_oportunidades.db.csv e cidades de cidades_vizinhas.csv.")
     else:
         cidades = carregar_lista_de_arquivo("cidades", "cidades")
         nichos = carregar_lista_de_arquivo("nichos", "nichos")

@@ -102,22 +102,6 @@ A introdução do `relatorio_comparativo_multicitadino.py` e do `visualizar_comp
 
 ---
 
-### pipeline
-
-cidades.csv - nichos.csv
-python google_maps_scraper.py
-python analisador_oportunidades.py
-python relatorio_oportunidades.py
-python indexador_oportunidades.py
-
-python consolidar.py
-
-python google_maps_scraper.py --mode expansao
-python relatorio_comparativo_multicitadino.py
-python visualizar_comparativo_citadino.py
-
-python filtrar_nichos_campeoes.py
-
 # 🚀 Validador de Nicho — Manual Operacional
 
 ## 1️⃣ Objetivo
@@ -297,3 +281,25 @@ Após validar nicho:
 └── relatorios/
 ├── validacao_galpoes.md
 └── validacao_outorga.md
+
+---
+
+### pipeline
+
+cidades.csv - nichos.csv
+
+python google_maps_scraper.py
+OU
+python google_maps_scraper_playwright.py
+
+python analisador_oportunidades.py
+python relatorio_oportunidades.py
+python indexador_oportunidades.py
+
+python consolidar.py
+
+python google_maps_scraper.py --mode expansao
+python relatorio_comparativo_multicitadino.py
+python visualizar_comparativo_citadino.py
+
+python filtrar_nichos_campeoes.py
