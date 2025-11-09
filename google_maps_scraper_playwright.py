@@ -191,7 +191,7 @@ async def buscar_google_maps(nicho: str, cidade: str):
             processed_business_ids = set() # Para armazenar IDs únicos de empresas já processadas
             last_scroll_height = -1
             no_new_businesses_count = 0
-            max_no_new_businesses = 20 # Aumentar o limite de vezes que podemos não encontrar novas empresas
+            max_no_new_businesses = 15 # Aumentar o limite de vezes que podemos não encontrar novas empresas
 
             while True:
                 # Registrar o número de empresas visíveis antes da rolagem
@@ -203,7 +203,6 @@ async def buscar_google_maps(nicho: str, cidade: str):
                 # Rolar para o final do elemento rolável em incrementos maiores
                 await scrollable_element.evaluate("element => element.scrollBy(0, 1000)") # Rolar 1000px para baixo
                 await page.wait_for_timeout(random.randint(3000, 7000)) # Esperar mais tempo para o conteúdo carregar
-
 
                 current_scroll_height = await scrollable_element.evaluate("element => element.scrollHeight")
 
@@ -225,6 +224,8 @@ async def buscar_google_maps(nicho: str, cidade: str):
                         break
 
                 new_businesses_found_in_scroll = False
+                initial_processed_business_ids_count = len(processed_business_ids)
+                new_businesses_found_in_scroll = False
                 for i, card in enumerate(business_cards):
                     data = await extract_business_data(page, card, i, nicho, cidade)
                     if data["unique_id"] not in processed_business_ids:
@@ -234,6 +235,17 @@ async def buscar_google_maps(nicho: str, cidade: str):
                         logging.info(f"  Cartão {i} (ID: {data["unique_id"]}) - NOVO. Adicionado.")
                     else:
                         logging.info(f"  Cartão {i} (ID: {data["unique_id"]}) - JÁ PROCESSADO. Ignorando.")
+
+                # Atualizar o contador de não encontrar novas empresas com base em empresas únicas
+                if len(processed_business_ids) > initial_processed_business_ids_count:
+                    logging.info(f"Novas empresas únicas detectadas nesta rolagem. Resetando contador.")
+                    no_new_businesses_count = 0
+                else:
+                    no_new_businesses_count += 1
+                    logging.info(f"Nenhuma nova empresa única detectada. Contador: {no_new_businesses_count}/{max_no_new_businesses}")
+                    if no_new_businesses_count >= max_no_new_businesses:
+                        logging.info("Limite de não encontrar novas empresas únicas atingido. Parando a rolagem.")
+                        break
 
                 # Verificar se o texto de "fim da lista" apareceu
                 if await page.locator('text="Você chegou ao fim da lista."').is_visible():
@@ -249,8 +261,7 @@ async def buscar_google_maps(nicho: str, cidade: str):
                     no_new_businesses_count = 0 # Resetar o contador após clicar no botão
                     continue # Continuar o loop para processar os novos resultados
 
-
-                if not new_businesses_found_in_scroll and current_scroll_height == last_scroll_height:
+                if current_scroll_height == last_scroll_height:
                     logging.info("Fim da rolagem. Nenhuma nova altura de rolagem detectada. Parando a rolagem.")
                     break
                 
