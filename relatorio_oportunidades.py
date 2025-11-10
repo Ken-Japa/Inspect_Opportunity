@@ -8,7 +8,7 @@ import datetime
 # ---------------------------------------------------
 # 1. Ler dados
 # ---------------------------------------------------
-df = pd.read_csv("results/csv/ranking_oportunidades.csv")
+df = pd.read_csv("data/oportunidades.db.csv")
 
 # Garantir que o score é numérico
 df["score_oportunidade"] = pd.to_numeric(df["score_oportunidade"], errors="coerce")

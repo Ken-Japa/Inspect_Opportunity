@@ -1,0 +1,23 @@
+﻿cidade,nicho,empresas,nota_media,total_reviews,pct_baixa_qualidade,pct_sem_reviews,score_oportunidade,classificacao
+Rio de Janeiro,Retrofit elétrico e de iluminação LED para prédios comerciais antigos,4,3.325,143,25.0,25.0,0.741,Alta
+Rio de Janeiro,Reabilitação e impermeabilização de subsolos e garagens,2,4.699999999999999,59,0.0,0.0,0.688,Alta
+Rio de Janeiro,Projetos de automação de portarias e controle de acesso inteligente,2,4.95,288,0.0,0.0,0.673,Alta
+Rio de Janeiro,Topografia e demarcação de terrenos para regularização fundiária urbana,3,4.833333333333333,138,0.0,0.0,0.665,Alta
+Rio de Janeiro,georreferenciamento rural,5,4.779999999999999,77,0.0,0.0,0.638,Média
+Rio de Janeiro,Laudos e medições de aterramento e SPDA (para-raios),5,4.9799999999999995,214,0.0,0.0,0.626,Média
+Rio de Janeiro,Certificação de instalações elétricas para condomínios e empresas,8,4.2875,503,12.5,12.5,0.623,Média
+Rio de Janeiro,Regularização fundiária,13,3.130769230769231,61,53.84615384615385,23.076923076923077,0.617,Média
+Rio de Janeiro,Laudos e regularização de sistemas de incêndio existentes,7,4.714285714285714,256,14.285714285714285,0.0,0.612,Média
+Rio de Janeiro,Laudos elétricos,7,4.1,45,14.285714285714285,14.285714285714285,0.609,Média
+Rio de Janeiro,Gestão e descarte técnico de resíduos de obras,9,4.277777777777778,350,33.33333333333333,0.0,0.608,Média
+Rio de Janeiro,Regularização de imóveis antigos e galpões industriais,11,4.654545454545455,1857,0.0,0.0,0.556,Média
+Rio de Janeiro,Consultoria de ESG e licenciamento ambiental,16,3.4,260,31.25,31.25,0.556,Média
+Rio de Janeiro,Consultoria de eficiência energética,20,2.8600000000000003,96,50.0,40.0,0.528,Média
+Rio de Janeiro,Regularização de imóveis,20,3.745,1118,25.0,25.0,0.475,Média
+Rio de Janeiro,Laudos de estabilidade e segurança estrutural para edificações antigas,3,1.6666666666666667,2,66.66666666666666,66.66666666666666,0.471,Média
+Rio de Janeiro,Impermeabilização e recuperação de fachadas,20,4.08,334,15.0,15.0,0.455,Média
+Rio de Janeiro,Automação predial,20,4.335,255,10.0,10.0,0.44,Média
+Rio de Janeiro,Certificação de qualidade do ar e climatização,20,4.755,2799,5.0,5.0,0.415,Média
+Rio de Janeiro,Certificação de acessibilidade,20,4.75,1905,5.0,5.0,0.415,Média
+Rio de Janeiro,Instalação de sistemas de incêndio,20,4.8549999999999995,567,5.0,0.0,0.409,Média
+Rio de Janeiro,Energia solar comercial,20,4.925,979,0.0,0.0,0.405,Média

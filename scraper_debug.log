@@ -1,302 +1,1448 @@
-2025-11-08 23:34:56,027 - INFO - Carregando cidades de C:\Users\Ken\Desktop\Projeto\Oportunidades Empresa\Trae - Negocios\input\cidades.csv
-2025-11-08 23:34:56,029 - INFO - Carregando nichos de C:\Users\Ken\Desktop\Projeto\Oportunidades Empresa\Trae - Negocios\input\nichos.csv
-2025-11-08 23:34:56,031 - INFO - Modo 'default' ativado. Carregando nichos de nichos.csv e cidades de cidades.csv.
-2025-11-08 23:34:56,031 - INFO - Iniciando busca para o nicho 'Regularização de imóveis antigos e galpões industriais' na cidade 'Rio de Janeiro'.
-2025-11-08 23:34:58,307 - INFO - Navegando para o Google Maps para buscar 'Regularização de imóveis antigos e galpões industriais' em 'Rio de Janeiro'...
-2025-11-08 23:35:08,614 - INFO - Pop-up de cookies não encontrado ou já aceito.
-2025-11-08 23:35:17,522 - INFO - Busca realizada. Aguardando resultados...
-2025-11-08 23:35:20,203 - INFO - Empresas visíveis antes da rolagem: 8
-2025-11-08 23:35:25,402 - INFO - Empresas visíveis após rolagem: 8
-2025-11-08 23:35:25,402 - INFO - Nenhuma nova empresa visível detectada. Contador: 1/15
-2025-11-08 23:35:25,402 - INFO - Tentando extrair dados para o cartão 0...
-2025-11-08 23:35:25,412 - INFO -   Nome encontrado: Green Imóveis
-2025-11-08 23:35:55,426 - WARNING -   Cartão 0: Endereço não encontrado.
-2025-11-08 23:35:55,432 - INFO -   Rating encontrado: 4.2
-2025-11-08 23:35:55,432 - INFO -   Reviews encontrado: 28
-2025-11-08 23:35:55,449 - INFO -   Telefone encontrado: (21) 2439-0531
-2025-11-08 23:35:55,459 - INFO -   Website encontrado: N/A
-2025-11-08 23:35:55,467 - INFO -   Tipo de negócio encontrado: Imobiliária
-2025-11-08 23:35:55,469 - INFO -   Cartão 0 (ID: 2780590862223705466) - NOVO. Adicionado.
-2025-11-08 23:35:55,469 - INFO - Tentando extrair dados para o cartão 1...
-2025-11-08 23:35:55,475 - INFO -   Nome encontrado: Sérgio Castro Imóveis (Copacabana)
-2025-11-08 23:36:25,480 - WARNING -   Cartão 1: Endereço não encontrado.
-2025-11-08 23:36:25,485 - INFO -   Rating encontrado: 4.9
-2025-11-08 23:36:25,494 - INFO -   Reviews encontrado: 8
-2025-11-08 23:36:25,500 - INFO -   Telefone encontrado: (21) 2199-3722
-2025-11-08 23:36:25,508 - INFO -   Website encontrado: N/A
-2025-11-08 23:36:25,513 - INFO -   Tipo de negócio encontrado: Imobiliária
-2025-11-08 23:36:25,513 - INFO -   Cartão 1 (ID: 1548769841615646026) - NOVO. Adicionado.
-2025-11-08 23:36:25,513 - INFO - Tentando extrair dados para o cartão 2...
-2025-11-08 23:36:25,522 - INFO -   Nome encontrado: Aluguel de Galpão RJ
-2025-11-08 23:36:25,529 - INFO -   Endereço encontrado:  · Av. Nossa Sra. de Copacabana, 435/1108
-2025-11-08 23:36:25,535 - INFO -   Rating encontrado: 5.0
-2025-11-08 23:36:25,542 - INFO -   Reviews encontrado: 1
-2025-11-08 23:36:25,552 - INFO -   Telefone encontrado: (21) 99260-3562
-2025-11-08 23:36:25,556 - INFO -   Website encontrado: https://antonioterra.com/
-2025-11-08 23:36:25,562 - INFO -   Tipo de negócio encontrado: Agência de imóveis comerciais
-2025-11-08 23:36:25,562 - INFO -   Cartão 2 (ID: -4174751625167368479) - NOVO. Adicionado.
-2025-11-08 23:36:25,562 - INFO - Tentando extrair dados para o cartão 3...
-2025-11-08 23:36:25,570 - INFO -   Nome encontrado: Heranca Negócios Imobiliários & Assessoria Jurídica
-2025-11-08 23:36:25,578 - INFO -   Endereço encontrado:  · Estr. dos Bandeirantes, nº 470
-2025-11-08 23:36:25,586 - INFO -   Rating encontrado: 4.6
-2025-11-08 23:36:25,592 - INFO -   Reviews encontrado: 30
-2025-11-08 23:36:25,598 - INFO -   Telefone encontrado: (21) 3627-0027
-2025-11-08 23:36:25,604 - INFO -   Website encontrado: http://www.herancaimoveis.com.br/
-2025-11-08 23:36:25,611 - INFO -   Tipo de negócio encontrado: Imobiliária de aluguel de residências
-2025-11-08 23:36:25,611 - INFO -   Cartão 3 (ID: -5749310779831260445) - NOVO. Adicionado.
-2025-11-08 23:36:25,612 - INFO - Tentando extrair dados para o cartão 4...
-2025-11-08 23:36:25,615 - INFO -   Nome encontrado: Guarde Mais - Tv. Santo Antônio | Self Storage, Guarda Móveis, Guarda Volumes e Armazenagem em Niterói
-2025-11-08 23:36:25,622 - INFO -   Endereço encontrado:  · Tv. Santo Antônio, 14
-2025-11-08 23:36:25,630 - INFO -   Rating encontrado: 4.9
-2025-11-08 23:36:25,636 - INFO -   Reviews encontrado: 130
-2025-11-08 23:36:25,642 - INFO -   Telefone encontrado: (21) 98417-9482
-2025-11-08 23:36:25,652 - INFO -   Website encontrado: https://guardemais.com.br/unidades-self-storage/rio-de-janeiro/niteroi/niteroi-travessa-santo-antonio/
-2025-11-08 23:36:25,654 - INFO -   Tipo de negócio encontrado: Depósito
-2025-11-08 23:36:25,654 - INFO -   Cartão 4 (ID: -5201103633208753706) - NOVO. Adicionado.
-2025-11-08 23:36:25,654 - INFO - Tentando extrair dados para o cartão 5...
-2025-11-08 23:36:25,662 - INFO -   Nome encontrado: Cabral & Mesack
-2025-11-08 23:36:25,668 - INFO -   Endereço encontrado:  · R. Silva Cardoso, 50 - Loja A
-2025-11-08 23:36:25,675 - INFO -   Rating encontrado: 4.2
-2025-11-08 23:36:25,685 - INFO -   Reviews encontrado: 181
-2025-11-08 23:36:25,692 - INFO -   Telefone encontrado: (21) 2401-6179
-2025-11-08 23:36:25,699 - INFO -   Website encontrado: http://www.cabralemesack.com.br/
-2025-11-08 23:36:25,706 - INFO -   Tipo de negócio encontrado: Imobiliária
-2025-11-08 23:36:25,707 - INFO -   Cartão 5 (ID: -2960769162377591685) - NOVO. Adicionado.
-2025-11-08 23:36:25,707 - INFO - Tentando extrair dados para o cartão 6...
-2025-11-08 23:36:25,715 - INFO -   Nome encontrado: Instituto Nacional da Propriedade Industrial
-2025-11-08 23:36:25,722 - INFO -   Endereço encontrado:  · Rua Mairink Veiga, 9
-2025-11-08 23:36:25,728 - INFO -   Rating encontrado: 4.3
-2025-11-08 23:36:25,735 - INFO -   Reviews encontrado: 322
-2025-11-08 23:36:25,742 - INFO -   Telefone encontrado: (21) 3037-3000
-2025-11-08 23:36:25,750 - INFO -   Website encontrado: http://www.gov.br/inpi
-2025-11-08 23:36:25,757 - INFO -   Tipo de negócio encontrado: Repartição pública federal
-2025-11-08 23:36:25,757 - INFO -   Cartão 6 (ID: -471693551329737424) - NOVO. Adicionado.
-2025-11-08 23:36:25,757 - INFO - Tentando extrair dados para o cartão 7...
-2025-11-08 23:36:25,763 - INFO -   Nome encontrado: ROYAL IMÓVEIS RJ
-2025-11-08 23:36:25,769 - INFO -   Endereço encontrado:  · Estrada de Jacarepaguá 7221 Salas 316, 317 e 318
-2025-11-08 23:36:25,775 - INFO -   Rating encontrado: 5.0
-2025-11-08 23:36:25,783 - INFO -   Reviews encontrado: 190
-2025-11-08 23:36:25,787 - INFO -   Telefone encontrado: (21) 99800-1209
-2025-11-08 23:36:25,796 - INFO -   Website encontrado: http://www.royalimoveisrj.com/
-2025-11-08 23:36:25,803 - INFO -   Tipo de negócio encontrado: Imobiliária
-2025-11-08 23:36:25,803 - INFO -   Cartão 7 (ID: -5325251648547731240) - NOVO. Adicionado.
-2025-11-08 23:36:25,803 - INFO - Novas empresas únicas detectadas nesta rolagem. Resetando contador.
-2025-11-08 23:36:25,830 - INFO - Empresas visíveis antes da rolagem: 8
-2025-11-08 23:36:29,195 - INFO - Empresas visíveis após rolagem: 11
-2025-11-08 23:36:29,195 - INFO - Novas empresas visíveis detectadas: 3
-2025-11-08 23:36:29,195 - INFO - Tentando extrair dados para o cartão 0...
-2025-11-08 23:36:29,202 - INFO -   Nome encontrado: Green Imóveis
-2025-11-08 23:36:59,209 - WARNING -   Cartão 0: Endereço não encontrado.
-2025-11-08 23:36:59,217 - INFO -   Rating encontrado: 4.2
-2025-11-08 23:36:59,225 - INFO -   Reviews encontrado: 28
-2025-11-08 23:36:59,231 - INFO -   Telefone encontrado: (21) 2439-0531
-2025-11-08 23:36:59,240 - INFO -   Website encontrado: N/A
-2025-11-08 23:36:59,246 - INFO -   Tipo de negócio encontrado: Imobiliária
-2025-11-08 23:36:59,246 - INFO -   Cartão 0 (ID: 2780590862223705466) - JÁ PROCESSADO. Ignorando.
-2025-11-08 23:36:59,246 - INFO - Tentando extrair dados para o cartão 1...
-2025-11-08 23:36:59,251 - INFO -   Nome encontrado: Sérgio Castro Imóveis (Copacabana)
-2025-11-08 23:37:29,260 - WARNING -   Cartão 1: Endereço não encontrado.
-2025-11-08 23:37:29,267 - INFO -   Rating encontrado: 4.9
-2025-11-08 23:37:29,272 - INFO -   Reviews encontrado: 8
-2025-11-08 23:37:29,278 - INFO -   Telefone encontrado: (21) 2199-3722
-2025-11-08 23:37:29,286 - INFO -   Website encontrado: N/A
-2025-11-08 23:37:29,293 - INFO -   Tipo de negócio encontrado: Imobiliária
-2025-11-08 23:37:29,293 - INFO -   Cartão 1 (ID: 1548769841615646026) - JÁ PROCESSADO. Ignorando.
-2025-11-08 23:37:29,293 - INFO - Tentando extrair dados para o cartão 2...
-2025-11-08 23:37:29,297 - INFO -   Nome encontrado: Aluguel de Galpão RJ
-2025-11-08 23:37:29,306 - INFO -   Endereço encontrado:  · Av. Nossa Sra. de Copacabana, 435/1108
-2025-11-08 23:37:29,313 - INFO -   Rating encontrado: 5.0
-2025-11-08 23:37:29,320 - INFO -   Reviews encontrado: 1
-2025-11-08 23:37:29,327 - INFO -   Telefone encontrado: (21) 99260-3562
-2025-11-08 23:37:29,332 - INFO -   Website encontrado: https://antonioterra.com/
-2025-11-08 23:37:29,339 - INFO -   Tipo de negócio encontrado: Agência de imóveis comerciais
-2025-11-08 23:37:29,339 - INFO -   Cartão 2 (ID: -4174751625167368479) - JÁ PROCESSADO. Ignorando.
-2025-11-08 23:37:29,339 - INFO - Tentando extrair dados para o cartão 3...
-2025-11-08 23:37:29,346 - INFO -   Nome encontrado: Heranca Negócios Imobiliários & Assessoria Jurídica
-2025-11-08 23:37:29,353 - INFO -   Endereço encontrado:  · Estr. dos Bandeirantes, nº 470
-2025-11-08 23:37:29,358 - INFO -   Rating encontrado: 4.6
-2025-11-08 23:37:29,361 - INFO -   Reviews encontrado: 30
-2025-11-08 23:37:29,373 - INFO -   Telefone encontrado: (21) 3627-0027
-2025-11-08 23:37:29,380 - INFO -   Website encontrado: http://www.herancaimoveis.com.br/
-2025-11-08 23:37:29,387 - INFO -   Tipo de negócio encontrado: Imobiliária de aluguel de residências
-2025-11-08 23:37:29,387 - INFO -   Cartão 3 (ID: -5749310779831260445) - JÁ PROCESSADO. Ignorando.
-2025-11-08 23:37:29,387 - INFO - Tentando extrair dados para o cartão 4...
-2025-11-08 23:37:29,394 - INFO -   Nome encontrado: Guarde Mais - Tv. Santo Antônio | Self Storage, Guarda Móveis, Guarda Volumes e Armazenagem em Niterói
-2025-11-08 23:37:29,402 - INFO -   Endereço encontrado:  · Tv. Santo Antônio, 14
-2025-11-08 23:37:29,410 - INFO -   Rating encontrado: 4.9
-2025-11-08 23:37:29,416 - INFO -   Reviews encontrado: 130
-2025-11-08 23:37:29,422 - INFO -   Telefone encontrado: (21) 98417-9482
-2025-11-08 23:37:29,429 - INFO -   Website encontrado: https://guardemais.com.br/unidades-self-storage/rio-de-janeiro/niteroi/niteroi-travessa-santo-antonio/
-2025-11-08 23:37:29,431 - INFO -   Tipo de negócio encontrado: Depósito
-2025-11-08 23:37:29,431 - INFO -   Cartão 4 (ID: -5201103633208753706) - JÁ PROCESSADO. Ignorando.
-2025-11-08 23:37:29,431 - INFO - Tentando extrair dados para o cartão 5...
-2025-11-08 23:37:29,445 - INFO -   Nome encontrado: Cabral & Mesack
-2025-11-08 23:37:29,453 - INFO -   Endereço encontrado:  · R. Silva Cardoso, 50 - Loja A
-2025-11-08 23:37:29,461 - INFO -   Rating encontrado: 4.2
-2025-11-08 23:37:29,469 - INFO -   Reviews encontrado: 181
-2025-11-08 23:37:29,476 - INFO -   Telefone encontrado: (21) 2401-6179
-2025-11-08 23:37:29,484 - INFO -   Website encontrado: http://www.cabralemesack.com.br/
-2025-11-08 23:37:29,491 - INFO -   Tipo de negócio encontrado: Imobiliária
-2025-11-08 23:37:29,491 - INFO -   Cartão 5 (ID: -2960769162377591685) - JÁ PROCESSADO. Ignorando.
-2025-11-08 23:37:29,491 - INFO - Tentando extrair dados para o cartão 6...
-2025-11-08 23:37:29,493 - INFO -   Nome encontrado: Instituto Nacional da Propriedade Industrial
-2025-11-08 23:37:29,502 - INFO -   Endereço encontrado:  · Rua Mairink Veiga, 9
-2025-11-08 23:37:29,512 - INFO -   Rating encontrado: 4.3
-2025-11-08 23:37:29,518 - INFO -   Reviews encontrado: 322
-2025-11-08 23:37:29,524 - INFO -   Telefone encontrado: (21) 3037-3000
-2025-11-08 23:37:29,532 - INFO -   Website encontrado: http://www.gov.br/inpi
-2025-11-08 23:37:29,532 - INFO -   Tipo de negócio encontrado: Repartição pública federal
-2025-11-08 23:37:29,532 - INFO -   Cartão 6 (ID: -471693551329737424) - JÁ PROCESSADO. Ignorando.
-2025-11-08 23:37:29,532 - INFO - Tentando extrair dados para o cartão 7...
-2025-11-08 23:37:29,545 - INFO -   Nome encontrado: ROYAL IMÓVEIS RJ
-2025-11-08 23:37:29,553 - INFO -   Endereço encontrado:  · Estrada de Jacarepaguá 7221 Salas 316, 317 e 318
-2025-11-08 23:37:29,558 - INFO -   Rating encontrado: 5.0
-2025-11-08 23:37:29,565 - INFO -   Reviews encontrado: 190
-2025-11-08 23:37:29,572 - INFO -   Telefone encontrado: (21) 99800-1209
-2025-11-08 23:37:29,579 - INFO -   Website encontrado: http://www.royalimoveisrj.com/
-2025-11-08 23:37:29,585 - INFO -   Tipo de negócio encontrado: Imobiliária
-2025-11-08 23:37:29,585 - INFO -   Cartão 7 (ID: -5325251648547731240) - JÁ PROCESSADO. Ignorando.
-2025-11-08 23:37:29,585 - INFO - Tentando extrair dados para o cartão 8...
-2025-11-08 23:37:29,591 - INFO -   Nome encontrado: PATRIMONIORIO
-2025-11-08 23:37:59,611 - WARNING -   Cartão 8: Endereço não encontrado.
-2025-11-08 23:37:59,619 - INFO -   Rating encontrado: 4.4
-2025-11-08 23:37:59,625 - INFO -   Reviews encontrado: 164
-2025-11-08 23:37:59,630 - INFO -   Telefone encontrado: (21) 3301-9150
-2025-11-08 23:37:59,636 - INFO -   Website encontrado: http://www.patrimoniorio.com.br/
-2025-11-08 23:37:59,642 - INFO -   Tipo de negócio encontrado: Consultora de imóveis
-2025-11-08 23:37:59,642 - INFO -   Cartão 8 (ID: 3650459015515516165) - NOVO. Adicionado.
-2025-11-08 23:37:59,642 - INFO - Tentando extrair dados para o cartão 9...
-2025-11-08 23:37:59,650 - INFO -   Nome encontrado: GALPÕES INDUSTRIAIS
-2025-11-08 23:37:59,655 - INFO -   Endereço encontrado:  · Avenida Santos Dumont, 2321 - sob loja
-2025-11-08 23:37:59,659 - INFO -   Rating encontrado: 4.9
-2025-11-08 23:37:59,667 - INFO -   Reviews encontrado: 37
-2025-11-08 23:37:59,671 - INFO -   Telefone encontrado: (11) 2412-0303
-2025-11-08 23:37:59,678 - INFO -   Website encontrado: https://www.galpoesindustriais.com/
-2025-11-08 23:37:59,685 - INFO -   Tipo de negócio encontrado: Imobiliária
-2025-11-08 23:37:59,687 - INFO -   Cartão 9 (ID: 2163776762487722348) - NOVO. Adicionado.
-2025-11-08 23:37:59,687 - INFO - Tentando extrair dados para o cartão 10...
-2025-11-08 23:37:59,691 - INFO -   Nome encontrado: Block Imóveis
-2025-11-08 23:37:59,696 - INFO -   Endereço encontrado:  · Av. Genaro de Carvalho, 1305
-2025-11-08 23:37:59,701 - INFO -   Rating encontrado: 4.8
-2025-11-08 23:37:59,706 - INFO -   Reviews encontrado: 766
-2025-11-08 23:37:59,712 - INFO -   Telefone encontrado: (21) 2437-9295
-2025-11-08 23:37:59,718 - INFO -   Website encontrado: http://www.blockimoveis.com.br/
-2025-11-08 23:37:59,724 - INFO -   Tipo de negócio encontrado: Imobiliária
-2025-11-08 23:37:59,724 - INFO -   Cartão 10 (ID: -1989113591463317817) - NOVO. Adicionado.
-2025-11-08 23:37:59,724 - INFO - Novas empresas únicas detectadas nesta rolagem. Resetando contador.
-2025-11-08 23:37:59,752 - INFO - Empresas visíveis antes da rolagem: 11
-2025-11-08 23:38:05,106 - INFO - Empresas visíveis após rolagem: 11
-2025-11-08 23:38:05,106 - INFO - Nenhuma nova empresa visível detectada. Contador: 1/15
-2025-11-08 23:38:05,106 - INFO - Tentando extrair dados para o cartão 0...
-2025-11-08 23:38:05,112 - INFO -   Nome encontrado: Green Imóveis
-2025-11-08 23:38:35,130 - WARNING -   Cartão 0: Endereço não encontrado.
-2025-11-08 23:38:35,130 - INFO -   Rating encontrado: 4.2
-2025-11-08 23:38:35,130 - INFO -   Reviews encontrado: 28
-2025-11-08 23:38:35,130 - INFO -   Telefone encontrado: (21) 2439-0531
-2025-11-08 23:38:35,146 - INFO -   Website encontrado: N/A
-2025-11-08 23:38:35,146 - INFO -   Tipo de negócio encontrado: Imobiliária
-2025-11-08 23:38:35,146 - INFO -   Cartão 0 (ID: 2780590862223705466) - JÁ PROCESSADO. Ignorando.
-2025-11-08 23:38:35,146 - INFO - Tentando extrair dados para o cartão 1...
-2025-11-08 23:38:35,146 - INFO -   Nome encontrado: Sérgio Castro Imóveis (Copacabana)
-2025-11-08 23:39:05,168 - WARNING -   Cartão 1: Endereço não encontrado.
-2025-11-08 23:39:05,168 - INFO -   Rating encontrado: 4.9
-2025-11-08 23:39:05,174 - INFO -   Reviews encontrado: 8
-2025-11-08 23:39:05,174 - INFO -   Telefone encontrado: (21) 2199-3722
-2025-11-08 23:39:05,182 - INFO -   Website encontrado: N/A
-2025-11-08 23:39:05,182 - INFO -   Tipo de negócio encontrado: Imobiliária
-2025-11-08 23:39:05,182 - INFO -   Cartão 1 (ID: 1548769841615646026) - JÁ PROCESSADO. Ignorando.
-2025-11-08 23:39:05,182 - INFO - Tentando extrair dados para o cartão 2...
-2025-11-08 23:39:05,182 - INFO -   Nome encontrado: Aluguel de Galpão RJ
-2025-11-08 23:39:05,182 - INFO -   Endereço encontrado:  · Av. Nossa Sra. de Copacabana, 435/1108
-2025-11-08 23:39:05,182 - INFO -   Rating encontrado: 5.0
-2025-11-08 23:39:05,205 - INFO -   Reviews encontrado: 1
-2025-11-08 23:39:05,211 - INFO -   Telefone encontrado: (21) 99260-3562
-2025-11-08 23:39:05,217 - INFO -   Website encontrado: https://antonioterra.com/
-2025-11-08 23:39:05,226 - INFO -   Tipo de negócio encontrado: Agência de imóveis comerciais
-2025-11-08 23:39:05,226 - INFO -   Cartão 2 (ID: -4174751625167368479) - JÁ PROCESSADO. Ignorando.
-2025-11-08 23:39:05,226 - INFO - Tentando extrair dados para o cartão 3...
-2025-11-08 23:39:05,230 - INFO -   Nome encontrado: Heranca Negócios Imobiliários & Assessoria Jurídica
-2025-11-08 23:39:05,233 - INFO -   Endereço encontrado:  · Estr. dos Bandeirantes, nº 470
-2025-11-08 23:39:05,237 - INFO -   Rating encontrado: 4.6
-2025-11-08 23:39:05,239 - INFO -   Reviews encontrado: 30
-2025-11-08 23:39:05,244 - INFO -   Telefone encontrado: (21) 3627-0027
-2025-11-08 23:39:05,247 - INFO -   Website encontrado: http://www.herancaimoveis.com.br/
-2025-11-08 23:39:05,250 - INFO -   Tipo de negócio encontrado: Imobiliária de aluguel de residências
-2025-11-08 23:39:05,250 - INFO -   Cartão 3 (ID: -5749310779831260445) - JÁ PROCESSADO. Ignorando.
-2025-11-08 23:39:05,250 - INFO - Tentando extrair dados para o cartão 4...
-2025-11-08 23:39:05,254 - INFO -   Nome encontrado: Guarde Mais - Tv. Santo Antônio | Self Storage, Guarda Móveis, Guarda Volumes e Armazenagem em Niterói
-2025-11-08 23:39:05,257 - INFO -   Endereço encontrado:  · Tv. Santo Antônio, 14
-2025-11-08 23:39:05,261 - INFO -   Rating encontrado: 4.9
-2025-11-08 23:39:05,264 - INFO -   Reviews encontrado: 130
-2025-11-08 23:39:05,268 - INFO -   Telefone encontrado: (21) 98417-9482
-2025-11-08 23:39:05,271 - INFO -   Website encontrado: https://guardemais.com.br/unidades-self-storage/rio-de-janeiro/niteroi/niteroi-travessa-santo-antonio/
-2025-11-08 23:39:05,275 - INFO -   Tipo de negócio encontrado: Depósito
-2025-11-08 23:39:05,275 - INFO -   Cartão 4 (ID: -5201103633208753706) - JÁ PROCESSADO. Ignorando.
-2025-11-08 23:39:05,275 - INFO - Tentando extrair dados para o cartão 5...
-2025-11-08 23:39:05,279 - INFO -   Nome encontrado: Cabral & Mesack
-2025-11-08 23:39:05,281 - INFO -   Endereço encontrado:  · R. Silva Cardoso, 50 - Loja A
-2025-11-08 23:39:05,286 - INFO -   Rating encontrado: 4.2
-2025-11-08 23:39:05,288 - INFO -   Reviews encontrado: 181
-2025-11-08 23:39:05,293 - INFO -   Telefone encontrado: (21) 2401-6179
-2025-11-08 23:39:05,297 - INFO -   Website encontrado: http://www.cabralemesack.com.br/
-2025-11-08 23:39:05,300 - INFO -   Tipo de negócio encontrado: Imobiliária
-2025-11-08 23:39:05,300 - INFO -   Cartão 5 (ID: -2960769162377591685) - JÁ PROCESSADO. Ignorando.
-2025-11-08 23:39:05,300 - INFO - Tentando extrair dados para o cartão 6...
-2025-11-08 23:39:05,302 - INFO -   Nome encontrado: Instituto Nacional da Propriedade Industrial
-2025-11-08 23:39:05,307 - INFO -   Endereço encontrado:  · Rua Mairink Veiga, 9
-2025-11-08 23:39:05,311 - INFO -   Rating encontrado: 4.3
-2025-11-08 23:39:05,314 - INFO -   Reviews encontrado: 322
-2025-11-08 23:39:05,318 - INFO -   Telefone encontrado: (21) 3037-3000
-2025-11-08 23:39:05,321 - INFO -   Website encontrado: http://www.gov.br/inpi
-2025-11-08 23:39:05,325 - INFO -   Tipo de negócio encontrado: Repartição pública federal
-2025-11-08 23:39:05,325 - INFO -   Cartão 6 (ID: -471693551329737424) - JÁ PROCESSADO. Ignorando.
-2025-11-08 23:39:05,325 - INFO - Tentando extrair dados para o cartão 7...
-2025-11-08 23:39:05,329 - INFO -   Nome encontrado: ROYAL IMÓVEIS RJ
-2025-11-08 23:39:05,333 - INFO -   Endereço encontrado:  · Estrada de Jacarepaguá 7221 Salas 316, 317 e 318
-2025-11-08 23:39:05,334 - INFO -   Rating encontrado: 5.0
-2025-11-08 23:39:05,340 - INFO -   Reviews encontrado: 190
-2025-11-08 23:39:05,344 - INFO -   Telefone encontrado: (21) 99800-1209
-2025-11-08 23:39:05,347 - INFO -   Website encontrado: http://www.royalimoveisrj.com/
-2025-11-08 23:39:05,351 - INFO -   Tipo de negócio encontrado: Imobiliária
-2025-11-08 23:39:05,351 - INFO -   Cartão 7 (ID: -5325251648547731240) - JÁ PROCESSADO. Ignorando.
-2025-11-08 23:39:05,351 - INFO - Tentando extrair dados para o cartão 8...
-2025-11-08 23:39:05,354 - INFO -   Nome encontrado: PATRIMONIORIO
-2025-11-08 23:39:35,367 - WARNING -   Cartão 8: Endereço não encontrado.
-2025-11-08 23:39:35,371 - INFO -   Rating encontrado: 4.4
-2025-11-08 23:39:35,378 - INFO -   Reviews encontrado: 164
-2025-11-08 23:39:35,383 - INFO -   Telefone encontrado: (21) 3301-9150
-2025-11-08 23:39:35,389 - INFO -   Website encontrado: http://www.patrimoniorio.com.br/
-2025-11-08 23:39:35,397 - INFO -   Tipo de negócio encontrado: Consultora de imóveis
-2025-11-08 23:39:35,397 - INFO -   Cartão 8 (ID: 3650459015515516165) - JÁ PROCESSADO. Ignorando.
-2025-11-08 23:39:35,399 - INFO - Tentando extrair dados para o cartão 9...
-2025-11-08 23:39:35,404 - INFO -   Nome encontrado: GALPÕES INDUSTRIAIS
-2025-11-08 23:39:35,410 - INFO -   Endereço encontrado:  · Avenida Santos Dumont, 2321 - sob loja
-2025-11-08 23:39:35,414 - INFO -   Rating encontrado: 4.9
-2025-11-08 23:39:35,418 - INFO -   Reviews encontrado: 37
-2025-11-08 23:39:35,424 - INFO -   Telefone encontrado: (11) 2412-0303
-2025-11-08 23:39:35,429 - INFO -   Website encontrado: https://www.galpoesindustriais.com/
-2025-11-08 23:39:35,434 - INFO -   Tipo de negócio encontrado: Imobiliária
-2025-11-08 23:39:35,434 - INFO -   Cartão 9 (ID: 2163776762487722348) - JÁ PROCESSADO. Ignorando.
-2025-11-08 23:39:35,434 - INFO - Tentando extrair dados para o cartão 10...
-2025-11-08 23:39:35,438 - INFO -   Nome encontrado: Block Imóveis
-2025-11-08 23:39:35,444 - INFO -   Endereço encontrado:  · Av. Genaro de Carvalho, 1305
-2025-11-08 23:39:35,447 - INFO -   Rating encontrado: 4.8
-2025-11-08 23:39:35,452 - INFO -   Reviews encontrado: 766
-2025-11-08 23:39:35,457 - INFO -   Telefone encontrado: (21) 2437-9295
-2025-11-08 23:39:35,462 - INFO -   Website encontrado: http://www.blockimoveis.com.br/
-2025-11-08 23:39:35,469 - INFO -   Tipo de negócio encontrado: Imobiliária
-2025-11-08 23:39:35,469 - INFO -   Cartão 10 (ID: -1989113591463317817) - JÁ PROCESSADO. Ignorando.
-2025-11-08 23:39:35,469 - INFO - Nenhuma nova empresa única detectada. Contador: 2/15
-2025-11-08 23:39:35,486 - INFO - Fim da rolagem. Nenhuma nova altura de rolagem detectada. Parando a rolagem.
-2025-11-08 23:39:35,962 - INFO - Navegador fechado.
-2025-11-08 23:39:36,001 - INFO - Aguardando 7.89 segundos antes da próxima requisição para evitar bloqueio...
-2025-11-08 23:39:43,898 - INFO - Arquivo existente renomeado para C:\Users\Ken\Desktop\Projeto\Oportunidades Empresa\Trae - Negocios\results\csv\dados_empresas_googlemaps_sub_20251108_233943.csv
-2025-11-08 23:39:43,900 - INFO - 
-\u2705 Dados salvos em 'C:\Users\Ken\Desktop\Projeto\Oportunidades Empresa\Trae - Negocios\results\csv\dados_empresas_googlemaps.csv' com 11 registros.
-2025-11-08 23:39:43,903 - INFO - 
+2025-11-10 01:50:37,589 - INFO - Carregando cidades de C:\Users\Ken\Desktop\Projeto\Oportunidades Empresa\Trae - Negocios\input\cidades.csv
+2025-11-10 01:50:37,591 - INFO - Carregando nichos de C:\Users\Ken\Desktop\Projeto\Oportunidades Empresa\Trae - Negocios\input\nichos.csv
+2025-11-10 01:50:37,594 - INFO - Modo 'default' ativado. Carregando nichos de nichos.csv e cidades de cidades.csv.
+2025-11-10 01:50:37,594 - INFO - Iniciando busca para o nicho 'Laudos e medições de aterramento e SPDA (para-raios)' na cidade 'Rio de Janeiro'.
+2025-11-10 01:50:39,027 - INFO - Navegando para o Google Maps para buscar 'Laudos e medições de aterramento e SPDA (para-raios)' em 'Rio de Janeiro'...
+2025-11-10 01:50:48,970 - INFO - Pop-up de cookies não encontrado ou já aceito.
+2025-11-10 01:50:58,606 - INFO - Busca realizada. Aguardando resultados...
+2025-11-10 01:51:02,643 - INFO - Empresas visíveis antes da rolagem: 5
+2025-11-10 01:51:08,065 - INFO - Empresas visíveis após rolagem: 5
+2025-11-10 01:51:08,065 - INFO - Nenhuma nova empresa visível detectada. Contador: 1/2
+2025-11-10 01:51:08,065 - INFO - Tentando extrair dados para o cartão 0...
+2025-11-10 01:51:08,071 - INFO -   Nome encontrado: SRT ENERGIA - Laudo de SPDA - Para Raio | Serviços Elétricos-RJ
+2025-11-10 01:51:38,088 - WARNING -   Cartão 0: Endereço não encontrado.
+2025-11-10 01:51:38,105 - INFO -   Rating encontrado: 5.0
+2025-11-10 01:51:38,124 - INFO -   Reviews encontrado: 7
+2025-11-10 01:51:38,141 - INFO -   Telefone encontrado: (21) 99787-1391
+2025-11-10 01:51:38,153 - INFO -   Website encontrado: http://srtenergia.com.br/
+2025-11-10 01:51:38,163 - INFO -   Tipo de negócio encontrado: Serviço de instalação elétrica
+2025-11-10 01:51:38,163 - INFO -   Cartão 0 (ID: -8213044404523530190) - NOVO. Adicionado.
+2025-11-10 01:51:38,163 - INFO - Tentando extrair dados para o cartão 1...
+2025-11-10 01:51:38,170 - INFO -   Nome encontrado: SPDA Para Raios Laudos e Projetos - Eng. Jader Nascimento
+2025-11-10 01:52:08,187 - WARNING -   Cartão 1: Endereço não encontrado.
+2025-11-10 01:52:08,197 - INFO -   Rating encontrado: 5.0
+2025-11-10 01:52:08,205 - INFO -   Reviews encontrado: 31
+2025-11-10 01:52:08,215 - INFO -   Telefone encontrado: (11) 93207-3002
+2025-11-10 01:52:08,222 - INFO -   Website encontrado: https://api.whatsapp.com/send?phone=5511932073002
+2025-11-10 01:52:08,230 - INFO -   Tipo de negócio encontrado: Engenheiro eletricista
+2025-11-10 01:52:08,230 - INFO -   Cartão 1 (ID: 6601670753569038226) - NOVO. Adicionado.
+2025-11-10 01:52:08,231 - INFO - Tentando extrair dados para o cartão 2...
+2025-11-10 01:52:08,239 - INFO -   Nome encontrado: Para Raio Luz do Mundo - Rio de Janeiro
+2025-11-10 01:52:38,259 - WARNING -   Cartão 2: Endereço não encontrado.
+2025-11-10 01:52:38,276 - INFO -   Rating encontrado: 5.0
+2025-11-10 01:52:38,289 - INFO -   Reviews encontrado: 15
+2025-11-10 01:52:38,297 - INFO -   Telefone encontrado: (21) 99749-7994
+2025-11-10 01:52:38,305 - INFO -   Website encontrado: https://raioluzdomundo.com.br/
+2025-11-10 01:52:38,314 - INFO -   Tipo de negócio encontrado: Engenheiro eletricista
+2025-11-10 01:52:38,314 - INFO -   Cartão 2 (ID: -3102525445629876662) - NOVO. Adicionado.
+2025-11-10 01:52:38,315 - INFO - Tentando extrair dados para o cartão 3...
+2025-11-10 01:52:38,323 - INFO -   Nome encontrado: Laudos Engenharia LTDA
+2025-11-10 01:52:38,331 - INFO -   Endereço encontrado:  · R. Brasilina, 15 - sala 705
+2025-11-10 01:52:38,337 - INFO -   Rating encontrado: 5.0
+2025-11-10 01:52:38,337 - INFO -   Reviews encontrado: 2
+2025-11-10 01:52:38,347 - INFO -   Telefone encontrado: (21) 99626-7104
+2025-11-10 01:52:38,356 - INFO -   Website encontrado: http://www.laudosengenharia.eng.br/
+2025-11-10 01:52:38,362 - INFO -   Tipo de negócio encontrado: Escritório da empresa
+2025-11-10 01:52:38,362 - INFO -   Cartão 3 (ID: -8727228536528543755) - NOVO. Adicionado.
+2025-11-10 01:52:38,362 - INFO - Tentando extrair dados para o cartão 4...
+2025-11-10 01:52:38,370 - INFO -   Nome encontrado: Masalupri Engenharia Manutenção e Serviços de Consultoria Elétrica
+2025-11-10 01:52:38,375 - INFO -   Endereço encontrado:  · Condomínio Rio Business Center - Av. Olof Palme, 765 - Grs. 610, 611, 612 e 613
+2025-11-10 01:52:38,381 - INFO -   Rating encontrado: 4.9
+2025-11-10 01:52:38,389 - INFO -   Reviews encontrado: 159
+2025-11-10 01:52:38,395 - INFO -   Telefone encontrado: (21) 3496-0644
+2025-11-10 01:52:38,404 - INFO -   Website encontrado: http://www.masalupri.com.br/
+2025-11-10 01:52:38,409 - INFO -   Tipo de negócio encontrado: Consultoria em engenharia
+2025-11-10 01:52:38,409 - INFO -   Cartão 4 (ID: -4955389605672861829) - NOVO. Adicionado.
+2025-11-10 01:52:38,409 - INFO - Novas empresas únicas detectadas nesta rolagem. Resetando contador.
+2025-11-10 01:52:38,429 - INFO - Empresas visíveis antes da rolagem: 5
+2025-11-10 01:52:44,658 - INFO - Empresas visíveis após rolagem: 5
+2025-11-10 01:52:44,659 - INFO - Nenhuma nova empresa visível detectada. Contador: 1/2
+2025-11-10 01:52:44,659 - INFO - Tentando extrair dados para o cartão 0...
+2025-11-10 01:52:44,663 - INFO -   Nome encontrado: SRT ENERGIA - Laudo de SPDA - Para Raio | Serviços Elétricos-RJ
+2025-11-10 01:53:14,671 - WARNING -   Cartão 0: Endereço não encontrado.
+2025-11-10 01:53:14,677 - INFO -   Rating encontrado: 5.0
+2025-11-10 01:53:14,682 - INFO -   Reviews encontrado: 7
+2025-11-10 01:53:14,688 - INFO -   Telefone encontrado: (21) 99787-1391
+2025-11-10 01:53:14,693 - INFO -   Website encontrado: http://srtenergia.com.br/
+2025-11-10 01:53:14,698 - INFO -   Tipo de negócio encontrado: Serviço de instalação elétrica
+2025-11-10 01:53:14,698 - INFO -   Cartão 0 (ID: -8213044404523530190) - JÁ PROCESSADO. Ignorando.
+2025-11-10 01:53:14,698 - INFO - Tentando extrair dados para o cartão 1...
+2025-11-10 01:53:14,704 - INFO -   Nome encontrado: SPDA Para Raios Laudos e Projetos - Eng. Jader Nascimento
+2025-11-10 01:53:44,709 - WARNING -   Cartão 1: Endereço não encontrado.
+2025-11-10 01:53:44,733 - INFO -   Rating encontrado: 5.0
+2025-11-10 01:53:44,742 - INFO -   Reviews encontrado: 31
+2025-11-10 01:53:44,749 - INFO -   Telefone encontrado: (11) 93207-3002
+2025-11-10 01:53:44,757 - INFO -   Website encontrado: https://api.whatsapp.com/send?phone=5511932073002
+2025-11-10 01:53:44,766 - INFO -   Tipo de negócio encontrado: Engenheiro eletricista
+2025-11-10 01:53:44,766 - INFO -   Cartão 1 (ID: 6601670753569038226) - JÁ PROCESSADO. Ignorando.
+2025-11-10 01:53:44,766 - INFO - Tentando extrair dados para o cartão 2...
+2025-11-10 01:53:44,769 - INFO -   Nome encontrado: Para Raio Luz do Mundo - Rio de Janeiro
+2025-11-10 01:54:14,785 - WARNING -   Cartão 2: Endereço não encontrado.
+2025-11-10 01:54:14,791 - INFO -   Rating encontrado: 5.0
+2025-11-10 01:54:14,798 - INFO -   Reviews encontrado: 15
+2025-11-10 01:54:14,802 - INFO -   Telefone encontrado: (21) 99749-7994
+2025-11-10 01:54:14,807 - INFO -   Website encontrado: https://raioluzdomundo.com.br/
+2025-11-10 01:54:14,812 - INFO -   Tipo de negócio encontrado: Engenheiro eletricista
+2025-11-10 01:54:14,812 - INFO -   Cartão 2 (ID: -3102525445629876662) - JÁ PROCESSADO. Ignorando.
+2025-11-10 01:54:14,812 - INFO - Tentando extrair dados para o cartão 3...
+2025-11-10 01:54:14,818 - INFO -   Nome encontrado: Laudos Engenharia LTDA
+2025-11-10 01:54:14,822 - INFO -   Endereço encontrado:  · R. Brasilina, 15 - sala 705
+2025-11-10 01:54:14,827 - INFO -   Rating encontrado: 5.0
+2025-11-10 01:54:14,832 - INFO -   Reviews encontrado: 2
+2025-11-10 01:54:14,838 - INFO -   Telefone encontrado: (21) 99626-7104
+2025-11-10 01:54:14,843 - INFO -   Website encontrado: http://www.laudosengenharia.eng.br/
+2025-11-10 01:54:14,852 - INFO -   Tipo de negócio encontrado: Escritório da empresa
+2025-11-10 01:54:14,852 - INFO -   Cartão 3 (ID: -8727228536528543755) - JÁ PROCESSADO. Ignorando.
+2025-11-10 01:54:14,852 - INFO - Tentando extrair dados para o cartão 4...
+2025-11-10 01:54:14,857 - INFO -   Nome encontrado: Masalupri Engenharia Manutenção e Serviços de Consultoria Elétrica
+2025-11-10 01:54:14,863 - INFO -   Endereço encontrado:  · Condomínio Rio Business Center - Av. Olof Palme, 765 - Grs. 610, 611, 612 e 613
+2025-11-10 01:54:14,868 - INFO -   Rating encontrado: 4.9
+2025-11-10 01:54:14,875 - INFO -   Reviews encontrado: 159
+2025-11-10 01:54:14,881 - INFO -   Telefone encontrado: (21) 3496-0644
+2025-11-10 01:54:14,887 - INFO -   Website encontrado: http://www.masalupri.com.br/
+2025-11-10 01:54:14,893 - INFO -   Tipo de negócio encontrado: Consultoria em engenharia
+2025-11-10 01:54:14,893 - INFO -   Cartão 4 (ID: -4955389605672861829) - JÁ PROCESSADO. Ignorando.
+2025-11-10 01:54:14,893 - INFO - Nenhuma nova empresa única detectada. Contador: 2/2
+2025-11-10 01:54:14,893 - INFO - Limite de não encontrar novas empresas únicas atingido. Parando a rolagem.
+2025-11-10 01:54:14,936 - INFO - Conteúdo HTML da página salvo em results\debug_page_content.html para depuração.
+2025-11-10 01:54:15,863 - INFO - Navegador fechado.
+2025-11-10 01:54:15,883 - INFO - Aguardando 8.10 segundos antes da próxima requisição para evitar bloqueio...
+2025-11-10 01:54:23,982 - INFO - Iniciando busca para o nicho 'Mapeamento e georreferenciamento urbano de condomínios e loteamentos' na cidade 'Rio de Janeiro'.
+2025-11-10 01:54:25,445 - INFO - Navegando para o Google Maps para buscar 'Mapeamento e georreferenciamento urbano de condomínios e loteamentos' em 'Rio de Janeiro'...
+2025-11-10 01:54:35,769 - INFO - Pop-up de cookies não encontrado ou já aceito.
+2025-11-10 01:54:42,847 - INFO - Busca realizada. Aguardando resultados...
+2025-11-10 01:54:45,917 - ERROR - Elemento rolável não encontrado ou não visível.
+2025-11-10 01:54:46,299 - INFO - Conteúdo HTML da página salvo em results\debug_page_content.html para depuração.
+2025-11-10 01:54:46,812 - INFO - Navegador fechado.
+2025-11-10 01:54:46,835 - INFO - Aguardando 7.09 segundos antes da próxima requisição para evitar bloqueio...
+2025-11-10 01:54:53,921 - INFO - Iniciando busca para o nicho 'Topografia e demarcação de terrenos para regularização fundiária urbana' na cidade 'Rio de Janeiro'.
+2025-11-10 01:54:55,444 - INFO - Navegando para o Google Maps para buscar 'Topografia e demarcação de terrenos para regularização fundiária urbana' em 'Rio de Janeiro'...
+2025-11-10 01:55:04,868 - INFO - Pop-up de cookies não encontrado ou já aceito.
+2025-11-10 01:55:16,464 - INFO - Busca realizada. Aguardando resultados...
+2025-11-10 01:55:18,529 - INFO - Empresas visíveis antes da rolagem: 3
+2025-11-10 01:55:22,571 - INFO - Empresas visíveis após rolagem: 3
+2025-11-10 01:55:22,571 - INFO - Nenhuma nova empresa visível detectada. Contador: 1/2
+2025-11-10 01:55:22,571 - INFO - Tentando extrair dados para o cartão 0...
+2025-11-10 01:55:22,578 - INFO -   Nome encontrado: Topoterra - Topografia e Planejamento Rural Ltda
+2025-11-10 01:55:52,583 - WARNING -   Cartão 0: Endereço não encontrado.
+2025-11-10 01:55:52,588 - INFO -   Rating encontrado: 4.5
+2025-11-10 01:55:52,594 - INFO -   Reviews encontrado: 19
+2025-11-10 01:55:52,597 - INFO -   Telefone encontrado: (35) 3295-3140
+2025-11-10 01:56:22,604 - WARNING -   Cartão 0: Website não encontrado ou é um link de anúncio.
+2025-11-10 01:56:22,612 - INFO -   Tipo de negócio encontrado: Empresa de topografia
+2025-11-10 01:56:22,612 - INFO -   Cartão 0 (ID: 8876640630708677465) - NOVO. Adicionado.
+2025-11-10 01:56:22,612 - INFO - Tentando extrair dados para o cartão 1...
+2025-11-10 01:56:22,618 - INFO -   Nome encontrado: TRM Engenharia Agrimensura e Cartografia
+2025-11-10 01:56:52,636 - WARNING -   Cartão 1: Endereço não encontrado.
+2025-11-10 01:56:52,645 - INFO -   Rating encontrado: 5.0
+2025-11-10 01:56:52,652 - INFO -   Reviews encontrado: 7
+2025-11-10 01:57:22,660 - WARNING -   Cartão 1: Telefone não encontrado.
+2025-11-10 01:57:22,667 - INFO -   Website encontrado: http://www.trmengenharia.com.br/
+2025-11-10 01:57:22,673 - INFO -   Tipo de negócio encontrado: Empresa de topografia
+2025-11-10 01:57:22,673 - INFO -   Cartão 1 (ID: 7739618679394851361) - NOVO. Adicionado.
+2025-11-10 01:57:22,674 - INFO - Tentando extrair dados para o cartão 2...
+2025-11-10 01:57:22,680 - INFO -   Nome encontrado: Carrera Topografia Ltda
+2025-11-10 01:57:52,690 - WARNING -   Cartão 2: Endereço não encontrado.
+2025-11-10 01:57:52,695 - INFO -   Rating encontrado: 5.0
+2025-11-10 01:57:52,702 - INFO -   Reviews encontrado: 112
+2025-11-10 01:57:52,707 - INFO -   Telefone encontrado: (11) 96661-2607
+2025-11-10 01:57:52,710 - INFO -   Website encontrado: http://carreratopografia.com.br/
+2025-11-10 01:57:52,716 - INFO -   Tipo de negócio encontrado: Empresa de topografia
+2025-11-10 01:57:52,716 - INFO -   Cartão 2 (ID: -7006647584158280178) - NOVO. Adicionado.
+2025-11-10 01:57:52,716 - INFO - Novas empresas únicas detectadas nesta rolagem. Resetando contador.
+2025-11-10 01:57:52,731 - INFO - Empresas visíveis antes da rolagem: 3
+2025-11-10 01:57:56,325 - INFO - Empresas visíveis após rolagem: 3
+2025-11-10 01:57:56,325 - INFO - Nenhuma nova empresa visível detectada. Contador: 1/2
+2025-11-10 01:57:56,326 - INFO - Tentando extrair dados para o cartão 0...
+2025-11-10 01:57:56,334 - INFO -   Nome encontrado: Topoterra - Topografia e Planejamento Rural Ltda
+2025-11-10 01:58:26,347 - WARNING -   Cartão 0: Endereço não encontrado.
+2025-11-10 01:58:26,354 - INFO -   Rating encontrado: 4.5
+2025-11-10 01:58:26,362 - INFO -   Reviews encontrado: 19
+2025-11-10 01:58:26,367 - INFO -   Telefone encontrado: (35) 3295-3140
+2025-11-10 01:58:56,372 - WARNING -   Cartão 0: Website não encontrado ou é um link de anúncio.
+2025-11-10 01:58:56,389 - INFO -   Tipo de negócio encontrado: Empresa de topografia
+2025-11-10 01:58:56,389 - INFO -   Cartão 0 (ID: 8876640630708677465) - JÁ PROCESSADO. Ignorando.
+2025-11-10 01:58:56,389 - INFO - Tentando extrair dados para o cartão 1...
+2025-11-10 01:58:56,406 - INFO -   Nome encontrado: TRM Engenharia Agrimensura e Cartografia
+2025-11-10 01:59:26,429 - WARNING -   Cartão 1: Endereço não encontrado.
+2025-11-10 01:59:26,449 - INFO -   Rating encontrado: 5.0
+2025-11-10 01:59:26,466 - INFO -   Reviews encontrado: 7
+2025-11-10 01:59:56,480 - WARNING -   Cartão 1: Telefone não encontrado.
+2025-11-10 01:59:56,492 - INFO -   Website encontrado: http://www.trmengenharia.com.br/
+2025-11-10 01:59:56,505 - INFO -   Tipo de negócio encontrado: Empresa de topografia
+2025-11-10 01:59:56,505 - INFO -   Cartão 1 (ID: 7739618679394851361) - JÁ PROCESSADO. Ignorando.
+2025-11-10 01:59:56,506 - INFO - Tentando extrair dados para o cartão 2...
+2025-11-10 01:59:56,515 - INFO -   Nome encontrado: Carrera Topografia Ltda
+2025-11-10 02:00:26,535 - WARNING -   Cartão 2: Endereço não encontrado.
+2025-11-10 02:00:26,554 - INFO -   Rating encontrado: 5.0
+2025-11-10 02:00:26,566 - INFO -   Reviews encontrado: 112
+2025-11-10 02:00:26,574 - INFO -   Telefone encontrado: (11) 96661-2607
+2025-11-10 02:00:26,579 - INFO -   Website encontrado: http://carreratopografia.com.br/
+2025-11-10 02:00:26,587 - INFO -   Tipo de negócio encontrado: Empresa de topografia
+2025-11-10 02:00:26,587 - INFO -   Cartão 2 (ID: -7006647584158280178) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:00:26,587 - INFO - Nenhuma nova empresa única detectada. Contador: 2/2
+2025-11-10 02:00:26,587 - INFO - Limite de não encontrar novas empresas únicas atingido. Parando a rolagem.
+2025-11-10 02:00:26,646 - INFO - Conteúdo HTML da página salvo em results\debug_page_content.html para depuração.
+2025-11-10 02:00:27,761 - INFO - Navegador fechado.
+2025-11-10 02:00:27,778 - INFO - Aguardando 5.75 segundos antes da próxima requisição para evitar bloqueio...
+2025-11-10 02:00:33,531 - INFO - Iniciando busca para o nicho 'Laudos de estabilidade e segurança estrutural para edificações antigas' na cidade 'Rio de Janeiro'.
+2025-11-10 02:00:35,112 - INFO - Navegando para o Google Maps para buscar 'Laudos de estabilidade e segurança estrutural para edificações antigas' em 'Rio de Janeiro'...
+2025-11-10 02:00:46,314 - INFO - Pop-up de cookies não encontrado ou já aceito.
+2025-11-10 02:00:53,237 - INFO - Busca realizada. Aguardando resultados...
+2025-11-10 02:00:55,469 - INFO - Empresas visíveis antes da rolagem: 3
+2025-11-10 02:01:00,102 - INFO - Empresas visíveis após rolagem: 3
+2025-11-10 02:01:00,102 - INFO - Nenhuma nova empresa visível detectada. Contador: 1/2
+2025-11-10 02:01:00,102 - INFO - Tentando extrair dados para o cartão 0...
+2025-11-10 02:01:00,109 - INFO -   Nome encontrado: Laudos Técnicos de Engenharia RJ - Gesù Engenharia
+2025-11-10 02:01:30,123 - WARNING -   Cartão 0: Endereço não encontrado.
+2025-11-10 02:02:00,139 - WARNING -   Cartão 0: Rating não encontrado.
+2025-11-10 02:02:30,145 - WARNING -   Cartão 0: Reviews não encontrado.
+2025-11-10 02:02:30,149 - INFO -   Telefone encontrado: (21) 98134-4226
+2025-11-10 02:02:30,154 - INFO -   Website encontrado: http://www.gesuengenharia.com.br/laudos-tecnicos-de-engenharia-civil
+2025-11-10 02:02:30,156 - INFO -   Tipo de negócio encontrado: Empresa de engenharia civil
+2025-11-10 02:02:30,156 - INFO -   Cartão 0 (ID: 6785511460915408669) - NOVO. Adicionado.
+2025-11-10 02:02:30,156 - INFO - Tentando extrair dados para o cartão 1...
+2025-11-10 02:02:30,164 - INFO -   Nome encontrado: Laudos Engenharia LTDA
+2025-11-10 02:02:30,171 - INFO -   Endereço encontrado:  · R. Brasilina, 15 - sala 705
+2025-11-10 02:02:30,176 - INFO -   Rating encontrado: 5.0
+2025-11-10 02:02:30,187 - INFO -   Reviews encontrado: 2
+2025-11-10 02:02:30,195 - INFO -   Telefone encontrado: (21) 99626-7104
+2025-11-10 02:02:30,200 - INFO -   Website encontrado: http://www.laudosengenharia.eng.br/
+2025-11-10 02:02:30,204 - INFO -   Tipo de negócio encontrado: Escritório da empresa
+2025-11-10 02:02:30,205 - INFO -   Cartão 1 (ID: -8727228536528543755) - NOVO. Adicionado.
+2025-11-10 02:02:30,205 - INFO - Tentando extrair dados para o cartão 2...
+2025-11-10 02:02:30,209 - INFO -   Nome encontrado: LTSE - Laudo Técnico de Segurança e Estabilidade
+2025-11-10 02:03:00,220 - WARNING -   Cartão 2: Endereço não encontrado.
+2025-11-10 02:03:30,244 - WARNING -   Cartão 2: Rating não encontrado.
+2025-11-10 02:04:00,263 - WARNING -   Cartão 2: Reviews não encontrado.
+2025-11-10 02:04:00,272 - INFO -   Telefone encontrado: (11) 4040-9003
+2025-11-10 02:04:00,282 - INFO -   Website encontrado: https://archproject.com.br/alvara/laudo-de-estabilidade-e-seguranca-sao-bernardo-do-campo/
+2025-11-10 02:04:00,292 - INFO -   Tipo de negócio encontrado: Arquiteto
+2025-11-10 02:04:00,292 - INFO -   Cartão 2 (ID: -4367152863632500121) - NOVO. Adicionado.
+2025-11-10 02:04:00,292 - INFO - Novas empresas únicas detectadas nesta rolagem. Resetando contador.
+2025-11-10 02:04:00,318 - INFO - Empresas visíveis antes da rolagem: 3
+2025-11-10 02:04:06,444 - INFO - Empresas visíveis após rolagem: 3
+2025-11-10 02:04:06,444 - INFO - Nenhuma nova empresa visível detectada. Contador: 1/2
+2025-11-10 02:04:06,444 - INFO - Tentando extrair dados para o cartão 0...
+2025-11-10 02:04:06,447 - INFO -   Nome encontrado: Laudos Técnicos de Engenharia RJ - Gesù Engenharia
+2025-11-10 02:04:36,451 - WARNING -   Cartão 0: Endereço não encontrado.
+2025-11-10 02:05:06,463 - WARNING -   Cartão 0: Rating não encontrado.
+2025-11-10 02:05:36,472 - WARNING -   Cartão 0: Reviews não encontrado.
+2025-11-10 02:05:36,478 - INFO -   Telefone encontrado: (21) 98134-4226
+2025-11-10 02:05:36,485 - INFO -   Website encontrado: http://www.gesuengenharia.com.br/laudos-tecnicos-de-engenharia-civil
+2025-11-10 02:05:36,493 - INFO -   Tipo de negócio encontrado: Empresa de engenharia civil
+2025-11-10 02:05:36,493 - INFO -   Cartão 0 (ID: 6785511460915408669) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:05:36,493 - INFO - Tentando extrair dados para o cartão 1...
+2025-11-10 02:05:36,501 - INFO -   Nome encontrado: Laudos Engenharia LTDA
+2025-11-10 02:05:36,509 - INFO -   Endereço encontrado:  · R. Brasilina, 15 - sala 705
+2025-11-10 02:05:36,517 - INFO -   Rating encontrado: 5.0
+2025-11-10 02:05:36,524 - INFO -   Reviews encontrado: 2
+2025-11-10 02:05:36,531 - INFO -   Telefone encontrado: (21) 99626-7104
+2025-11-10 02:05:36,538 - INFO -   Website encontrado: http://www.laudosengenharia.eng.br/
+2025-11-10 02:05:36,544 - INFO -   Tipo de negócio encontrado: Escritório da empresa
+2025-11-10 02:05:36,546 - INFO -   Cartão 1 (ID: -8727228536528543755) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:05:36,546 - INFO - Tentando extrair dados para o cartão 2...
+2025-11-10 02:05:36,552 - INFO -   Nome encontrado: LTSE - Laudo Técnico de Segurança e Estabilidade
+2025-11-10 02:06:06,559 - WARNING -   Cartão 2: Endereço não encontrado.
+2025-11-10 02:06:36,576 - WARNING -   Cartão 2: Rating não encontrado.
+2025-11-10 02:07:06,587 - WARNING -   Cartão 2: Reviews não encontrado.
+2025-11-10 02:07:06,607 - INFO -   Telefone encontrado: (11) 4040-9003
+2025-11-10 02:07:06,619 - INFO -   Website encontrado: https://archproject.com.br/alvara/laudo-de-estabilidade-e-seguranca-sao-bernardo-do-campo/
+2025-11-10 02:07:06,626 - INFO -   Tipo de negócio encontrado: Arquiteto
+2025-11-10 02:07:06,627 - INFO -   Cartão 2 (ID: -4367152863632500121) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:07:06,627 - INFO - Nenhuma nova empresa única detectada. Contador: 2/2
+2025-11-10 02:07:06,627 - INFO - Limite de não encontrar novas empresas únicas atingido. Parando a rolagem.
+2025-11-10 02:07:06,684 - INFO - Conteúdo HTML da página salvo em results\debug_page_content.html para depuração.
+2025-11-10 02:07:07,715 - INFO - Navegador fechado.
+2025-11-10 02:07:07,734 - INFO - Aguardando 8.66 segundos antes da próxima requisição para evitar bloqueio...
+2025-11-10 02:07:16,396 - INFO - Iniciando busca para o nicho 'Certificação de instalações elétricas para condomínios e empresas' na cidade 'Rio de Janeiro'.
+2025-11-10 02:07:18,144 - INFO - Navegando para o Google Maps para buscar 'Certificação de instalações elétricas para condomínios e empresas' em 'Rio de Janeiro'...
+2025-11-10 02:07:28,339 - INFO - Pop-up de cookies não encontrado ou já aceito.
+2025-11-10 02:07:36,835 - INFO - Busca realizada. Aguardando resultados...
+2025-11-10 02:07:40,571 - INFO - Empresas visíveis antes da rolagem: 8
+2025-11-10 02:07:44,237 - INFO - Empresas visíveis após rolagem: 8
+2025-11-10 02:07:44,238 - INFO - Nenhuma nova empresa visível detectada. Contador: 1/2
+2025-11-10 02:07:44,238 - INFO - Tentando extrair dados para o cartão 0...
+2025-11-10 02:07:44,247 - INFO -   Nome encontrado: Fácil Engenharia Elétrica
+2025-11-10 02:08:14,253 - WARNING -   Cartão 0: Endereço não encontrado.
+2025-11-10 02:08:14,261 - INFO -   Rating encontrado: 4.9
+2025-11-10 02:08:14,269 - INFO -   Reviews encontrado: 27
+2025-11-10 02:08:14,279 - INFO -   Telefone encontrado: (21) 98813-5060
+2025-11-10 02:08:14,288 - INFO -   Website encontrado: http://facilengenhariaeletrica.com.br/
+2025-11-10 02:08:14,297 - INFO -   Tipo de negócio encontrado: Engenheiro eletricista
+2025-11-10 02:08:14,297 - INFO -   Cartão 0 (ID: -5835972518027310912) - NOVO. Adicionado.
+2025-11-10 02:08:14,297 - INFO - Tentando extrair dados para o cartão 1...
+2025-11-10 02:08:14,306 - INFO -   Nome encontrado: GRID ELETRICA E CONSULTORIA LTDA
+2025-11-10 02:08:44,322 - WARNING -   Cartão 1: Endereço não encontrado.
+2025-11-10 02:08:44,333 - INFO -   Rating encontrado: 5.0
+2025-11-10 02:08:44,343 - INFO -   Reviews encontrado: 1
+2025-11-10 02:08:44,352 - INFO -   Telefone encontrado: (21) 99502-3601
+2025-11-10 02:08:44,359 - INFO -   Website encontrado: http://www.grideletrica.com.br/
+2025-11-10 02:08:44,366 - INFO -   Tipo de negócio encontrado: Serviço de instalação elétrica
+2025-11-10 02:08:44,366 - INFO -   Cartão 1 (ID: 5438677369191914420) - NOVO. Adicionado.
+2025-11-10 02:08:44,366 - INFO - Tentando extrair dados para o cartão 2...
+2025-11-10 02:08:44,373 - INFO -   Nome encontrado: AUTOVISTORIA PREDIAL
+2025-11-10 02:08:44,380 - INFO -   Endereço encontrado:  · Av. João Carlos Machado, 380
+2025-11-10 02:08:44,386 - INFO -   Rating encontrado: 4.4
+2025-11-10 02:08:44,392 - INFO -   Reviews encontrado: 7
+2025-11-10 02:08:44,398 - INFO -   Telefone encontrado: (21) 98689-3553
+2025-11-10 02:08:44,404 - INFO -   Website encontrado: http://www.autovistoriapredial.com.br/
+2025-11-10 02:08:44,413 - INFO -   Tipo de negócio encontrado: Inspetor de construção civil
+2025-11-10 02:08:44,413 - INFO -   Cartão 2 (ID: 7563721906536544942) - NOVO. Adicionado.
+2025-11-10 02:08:44,414 - INFO - Tentando extrair dados para o cartão 3...
+2025-11-10 02:08:44,419 - INFO -   Nome encontrado: AF ELETROTÉCNICA - PERÍCIA E CONSULTORIA ELÉTRICA
+2025-11-10 02:09:14,426 - WARNING -   Cartão 3: Endereço não encontrado.
+2025-11-10 02:09:14,438 - INFO -   Rating encontrado: 5.0
+2025-11-10 02:09:14,449 - INFO -   Reviews encontrado: 20
+2025-11-10 02:09:14,461 - INFO -   Telefone encontrado: (21) 98193-0201
+2025-11-10 02:09:14,468 - INFO -   Website encontrado: https://afeletrotecnica.com.br/
+2025-11-10 02:09:14,477 - INFO -   Tipo de negócio encontrado: Eletricista
+2025-11-10 02:09:14,478 - INFO -   Cartão 3 (ID: 2812176790079548397) - NOVO. Adicionado.
+2025-11-10 02:09:14,478 - INFO - Tentando extrair dados para o cartão 4...
+2025-11-10 02:09:14,486 - INFO -   Nome encontrado: RGVision Tecnologia, Energia Solar e Segurança eletrônica no Rio de Janeiro RG Vision
+2025-11-10 02:09:14,495 - INFO -   Endereço encontrado:  · R. Inácia Gertrúdes, 517
+2025-11-10 02:09:14,502 - INFO -   Rating encontrado: 5.0
+2025-11-10 02:09:14,508 - INFO -   Reviews encontrado: 25
+2025-11-10 02:09:44,524 - WARNING -   Cartão 4: Telefone não encontrado.
+2025-11-10 02:09:44,535 - INFO -   Website encontrado: http://www.rgvision.com.br/
+2025-11-10 02:09:44,543 - INFO -   Tipo de negócio encontrado: Fornecedor de equipamentos de segurança
+2025-11-10 02:09:44,543 - INFO -   Cartão 4 (ID: -1258865063302328390) - NOVO. Adicionado.
+2025-11-10 02:09:44,543 - INFO - Tentando extrair dados para o cartão 5...
+2025-11-10 02:09:44,553 - INFO -   Nome encontrado: KNM - Inspeção de gás combustíveis
+2025-11-10 02:09:44,560 - INFO -   Endereço encontrado:  · Av. Rio Branco, 124 - 19º
+2025-11-10 02:09:44,568 - INFO -   Rating encontrado: 5.0
+2025-11-10 02:09:44,575 - INFO -   Reviews encontrado: 394
+2025-11-10 02:09:44,583 - INFO -   Telefone encontrado: (21) 2178-9650
+2025-11-10 02:09:44,583 - INFO -   Website encontrado: https://www.knm.srv.br/
+2025-11-10 02:09:44,597 - INFO -   Tipo de negócio encontrado: Escritório da empresa
+2025-11-10 02:09:44,597 - INFO -   Cartão 5 (ID: 1383802779239144784) - NOVO. Adicionado.
+2025-11-10 02:09:44,597 - INFO - Tentando extrair dados para o cartão 6...
+2025-11-10 02:09:44,605 - INFO -   Nome encontrado: Intelbras Energia Solar e EWG Energias Renováveis
+2025-11-10 02:09:44,611 - INFO -   Endereço encontrado:  · Estrada Intendente Magalhães
+2025-11-10 02:10:14,629 - WARNING -   Cartão 6: Rating não encontrado.
+2025-11-10 02:10:44,650 - WARNING -   Cartão 6: Reviews não encontrado.
+2025-11-10 02:10:44,665 - INFO -   Telefone encontrado: (21) 99328-1087
+2025-11-10 02:10:44,677 - INFO -   Website encontrado: http://www.ewgconsultoria.com.br/
+2025-11-10 02:10:44,687 - INFO -   Tipo de negócio encontrado: Empresa de energia solar
+2025-11-10 02:10:44,687 - INFO -   Cartão 6 (ID: 6508780963157450776) - NOVO. Adicionado.
+2025-11-10 02:10:44,687 - INFO - Tentando extrair dados para o cartão 7...
+2025-11-10 02:10:44,696 - INFO -   Nome encontrado: Star Weld Para Raios Eng. Elétrica
+2025-11-10 02:11:14,705 - WARNING -   Cartão 7: Endereço não encontrado.
+2025-11-10 02:11:14,723 - INFO -   Rating encontrado: 5.0
+2025-11-10 02:11:14,736 - INFO -   Reviews encontrado: 29
+2025-11-10 02:11:14,745 - INFO -   Telefone encontrado: (21) 99956-6047
+2025-11-10 02:11:14,756 - INFO -   Website encontrado: http://starweldspda.com.br/
+2025-11-10 02:11:14,763 - INFO -   Tipo de negócio encontrado: Engenheiro eletricista
+2025-11-10 02:11:14,763 - INFO -   Cartão 7 (ID: -3412873656343508686) - NOVO. Adicionado.
+2025-11-10 02:11:14,763 - INFO - Novas empresas únicas detectadas nesta rolagem. Resetando contador.
+2025-11-10 02:11:14,804 - INFO - Empresas visíveis antes da rolagem: 8
+2025-11-10 02:11:20,359 - INFO - Empresas visíveis após rolagem: 8
+2025-11-10 02:11:20,361 - INFO - Nenhuma nova empresa visível detectada. Contador: 1/2
+2025-11-10 02:11:20,361 - INFO - Tentando extrair dados para o cartão 0...
+2025-11-10 02:11:20,368 - INFO -   Nome encontrado: Fácil Engenharia Elétrica
+2025-11-10 02:11:50,373 - WARNING -   Cartão 0: Endereço não encontrado.
+2025-11-10 02:11:50,383 - INFO -   Rating encontrado: 4.9
+2025-11-10 02:11:50,396 - INFO -   Reviews encontrado: 27
+2025-11-10 02:11:50,406 - INFO -   Telefone encontrado: (21) 98813-5060
+2025-11-10 02:11:50,419 - INFO -   Website encontrado: http://facilengenhariaeletrica.com.br/
+2025-11-10 02:11:50,427 - INFO -   Tipo de negócio encontrado: Engenheiro eletricista
+2025-11-10 02:11:50,427 - INFO -   Cartão 0 (ID: -5835972518027310912) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:11:50,427 - INFO - Tentando extrair dados para o cartão 1...
+2025-11-10 02:11:50,435 - INFO -   Nome encontrado: GRID ELETRICA E CONSULTORIA LTDA
+2025-11-10 02:12:20,447 - WARNING -   Cartão 1: Endereço não encontrado.
+2025-11-10 02:12:20,458 - INFO -   Rating encontrado: 5.0
+2025-11-10 02:12:20,469 - INFO -   Reviews encontrado: 1
+2025-11-10 02:12:20,479 - INFO -   Telefone encontrado: (21) 99502-3601
+2025-11-10 02:12:20,489 - INFO -   Website encontrado: http://www.grideletrica.com.br/
+2025-11-10 02:12:20,497 - INFO -   Tipo de negócio encontrado: Serviço de instalação elétrica
+2025-11-10 02:12:20,497 - INFO -   Cartão 1 (ID: 5438677369191914420) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:12:20,497 - INFO - Tentando extrair dados para o cartão 2...
+2025-11-10 02:12:20,506 - INFO -   Nome encontrado: AUTOVISTORIA PREDIAL
+2025-11-10 02:12:20,513 - INFO -   Endereço encontrado:  · Av. João Carlos Machado, 380
+2025-11-10 02:12:20,521 - INFO -   Rating encontrado: 4.4
+2025-11-10 02:12:20,527 - INFO -   Reviews encontrado: 7
+2025-11-10 02:12:20,533 - INFO -   Telefone encontrado: (21) 98689-3553
+2025-11-10 02:12:20,539 - INFO -   Website encontrado: http://www.autovistoriapredial.com.br/
+2025-11-10 02:12:20,547 - INFO -   Tipo de negócio encontrado: Inspetor de construção civil
+2025-11-10 02:12:20,547 - INFO -   Cartão 2 (ID: 7563721906536544942) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:12:20,547 - INFO - Tentando extrair dados para o cartão 3...
+2025-11-10 02:12:20,554 - INFO -   Nome encontrado: AF ELETROTÉCNICA - PERÍCIA E CONSULTORIA ELÉTRICA
+2025-11-10 02:12:50,568 - WARNING -   Cartão 3: Endereço não encontrado.
+2025-11-10 02:12:50,583 - INFO -   Rating encontrado: 5.0
+2025-11-10 02:12:50,602 - INFO -   Reviews encontrado: 20
+2025-11-10 02:12:50,618 - INFO -   Telefone encontrado: (21) 98193-0201
+2025-11-10 02:12:50,632 - INFO -   Website encontrado: https://afeletrotecnica.com.br/
+2025-11-10 02:12:50,642 - INFO -   Tipo de negócio encontrado: Eletricista
+2025-11-10 02:12:50,642 - INFO -   Cartão 3 (ID: 2812176790079548397) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:12:50,642 - INFO - Tentando extrair dados para o cartão 4...
+2025-11-10 02:12:50,650 - INFO -   Nome encontrado: RGVision Tecnologia, Energia Solar e Segurança eletrônica no Rio de Janeiro RG Vision
+2025-11-10 02:12:50,656 - INFO -   Endereço encontrado:  · R. Inácia Gertrúdes, 517
+2025-11-10 02:12:50,663 - INFO -   Rating encontrado: 5.0
+2025-11-10 02:12:50,670 - INFO -   Reviews encontrado: 25
+2025-11-10 02:13:20,682 - WARNING -   Cartão 4: Telefone não encontrado.
+2025-11-10 02:13:20,701 - INFO -   Website encontrado: http://www.rgvision.com.br/
+2025-11-10 02:13:20,714 - INFO -   Tipo de negócio encontrado: Fornecedor de equipamentos de segurança
+2025-11-10 02:13:20,715 - INFO -   Cartão 4 (ID: -1258865063302328390) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:13:20,715 - INFO - Tentando extrair dados para o cartão 5...
+2025-11-10 02:13:20,727 - INFO -   Nome encontrado: KNM - Inspeção de gás combustíveis
+2025-11-10 02:13:20,736 - INFO -   Endereço encontrado:  · Av. Rio Branco, 124 - 19º
+2025-11-10 02:13:20,750 - INFO -   Rating encontrado: 5.0
+2025-11-10 02:13:20,765 - INFO -   Reviews encontrado: 394
+2025-11-10 02:13:20,776 - INFO -   Telefone encontrado: (21) 2178-9650
+2025-11-10 02:13:20,784 - INFO -   Website encontrado: https://www.knm.srv.br/
+2025-11-10 02:13:20,794 - INFO -   Tipo de negócio encontrado: Escritório da empresa
+2025-11-10 02:13:20,794 - INFO -   Cartão 5 (ID: 1383802779239144784) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:13:20,794 - INFO - Tentando extrair dados para o cartão 6...
+2025-11-10 02:13:20,804 - INFO -   Nome encontrado: Intelbras Energia Solar e EWG Energias Renováveis
+2025-11-10 02:13:20,810 - INFO -   Endereço encontrado:  · Estrada Intendente Magalhães
+2025-11-10 02:13:50,822 - WARNING -   Cartão 6: Rating não encontrado.
+2025-11-10 02:14:20,840 - WARNING -   Cartão 6: Reviews não encontrado.
+2025-11-10 02:14:20,859 - INFO -   Telefone encontrado: (21) 99328-1087
+2025-11-10 02:14:20,875 - INFO -   Website encontrado: http://www.ewgconsultoria.com.br/
+2025-11-10 02:14:20,890 - INFO -   Tipo de negócio encontrado: Empresa de energia solar
+2025-11-10 02:14:20,890 - INFO -   Cartão 6 (ID: 6508780963157450776) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:14:20,890 - INFO - Tentando extrair dados para o cartão 7...
+2025-11-10 02:14:20,898 - INFO -   Nome encontrado: Star Weld Para Raios Eng. Elétrica
+2025-11-10 02:14:50,906 - WARNING -   Cartão 7: Endereço não encontrado.
+2025-11-10 02:14:50,914 - INFO -   Rating encontrado: 5.0
+2025-11-10 02:14:50,922 - INFO -   Reviews encontrado: 29
+2025-11-10 02:14:50,930 - INFO -   Telefone encontrado: (21) 99956-6047
+2025-11-10 02:14:50,936 - INFO -   Website encontrado: http://starweldspda.com.br/
+2025-11-10 02:14:50,941 - INFO -   Tipo de negócio encontrado: Engenheiro eletricista
+2025-11-10 02:14:50,941 - INFO -   Cartão 7 (ID: -3412873656343508686) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:14:50,941 - INFO - Nenhuma nova empresa única detectada. Contador: 2/2
+2025-11-10 02:14:50,941 - INFO - Limite de não encontrar novas empresas únicas atingido. Parando a rolagem.
+2025-11-10 02:14:50,986 - INFO - Conteúdo HTML da página salvo em results\debug_page_content.html para depuração.
+2025-11-10 02:14:51,941 - INFO - Navegador fechado.
+2025-11-10 02:14:51,961 - INFO - Aguardando 7.74 segundos antes da próxima requisição para evitar bloqueio...
+2025-11-10 02:14:59,699 - INFO - Iniciando busca para o nicho 'Consultoria de eficiência hídrica e reúso de água em condomínios' na cidade 'Rio de Janeiro'.
+2025-11-10 02:15:01,319 - INFO - Navegando para o Google Maps para buscar 'Consultoria de eficiência hídrica e reúso de água em condomínios' em 'Rio de Janeiro'...
+2025-11-10 02:15:10,825 - INFO - Pop-up de cookies não encontrado ou já aceito.
+2025-11-10 02:15:21,451 - INFO - Busca realizada. Aguardando resultados...
+2025-11-10 02:15:25,470 - ERROR - Elemento rolável não encontrado ou não visível.
+2025-11-10 02:15:25,938 - INFO - Conteúdo HTML da página salvo em results\debug_page_content.html para depuração.
+2025-11-10 02:15:26,604 - INFO - Navegador fechado.
+2025-11-10 02:15:26,628 - INFO - Aguardando 7.07 segundos antes da próxima requisição para evitar bloqueio...
+2025-11-10 02:15:33,695 - INFO - Iniciando busca para o nicho 'Reabilitação e impermeabilização de subsolos e garagens' na cidade 'Rio de Janeiro'.
+2025-11-10 02:15:35,227 - INFO - Navegando para o Google Maps para buscar 'Reabilitação e impermeabilização de subsolos e garagens' em 'Rio de Janeiro'...
+2025-11-10 02:15:45,688 - INFO - Pop-up de cookies não encontrado ou já aceito.
+2025-11-10 02:15:55,051 - INFO - Busca realizada. Aguardando resultados...
+2025-11-10 02:15:57,333 - INFO - Empresas visíveis antes da rolagem: 2
+2025-11-10 02:16:02,967 - INFO - Empresas visíveis após rolagem: 2
+2025-11-10 02:16:02,967 - INFO - Nenhuma nova empresa visível detectada. Contador: 1/2
+2025-11-10 02:16:02,967 - INFO - Tentando extrair dados para o cartão 0...
+2025-11-10 02:16:02,976 - INFO -   Nome encontrado: MantaRio Serviços de Impermeabilização e Construções
+2025-11-10 02:16:32,986 - WARNING -   Cartão 0: Endereço não encontrado.
+2025-11-10 02:16:32,998 - INFO -   Rating encontrado: 4.8
+2025-11-10 02:16:33,009 - INFO -   Reviews encontrado: 39
+2025-11-10 02:16:33,018 - INFO -   Telefone encontrado: (21) 96559-1983
+2025-11-10 02:17:03,033 - WARNING -   Cartão 0: Website não encontrado ou é um link de anúncio.
+2025-11-10 02:17:03,041 - INFO -   Tipo de negócio encontrado: Serviço de impermeabilização
+2025-11-10 02:17:03,041 - INFO -   Cartão 0 (ID: 5468123130240521783) - NOVO. Adicionado.
+2025-11-10 02:17:03,042 - INFO - Tentando extrair dados para o cartão 1...
+2025-11-10 02:17:03,046 - INFO -   Nome encontrado: INOVARE ENGENHARIA LAUDO DE AUTOVISTORIA PREDIAL
+2025-11-10 02:17:33,062 - WARNING -   Cartão 1: Endereço não encontrado.
+2025-11-10 02:17:33,079 - INFO -   Rating encontrado: 4.6
+2025-11-10 02:17:33,095 - INFO -   Reviews encontrado: 20
+2025-11-10 02:17:33,105 - INFO -   Telefone encontrado: (21) 96818-3619
+2025-11-10 02:17:33,113 - INFO -   Website encontrado: http://www.inovare-engenharia.com/
+2025-11-10 02:17:33,120 - INFO -   Tipo de negócio encontrado: Empresa de engenharia civil
+2025-11-10 02:17:33,120 - INFO -   Cartão 1 (ID: 2376481531063121314) - NOVO. Adicionado.
+2025-11-10 02:17:33,120 - INFO - Novas empresas únicas detectadas nesta rolagem. Resetando contador.
+2025-11-10 02:17:33,141 - INFO - Empresas visíveis antes da rolagem: 2
+2025-11-10 02:17:39,251 - INFO - Empresas visíveis após rolagem: 2
+2025-11-10 02:17:39,251 - INFO - Nenhuma nova empresa visível detectada. Contador: 1/2
+2025-11-10 02:17:39,251 - INFO - Tentando extrair dados para o cartão 0...
+2025-11-10 02:17:39,257 - INFO -   Nome encontrado: MantaRio Serviços de Impermeabilização e Construções
+2025-11-10 02:18:09,265 - WARNING -   Cartão 0: Endereço não encontrado.
+2025-11-10 02:18:09,279 - INFO -   Rating encontrado: 4.8
+2025-11-10 02:18:09,287 - INFO -   Reviews encontrado: 39
+2025-11-10 02:18:09,295 - INFO -   Telefone encontrado: (21) 96559-1983
+2025-11-10 02:18:39,304 - WARNING -   Cartão 0: Website não encontrado ou é um link de anúncio.
+2025-11-10 02:18:39,324 - INFO -   Tipo de negócio encontrado: Serviço de impermeabilização
+2025-11-10 02:18:39,324 - INFO -   Cartão 0 (ID: 5468123130240521783) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:18:39,324 - INFO - Tentando extrair dados para o cartão 1...
+2025-11-10 02:18:39,340 - INFO -   Nome encontrado: INOVARE ENGENHARIA LAUDO DE AUTOVISTORIA PREDIAL
+2025-11-10 02:19:09,352 - WARNING -   Cartão 1: Endereço não encontrado.
+2025-11-10 02:19:09,361 - INFO -   Rating encontrado: 4.6
+2025-11-10 02:19:09,368 - INFO -   Reviews encontrado: 20
+2025-11-10 02:19:09,373 - INFO -   Telefone encontrado: (21) 96818-3619
+2025-11-10 02:19:09,380 - INFO -   Website encontrado: http://www.inovare-engenharia.com/
+2025-11-10 02:19:09,384 - INFO -   Tipo de negócio encontrado: Empresa de engenharia civil
+2025-11-10 02:19:09,385 - INFO -   Cartão 1 (ID: 2376481531063121314) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:19:09,385 - INFO - Nenhuma nova empresa única detectada. Contador: 2/2
+2025-11-10 02:19:09,385 - INFO - Limite de não encontrar novas empresas únicas atingido. Parando a rolagem.
+2025-11-10 02:19:09,440 - INFO - Conteúdo HTML da página salvo em results\debug_page_content.html para depuração.
+2025-11-10 02:19:10,000 - INFO - Navegador fechado.
+2025-11-10 02:19:10,024 - INFO - Aguardando 8.71 segundos antes da próxima requisição para evitar bloqueio...
+2025-11-10 02:19:18,738 - INFO - Iniciando busca para o nicho 'Projetos de automação de portarias e controle de acesso inteligente' na cidade 'Rio de Janeiro'.
+2025-11-10 02:19:20,461 - INFO - Navegando para o Google Maps para buscar 'Projetos de automação de portarias e controle de acesso inteligente' em 'Rio de Janeiro'...
+2025-11-10 02:19:30,112 - INFO - Pop-up de cookies não encontrado ou já aceito.
+2025-11-10 02:19:38,955 - INFO - Busca realizada. Aguardando resultados...
+2025-11-10 02:19:41,282 - INFO - Empresas visíveis antes da rolagem: 2
+2025-11-10 02:19:44,519 - INFO - Empresas visíveis após rolagem: 2
+2025-11-10 02:19:44,519 - INFO - Nenhuma nova empresa visível detectada. Contador: 1/2
+2025-11-10 02:19:44,519 - INFO - Tentando extrair dados para o cartão 0...
+2025-11-10 02:19:44,531 - INFO -   Nome encontrado: Valle Automações | Portaria Autônoma
+2025-11-10 02:19:44,541 - INFO -   Endereço encontrado:  · Estr. Francisco da Cruz Nunes, 2564
+2025-11-10 02:19:44,554 - INFO -   Rating encontrado: 5.0
+2025-11-10 02:19:44,566 - INFO -   Reviews encontrado: 22
+2025-11-10 02:19:44,575 - INFO -   Telefone encontrado: (21) 2042-5050
+2025-11-10 02:19:44,589 - INFO -   Website encontrado: http://www.valleautomacoes.com.br/
+2025-11-10 02:19:44,603 - INFO -   Tipo de negócio encontrado: Empresa de segurança
+2025-11-10 02:19:44,603 - INFO -   Cartão 0 (ID: -3637723893710770083) - NOVO. Adicionado.
+2025-11-10 02:19:44,604 - INFO - Tentando extrair dados para o cartão 1...
+2025-11-10 02:19:44,614 - INFO -   Nome encontrado: FPROTER - Automação de portões, serralheria, segurança eletrônica, projetos, obras e reformas
+2025-11-10 02:20:14,630 - WARNING -   Cartão 1: Endereço não encontrado.
+2025-11-10 02:20:14,641 - INFO -   Rating encontrado: 4.9
+2025-11-10 02:20:14,654 - INFO -   Reviews encontrado: 266
+2025-11-10 02:20:14,662 - INFO -   Telefone encontrado: (21) 97216-0583
+2025-11-10 02:20:14,671 - INFO -   Website encontrado: https://linktr.ee/fproter
+2025-11-10 02:20:14,679 - INFO -   Tipo de negócio encontrado: Eletricista
+2025-11-10 02:20:14,679 - INFO -   Cartão 1 (ID: 144070509451175885) - NOVO. Adicionado.
+2025-11-10 02:20:14,679 - INFO - Novas empresas únicas detectadas nesta rolagem. Resetando contador.
+2025-11-10 02:20:14,705 - INFO - Empresas visíveis antes da rolagem: 2
+2025-11-10 02:20:20,158 - INFO - Empresas visíveis após rolagem: 2
+2025-11-10 02:20:20,159 - INFO - Nenhuma nova empresa visível detectada. Contador: 1/2
+2025-11-10 02:20:20,159 - INFO - Tentando extrair dados para o cartão 0...
+2025-11-10 02:20:20,164 - INFO -   Nome encontrado: Valle Automações | Portaria Autônoma
+2025-11-10 02:20:20,172 - INFO -   Endereço encontrado:  · Estr. Francisco da Cruz Nunes, 2564
+2025-11-10 02:20:20,178 - INFO -   Rating encontrado: 5.0
+2025-11-10 02:20:20,184 - INFO -   Reviews encontrado: 22
+2025-11-10 02:20:20,190 - INFO -   Telefone encontrado: (21) 2042-5050
+2025-11-10 02:20:20,197 - INFO -   Website encontrado: http://www.valleautomacoes.com.br/
+2025-11-10 02:20:20,204 - INFO -   Tipo de negócio encontrado: Empresa de segurança
+2025-11-10 02:20:20,204 - INFO -   Cartão 0 (ID: -3637723893710770083) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:20:20,204 - INFO - Tentando extrair dados para o cartão 1...
+2025-11-10 02:20:20,210 - INFO -   Nome encontrado: FPROTER - Automação de portões, serralheria, segurança eletrônica, projetos, obras e reformas
+2025-11-10 02:20:50,225 - WARNING -   Cartão 1: Endereço não encontrado.
+2025-11-10 02:20:50,234 - INFO -   Rating encontrado: 4.9
+2025-11-10 02:20:50,242 - INFO -   Reviews encontrado: 266
+2025-11-10 02:20:50,249 - INFO -   Telefone encontrado: (21) 97216-0583
+2025-11-10 02:20:50,262 - INFO -   Website encontrado: https://linktr.ee/fproter
+2025-11-10 02:20:50,268 - INFO -   Tipo de negócio encontrado: Eletricista
+2025-11-10 02:20:50,268 - INFO -   Cartão 1 (ID: 144070509451175885) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:20:50,268 - INFO - Nenhuma nova empresa única detectada. Contador: 2/2
+2025-11-10 02:20:50,268 - INFO - Limite de não encontrar novas empresas únicas atingido. Parando a rolagem.
+2025-11-10 02:20:50,309 - INFO - Conteúdo HTML da página salvo em results\debug_page_content.html para depuração.
+2025-11-10 02:20:51,029 - INFO - Navegador fechado.
+2025-11-10 02:20:51,046 - INFO - Aguardando 5.08 segundos antes da próxima requisição para evitar bloqueio...
+2025-11-10 02:20:56,136 - INFO - Iniciando busca para o nicho 'Laudos e regularização de sistemas de incêndio existentes' na cidade 'Rio de Janeiro'.
+2025-11-10 02:20:57,489 - INFO - Navegando para o Google Maps para buscar 'Laudos e regularização de sistemas de incêndio existentes' em 'Rio de Janeiro'...
+2025-11-10 02:21:06,257 - INFO - Pop-up de cookies não encontrado ou já aceito.
+2025-11-10 02:21:14,784 - INFO - Busca realizada. Aguardando resultados...
+2025-11-10 02:21:18,618 - INFO - Empresas visíveis antes da rolagem: 7
+2025-11-10 02:21:22,516 - INFO - Empresas visíveis após rolagem: 7
+2025-11-10 02:21:22,516 - INFO - Nenhuma nova empresa visível detectada. Contador: 1/2
+2025-11-10 02:21:22,516 - INFO - Tentando extrair dados para o cartão 0...
+2025-11-10 02:21:22,535 - INFO -   Nome encontrado: ART Sistemas Contra Incêndio
+2025-11-10 02:21:52,554 - WARNING -   Cartão 0: Endereço não encontrado.
+2025-11-10 02:21:52,570 - INFO -   Rating encontrado: 5.0
+2025-11-10 02:21:52,589 - INFO -   Reviews encontrado: 3
+2025-11-10 02:21:52,603 - INFO -   Telefone encontrado: (21) 2564-9492
+2025-11-10 02:21:52,610 - INFO -   Website encontrado: http://artincendios.com.br/
+2025-11-10 02:21:52,618 - INFO -   Tipo de negócio encontrado: Loja de Equipamento Contra Incêndio
+2025-11-10 02:21:52,618 - INFO -   Cartão 0 (ID: -3966658770656477943) - NOVO. Adicionado.
+2025-11-10 02:21:52,618 - INFO - Tentando extrair dados para o cartão 1...
+2025-11-10 02:21:52,626 - INFO -   Nome encontrado: Fogobras Equipamentos e Materiais Contra Incêndio
+2025-11-10 02:21:52,631 - INFO -   Endereço encontrado:  · R. Barão do Bom Retiro, 424
+2025-11-10 02:21:52,636 - INFO -   Rating encontrado: 5.0
+2025-11-10 02:21:52,641 - INFO -   Reviews encontrado: 170
+2025-11-10 02:21:52,645 - INFO -   Telefone encontrado: (21) 2201-3297
+2025-11-10 02:21:52,651 - INFO -   Website encontrado: http://www.fogobras.com.br/
+2025-11-10 02:21:52,655 - INFO -   Tipo de negócio encontrado: Fornecedor de sistemas de proteção contra incêndios
+2025-11-10 02:21:52,655 - INFO -   Cartão 1 (ID: 4616804502613996807) - NOVO. Adicionado.
+2025-11-10 02:21:52,655 - INFO - Tentando extrair dados para o cartão 2...
+2025-11-10 02:21:52,660 - INFO -   Nome encontrado: Projetos de incêndio RJ .’. Rio de Janeiro-RJ
+2025-11-10 02:22:22,677 - WARNING -   Cartão 2: Endereço não encontrado.
+2025-11-10 02:22:22,694 - INFO -   Rating encontrado: 5.0
+2025-11-10 02:22:22,706 - INFO -   Reviews encontrado: 3
+2025-11-10 02:22:22,715 - INFO -   Telefone encontrado: (21) 3770-6789
+2025-11-10 02:22:22,721 - INFO -   Website encontrado: https://marcialincendio.com.br/?link=contato
+2025-11-10 02:22:22,728 - INFO -   Tipo de negócio encontrado: Fornecedor de sistemas de proteção contra incêndios
+2025-11-10 02:22:22,728 - INFO -   Cartão 2 (ID: 1888359678379591978) - NOVO. Adicionado.
+2025-11-10 02:22:22,729 - INFO - Tentando extrair dados para o cartão 3...
+2025-11-10 02:22:22,739 - INFO -   Nome encontrado: Soluções em Segurança contra Incêndio RJ - Roggo Fire
+2025-11-10 02:22:52,745 - WARNING -   Cartão 3: Endereço não encontrado.
+2025-11-10 02:22:52,759 - INFO -   Rating encontrado: 5.0
+2025-11-10 02:22:52,775 - INFO -   Reviews encontrado: 43
+2025-11-10 02:22:52,785 - INFO -   Telefone encontrado: (21) 99201-5250
+2025-11-10 02:22:52,796 - INFO -   Website encontrado: https://www.roggofire.com.br/
+2025-11-10 02:22:52,803 - INFO -   Tipo de negócio encontrado: Empresa de engenharia civil
+2025-11-10 02:22:52,803 - INFO -   Cartão 3 (ID: -4064505500177569269) - NOVO. Adicionado.
+2025-11-10 02:22:52,803 - INFO - Tentando extrair dados para o cartão 4...
+2025-11-10 02:22:52,811 - INFO -   Nome encontrado: MCA Tecnologia em Sistemas Contra Incêndio
+2025-11-10 02:23:22,831 - WARNING -   Cartão 4: Endereço não encontrado.
+2025-11-10 02:23:22,840 - INFO -   Rating encontrado: 5.0
+2025-11-10 02:23:22,850 - INFO -   Reviews encontrado: 8
+2025-11-10 02:23:22,860 - INFO -   Telefone encontrado: (21) 2467-4184
+2025-11-10 02:23:22,869 - INFO -   Website encontrado: http://mcatecnologia.com.br/
+2025-11-10 02:23:22,878 - INFO -   Tipo de negócio encontrado: Serviços de proteção contra incêndio
+2025-11-10 02:23:22,878 - INFO -   Cartão 4 (ID: 2556920634739461147) - NOVO. Adicionado.
+2025-11-10 02:23:22,878 - INFO - Tentando extrair dados para o cartão 5...
+2025-11-10 02:23:22,886 - INFO -   Nome encontrado: Recel Sistemas Contra Incêndio
+2025-11-10 02:23:22,895 - INFO -   Endereço encontrado:  · R. Porena, 126
+2025-11-10 02:23:22,904 - INFO -   Rating encontrado: 4.2
+2025-11-10 02:23:22,912 - INFO -   Reviews encontrado: 16
+2025-11-10 02:23:22,919 - INFO -   Telefone encontrado: (21) 2290-4370
+2025-11-10 02:23:22,926 - INFO -   Website encontrado: http://www.recel.com.br/
+2025-11-10 02:23:22,933 - INFO -   Tipo de negócio encontrado: Loja de Equipamento Contra Incêndio
+2025-11-10 02:23:22,933 - INFO -   Cartão 5 (ID: 1296350874364741205) - NOVO. Adicionado.
+2025-11-10 02:23:22,933 - INFO - Tentando extrair dados para o cartão 6...
+2025-11-10 02:23:22,941 - INFO -   Nome encontrado: Normatec Extintores de Incêndio
+2025-11-10 02:23:22,950 - INFO -   Endereço encontrado:  · R. Conde de Leopoldina, 389
+2025-11-10 02:23:22,958 - INFO -   Rating encontrado: 3.8
+2025-11-10 02:23:22,964 - INFO -   Reviews encontrado: 13
+2025-11-10 02:23:22,973 - INFO -   Telefone encontrado: (21) 3580-0228
+2025-11-10 02:23:52,994 - WARNING -   Cartão 6: Website não encontrado ou é um link de anúncio.
+2025-11-10 02:23:53,005 - INFO -   Tipo de negócio encontrado: Loja de Equipamento Contra Incêndio
+2025-11-10 02:23:53,005 - INFO -   Cartão 6 (ID: 4823426894992536103) - NOVO. Adicionado.
+2025-11-10 02:23:53,005 - INFO - Novas empresas únicas detectadas nesta rolagem. Resetando contador.
+2025-11-10 02:23:53,038 - INFO - Empresas visíveis antes da rolagem: 7
+2025-11-10 02:23:59,620 - INFO - Empresas visíveis após rolagem: 7
+2025-11-10 02:23:59,620 - INFO - Nenhuma nova empresa visível detectada. Contador: 1/2
+2025-11-10 02:23:59,620 - INFO - Tentando extrair dados para o cartão 0...
+2025-11-10 02:23:59,627 - INFO -   Nome encontrado: ART Sistemas Contra Incêndio
+2025-11-10 02:24:29,636 - WARNING -   Cartão 0: Endereço não encontrado.
+2025-11-10 02:24:29,652 - INFO -   Rating encontrado: 5.0
+2025-11-10 02:24:29,665 - INFO -   Reviews encontrado: 3
+2025-11-10 02:24:29,673 - INFO -   Telefone encontrado: (21) 2564-9492
+2025-11-10 02:24:29,680 - INFO -   Website encontrado: http://artincendios.com.br/
+2025-11-10 02:24:29,688 - INFO -   Tipo de negócio encontrado: Loja de Equipamento Contra Incêndio
+2025-11-10 02:24:29,688 - INFO -   Cartão 0 (ID: -3966658770656477943) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:24:29,688 - INFO - Tentando extrair dados para o cartão 1...
+2025-11-10 02:24:29,696 - INFO -   Nome encontrado: Fogobras Equipamentos e Materiais Contra Incêndio
+2025-11-10 02:24:29,703 - INFO -   Endereço encontrado:  · R. Barão do Bom Retiro, 424
+2025-11-10 02:24:29,709 - INFO -   Rating encontrado: 5.0
+2025-11-10 02:24:29,716 - INFO -   Reviews encontrado: 170
+2025-11-10 02:24:29,725 - INFO -   Telefone encontrado: (21) 2201-3297
+2025-11-10 02:24:29,732 - INFO -   Website encontrado: http://www.fogobras.com.br/
+2025-11-10 02:24:29,741 - INFO -   Tipo de negócio encontrado: Fornecedor de sistemas de proteção contra incêndios
+2025-11-10 02:24:29,741 - INFO -   Cartão 1 (ID: 4616804502613996807) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:24:29,741 - INFO - Tentando extrair dados para o cartão 2...
+2025-11-10 02:24:29,749 - INFO -   Nome encontrado: Projetos de incêndio RJ .’. Rio de Janeiro-RJ
+2025-11-10 02:24:59,755 - WARNING -   Cartão 2: Endereço não encontrado.
+2025-11-10 02:24:59,765 - INFO -   Rating encontrado: 5.0
+2025-11-10 02:24:59,777 - INFO -   Reviews encontrado: 3
+2025-11-10 02:24:59,793 - INFO -   Telefone encontrado: (21) 3770-6789
+2025-11-10 02:24:59,804 - INFO -   Website encontrado: https://marcialincendio.com.br/?link=contato
+2025-11-10 02:24:59,814 - INFO -   Tipo de negócio encontrado: Fornecedor de sistemas de proteção contra incêndios
+2025-11-10 02:24:59,814 - INFO -   Cartão 2 (ID: 1888359678379591978) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:24:59,814 - INFO - Tentando extrair dados para o cartão 3...
+2025-11-10 02:24:59,820 - INFO -   Nome encontrado: Soluções em Segurança contra Incêndio RJ - Roggo Fire
+2025-11-10 02:25:29,859 - WARNING -   Cartão 3: Endereço não encontrado.
+2025-11-10 02:25:29,871 - INFO -   Rating encontrado: 5.0
+2025-11-10 02:25:29,879 - INFO -   Reviews encontrado: 43
+2025-11-10 02:25:29,883 - INFO -   Telefone encontrado: (21) 99201-5250
+2025-11-10 02:25:29,892 - INFO -   Website encontrado: https://www.roggofire.com.br/
+2025-11-10 02:25:29,899 - INFO -   Tipo de negócio encontrado: Empresa de engenharia civil
+2025-11-10 02:25:29,899 - INFO -   Cartão 3 (ID: -4064505500177569269) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:25:29,899 - INFO - Tentando extrair dados para o cartão 4...
+2025-11-10 02:25:29,906 - INFO -   Nome encontrado: MCA Tecnologia em Sistemas Contra Incêndio
+2025-11-10 02:25:59,913 - WARNING -   Cartão 4: Endereço não encontrado.
+2025-11-10 02:25:59,926 - INFO -   Rating encontrado: 5.0
+2025-11-10 02:25:59,937 - INFO -   Reviews encontrado: 8
+2025-11-10 02:25:59,946 - INFO -   Telefone encontrado: (21) 2467-4184
+2025-11-10 02:25:59,954 - INFO -   Website encontrado: http://mcatecnologia.com.br/
+2025-11-10 02:25:59,960 - INFO -   Tipo de negócio encontrado: Serviços de proteção contra incêndio
+2025-11-10 02:25:59,961 - INFO -   Cartão 4 (ID: 2556920634739461147) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:25:59,961 - INFO - Tentando extrair dados para o cartão 5...
+2025-11-10 02:25:59,967 - INFO -   Nome encontrado: Recel Sistemas Contra Incêndio
+2025-11-10 02:25:59,973 - INFO -   Endereço encontrado:  · R. Porena, 126
+2025-11-10 02:25:59,978 - INFO -   Rating encontrado: 4.2
+2025-11-10 02:25:59,985 - INFO -   Reviews encontrado: 16
+2025-11-10 02:25:59,993 - INFO -   Telefone encontrado: (21) 2290-4370
+2025-11-10 02:25:59,999 - INFO -   Website encontrado: http://www.recel.com.br/
+2025-11-10 02:26:00,007 - INFO -   Tipo de negócio encontrado: Loja de Equipamento Contra Incêndio
+2025-11-10 02:26:00,007 - INFO -   Cartão 5 (ID: 1296350874364741205) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:26:00,007 - INFO - Tentando extrair dados para o cartão 6...
+2025-11-10 02:26:00,017 - INFO -   Nome encontrado: Normatec Extintores de Incêndio
+2025-11-10 02:26:00,024 - INFO -   Endereço encontrado:  · R. Conde de Leopoldina, 389
+2025-11-10 02:26:00,031 - INFO -   Rating encontrado: 3.8
+2025-11-10 02:26:00,037 - INFO -   Reviews encontrado: 13
+2025-11-10 02:26:00,045 - INFO -   Telefone encontrado: (21) 3580-0228
+2025-11-10 02:26:30,062 - WARNING -   Cartão 6: Website não encontrado ou é um link de anúncio.
+2025-11-10 02:26:30,073 - INFO -   Tipo de negócio encontrado: Loja de Equipamento Contra Incêndio
+2025-11-10 02:26:30,073 - INFO -   Cartão 6 (ID: 4823426894992536103) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:26:30,073 - INFO - Nenhuma nova empresa única detectada. Contador: 2/2
+2025-11-10 02:26:30,073 - INFO - Limite de não encontrar novas empresas únicas atingido. Parando a rolagem.
+2025-11-10 02:26:30,168 - INFO - Conteúdo HTML da página salvo em results\debug_page_content.html para depuração.
+2025-11-10 02:26:31,131 - INFO - Navegador fechado.
+2025-11-10 02:26:31,151 - INFO - Aguardando 8.73 segundos antes da próxima requisição para evitar bloqueio...
+2025-11-10 02:26:39,881 - INFO - Iniciando busca para o nicho 'Retrofit elétrico e de iluminação LED para prédios comerciais antigos' na cidade 'Rio de Janeiro'.
+2025-11-10 02:26:41,560 - INFO - Navegando para o Google Maps para buscar 'Retrofit elétrico e de iluminação LED para prédios comerciais antigos' em 'Rio de Janeiro'...
+2025-11-10 02:26:51,359 - INFO - Pop-up de cookies não encontrado ou já aceito.
+2025-11-10 02:27:02,513 - INFO - Busca realizada. Aguardando resultados...
+2025-11-10 02:27:05,084 - INFO - Empresas visíveis antes da rolagem: 4
+2025-11-10 02:27:08,662 - INFO - Empresas visíveis após rolagem: 4
+2025-11-10 02:27:08,662 - INFO - Nenhuma nova empresa visível detectada. Contador: 1/2
+2025-11-10 02:27:08,662 - INFO - Tentando extrair dados para o cartão 0...
+2025-11-10 02:27:08,674 - INFO -   Nome encontrado: Retrofit Engenharia
+2025-11-10 02:27:08,689 - INFO -   Endereço encontrado:  · Av. Pedro II, 374 - Cobertura
+2025-11-10 02:27:08,699 - INFO -   Rating encontrado: 4.5
+2025-11-10 02:27:08,712 - INFO -   Reviews encontrado: 28
+2025-11-10 02:27:08,720 - INFO -   Telefone encontrado: (21) 2215-6152
+2025-11-10 02:27:08,730 - INFO -   Website encontrado: http://www.retrofitengenharia.com.br/
+2025-11-10 02:27:08,738 - INFO -   Tipo de negócio encontrado: Empresa de engenharia civil
+2025-11-10 02:27:08,738 - INFO -   Cartão 0 (ID: 3419911802187303180) - NOVO. Adicionado.
+2025-11-10 02:27:08,738 - INFO - Tentando extrair dados para o cartão 1...
+2025-11-10 02:27:08,745 - INFO -   Nome encontrado: Techrio Paineis Elétricos
+2025-11-10 02:27:38,752 - WARNING -   Cartão 1: Endereço não encontrado.
+2025-11-10 02:28:08,757 - WARNING -   Cartão 1: Rating não encontrado.
+2025-11-10 02:28:38,775 - WARNING -   Cartão 1: Reviews não encontrado.
+2025-11-10 02:28:38,784 - INFO -   Telefone encontrado: (21) 2560-1396
+2025-11-10 02:28:38,796 - INFO -   Website encontrado: http://www.techrioengenharia.com.br/
+2025-11-10 02:28:38,815 - INFO -   Tipo de negócio encontrado: Eletricista
+2025-11-10 02:28:38,815 - INFO -   Cartão 1 (ID: -5588703205659018455) - NOVO. Adicionado.
+2025-11-10 02:28:38,815 - INFO - Tentando extrair dados para o cartão 2...
+2025-11-10 02:28:38,832 - INFO -   Nome encontrado: Maccomevap Indústria e Comércio
+2025-11-10 02:28:38,844 - INFO -   Endereço encontrado:  · Av. Pte. Preta, 1038
+2025-11-10 02:28:38,854 - INFO -   Rating encontrado: 4.4
+2025-11-10 02:28:38,867 - INFO -   Reviews encontrado: 43
+2025-11-10 02:28:38,877 - INFO -   Telefone encontrado: (21) 2687-0092
+2025-11-10 02:28:38,885 - INFO -   Website encontrado: http://www.maccomevap.com.br/
+2025-11-10 02:28:38,893 - INFO -   Tipo de negócio encontrado: Fornecedor de equipamentos industriais
+2025-11-10 02:28:38,893 - INFO -   Cartão 2 (ID: 3002651483725313679) - NOVO. Adicionado.
+2025-11-10 02:28:38,893 - INFO - Tentando extrair dados para o cartão 3...
+2025-11-10 02:28:38,900 - INFO -   Nome encontrado: Engepred
+2025-11-10 02:28:38,907 - INFO -   Endereço encontrado:  · Av. Pres. Wilson, 231 - 14 andar
+2025-11-10 02:28:38,915 - INFO -   Rating encontrado: 4.4
+2025-11-10 02:28:38,922 - INFO -   Reviews encontrado: 72
+2025-11-10 02:28:38,929 - INFO -   Telefone encontrado: (21) 3554-3775
+2025-11-10 02:28:38,933 - INFO -   Website encontrado: http://engepred.com.br/
+2025-11-10 02:28:38,946 - INFO -   Tipo de negócio encontrado: Companhia gestora de propriedade
+2025-11-10 02:28:38,946 - INFO -   Cartão 3 (ID: 6818043576420854596) - NOVO. Adicionado.
+2025-11-10 02:28:38,946 - INFO - Novas empresas únicas detectadas nesta rolagem. Resetando contador.
+2025-11-10 02:28:38,970 - INFO - Empresas visíveis antes da rolagem: 4
+2025-11-10 02:28:42,021 - INFO - Empresas visíveis após rolagem: 4
+2025-11-10 02:28:42,021 - INFO - Nenhuma nova empresa visível detectada. Contador: 1/2
+2025-11-10 02:28:42,021 - INFO - Tentando extrair dados para o cartão 0...
+2025-11-10 02:28:42,026 - INFO -   Nome encontrado: Retrofit Engenharia
+2025-11-10 02:28:42,031 - INFO -   Endereço encontrado:  · Av. Pedro II, 374 - Cobertura
+2025-11-10 02:28:42,035 - INFO -   Rating encontrado: 4.5
+2025-11-10 02:28:42,040 - INFO -   Reviews encontrado: 28
+2025-11-10 02:28:42,044 - INFO -   Telefone encontrado: (21) 2215-6152
+2025-11-10 02:28:42,050 - INFO -   Website encontrado: http://www.retrofitengenharia.com.br/
+2025-11-10 02:28:42,057 - INFO -   Tipo de negócio encontrado: Empresa de engenharia civil
+2025-11-10 02:28:42,057 - INFO -   Cartão 0 (ID: 3419911802187303180) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:28:42,057 - INFO - Tentando extrair dados para o cartão 1...
+2025-11-10 02:28:42,061 - INFO -   Nome encontrado: Techrio Paineis Elétricos
+2025-11-10 02:29:12,069 - WARNING -   Cartão 1: Endereço não encontrado.
+2025-11-10 02:29:42,084 - WARNING -   Cartão 1: Rating não encontrado.
+2025-11-10 02:30:12,090 - WARNING -   Cartão 1: Reviews não encontrado.
+2025-11-10 02:30:12,103 - INFO -   Telefone encontrado: (21) 2560-1396
+2025-11-10 02:30:12,112 - INFO -   Website encontrado: http://www.techrioengenharia.com.br/
+2025-11-10 02:30:12,120 - INFO -   Tipo de negócio encontrado: Eletricista
+2025-11-10 02:30:12,120 - INFO -   Cartão 1 (ID: -5588703205659018455) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:30:12,120 - INFO - Tentando extrair dados para o cartão 2...
+2025-11-10 02:30:12,127 - INFO -   Nome encontrado: Maccomevap Indústria e Comércio
+2025-11-10 02:30:12,133 - INFO -   Endereço encontrado:  · Av. Pte. Preta, 1038
+2025-11-10 02:30:12,143 - INFO -   Rating encontrado: 4.4
+2025-11-10 02:30:12,149 - INFO -   Reviews encontrado: 43
+2025-11-10 02:30:12,155 - INFO -   Telefone encontrado: (21) 2687-0092
+2025-11-10 02:30:12,163 - INFO -   Website encontrado: http://www.maccomevap.com.br/
+2025-11-10 02:30:12,170 - INFO -   Tipo de negócio encontrado: Fornecedor de equipamentos industriais
+2025-11-10 02:30:12,170 - INFO -   Cartão 2 (ID: 3002651483725313679) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:30:12,170 - INFO - Tentando extrair dados para o cartão 3...
+2025-11-10 02:30:12,177 - INFO -   Nome encontrado: Engepred
+2025-11-10 02:30:12,189 - INFO -   Endereço encontrado:  · Av. Pres. Wilson, 231 - 14 andar
+2025-11-10 02:30:12,204 - INFO -   Rating encontrado: 4.4
+2025-11-10 02:30:12,219 - INFO -   Reviews encontrado: 72
+2025-11-10 02:30:12,225 - INFO -   Telefone encontrado: (21) 3554-3775
+2025-11-10 02:30:12,231 - INFO -   Website encontrado: http://engepred.com.br/
+2025-11-10 02:30:12,237 - INFO -   Tipo de negócio encontrado: Companhia gestora de propriedade
+2025-11-10 02:30:12,237 - INFO -   Cartão 3 (ID: 6818043576420854596) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:30:12,237 - INFO - Nenhuma nova empresa única detectada. Contador: 2/2
+2025-11-10 02:30:12,237 - INFO - Limite de não encontrar novas empresas únicas atingido. Parando a rolagem.
+2025-11-10 02:30:12,294 - INFO - Conteúdo HTML da página salvo em results\debug_page_content.html para depuração.
+2025-11-10 02:30:12,818 - INFO - Navegador fechado.
+2025-11-10 02:30:12,841 - INFO - Aguardando 8.72 segundos antes da próxima requisição para evitar bloqueio...
+2025-11-10 02:30:21,561 - INFO - Iniciando busca para o nicho 'Certificação de qualidade do ar e climatização' na cidade 'Rio de Janeiro'.
+2025-11-10 02:30:23,439 - INFO - Navegando para o Google Maps para buscar 'Certificação de qualidade do ar e climatização' em 'Rio de Janeiro'...
+2025-11-10 02:30:33,169 - INFO - Pop-up de cookies não encontrado ou já aceito.
+2025-11-10 02:30:41,794 - INFO - Busca realizada. Aguardando resultados...
+2025-11-10 02:30:45,051 - INFO - Empresas visíveis antes da rolagem: 10
+2025-11-10 02:30:49,756 - INFO - Empresas visíveis após rolagem: 10
+2025-11-10 02:30:49,756 - INFO - Nenhuma nova empresa visível detectada. Contador: 1/2
+2025-11-10 02:30:49,756 - INFO - Tentando extrair dados para o cartão 0...
+2025-11-10 02:30:49,764 - INFO -   Nome encontrado: Salvatec
+2025-11-10 02:31:19,771 - WARNING -   Cartão 0: Endereço não encontrado.
+2025-11-10 02:31:19,789 - INFO -   Rating encontrado: 4.8
+2025-11-10 02:31:19,801 - INFO -   Reviews encontrado: 133
+2025-11-10 02:31:19,809 - INFO -   Telefone encontrado: (21) 97014-9588
+2025-11-10 02:31:19,819 - INFO -   Website encontrado: https://www.instagram.com/salvatec.climatizacao/
+2025-11-10 02:31:19,829 - INFO -   Tipo de negócio encontrado: Prestador de serviços de climatização
+2025-11-10 02:31:19,829 - INFO -   Cartão 0 (ID: -1524411431002922244) - NOVO. Adicionado.
+2025-11-10 02:31:19,829 - INFO - Tentando extrair dados para o cartão 1...
+2025-11-10 02:31:19,839 - INFO -   Nome encontrado: F&R Climatização
+2025-11-10 02:31:49,847 - WARNING -   Cartão 1: Endereço não encontrado.
+2025-11-10 02:31:49,862 - INFO -   Rating encontrado: 5.0
+2025-11-10 02:31:49,881 - INFO -   Reviews encontrado: 14
+2025-11-10 02:31:49,893 - INFO -   Telefone encontrado: (21) 97989-8465
+2025-11-10 02:32:19,905 - WARNING -   Cartão 1: Website não encontrado ou é um link de anúncio.
+2025-11-10 02:32:19,924 - INFO -   Tipo de negócio encontrado: Prestador de serviços de climatização
+2025-11-10 02:32:19,924 - INFO -   Cartão 1 (ID: -3548017696720946276) - NOVO. Adicionado.
+2025-11-10 02:32:19,926 - INFO - Tentando extrair dados para o cartão 2...
+2025-11-10 02:32:19,944 - INFO -   Nome encontrado: Anjos Climatização e Elétrica
+2025-11-10 02:32:49,956 - WARNING -   Cartão 2: Endereço não encontrado.
+2025-11-10 02:32:49,973 - INFO -   Rating encontrado: 5.0
+2025-11-10 02:32:49,990 - INFO -   Reviews encontrado: 384
+2025-11-10 02:32:50,000 - INFO -   Telefone encontrado: (21) 96551-5169
+2025-11-10 02:32:50,009 - INFO -   Website encontrado: https://anjoscerj.com/
+2025-11-10 02:32:50,018 - INFO -   Tipo de negócio encontrado: Prestador de serviços de climatização
+2025-11-10 02:32:50,018 - INFO -   Cartão 2 (ID: -1497156933704663997) - NOVO. Adicionado.
+2025-11-10 02:32:50,018 - INFO - Tentando extrair dados para o cartão 3...
+2025-11-10 02:32:50,025 - INFO -   Nome encontrado: Th Climatização
+2025-11-10 02:33:20,034 - WARNING -   Cartão 3: Endereço não encontrado.
+2025-11-10 02:33:20,045 - INFO -   Rating encontrado: 5.0
+2025-11-10 02:33:20,056 - INFO -   Reviews encontrado: 97
+2025-11-10 02:33:20,067 - INFO -   Telefone encontrado: (21) 97442-6346
+2025-11-10 02:33:20,076 - INFO -   Website encontrado: https://shre.ink/buNb
+2025-11-10 02:33:20,084 - INFO -   Tipo de negócio encontrado: Prestador de serviços de climatização
+2025-11-10 02:33:20,084 - INFO -   Cartão 3 (ID: -7397315192268909371) - NOVO. Adicionado.
+2025-11-10 02:33:20,084 - INFO - Tentando extrair dados para o cartão 4...
+2025-11-10 02:33:20,091 - INFO -   Nome encontrado: Recigases Ambiental de Refrigeração
+2025-11-10 02:33:20,098 - INFO -   Endereço encontrado:  · Rua General Argolo, 3 - Térreo
+2025-11-10 02:33:20,105 - INFO -   Rating encontrado: 4.7
+2025-11-10 02:33:20,113 - INFO -   Reviews encontrado: 35
+2025-11-10 02:33:20,120 - INFO -   Telefone encontrado: (21) 2580-9296
+2025-11-10 02:33:20,129 - INFO -   Website encontrado: http://www.recigases.com/
+2025-11-10 02:33:20,133 - INFO -   Tipo de negócio encontrado: Fábrica de circuitos de refrigeração
+2025-11-10 02:33:20,133 - INFO -   Cartão 4 (ID: 8487955953177102744) - NOVO. Adicionado.
+2025-11-10 02:33:20,133 - INFO - Tentando extrair dados para o cartão 5...
+2025-11-10 02:33:20,144 - INFO -   Nome encontrado: Loja Midea Carrier
+2025-11-10 02:33:20,150 - INFO -   Endereço encontrado:  · Campo de São Cristóvão, 290
+2025-11-10 02:33:20,159 - INFO -   Rating encontrado: 3.7
+2025-11-10 02:33:20,166 - INFO -   Reviews encontrado: 663
+2025-11-10 02:33:20,173 - INFO -   Telefone encontrado: 0800 555 4466
+2025-11-10 02:33:20,180 - INFO -   Website encontrado: https://www.mideacarrier.com.br/lojas-proprias/loja_riodejaneiro
+2025-11-10 02:33:20,187 - INFO -   Tipo de negócio encontrado: Fornecedor de ar-condicionado
+2025-11-10 02:33:20,187 - INFO -   Cartão 5 (ID: -3848357741102474472) - NOVO. Adicionado.
+2025-11-10 02:33:20,187 - INFO - Tentando extrair dados para o cartão 6...
+2025-11-10 02:33:20,196 - INFO -   Nome encontrado: Paes Serviços - Refrigeração | Instalação - Manutenção - Reparo | Ar Condicionado - Câmara Frigorífica - Ilha de Congelados .
+2025-11-10 02:33:50,208 - WARNING -   Cartão 6: Endereço não encontrado.
+2025-11-10 02:33:50,225 - INFO -   Rating encontrado: 5.0
+2025-11-10 02:33:50,235 - INFO -   Reviews encontrado: 79
+2025-11-10 02:33:50,243 - INFO -   Telefone encontrado: (21) 97173-9111
+2025-11-10 02:33:50,250 - INFO -   Website encontrado: http://www.paesservicos.com/
+2025-11-10 02:33:50,258 - INFO -   Tipo de negócio encontrado: Prestador de serviços de climatização
+2025-11-10 02:33:50,258 - INFO -   Cartão 6 (ID: -1500671275038334985) - NOVO. Adicionado.
+2025-11-10 02:33:50,258 - INFO - Tentando extrair dados para o cartão 7...
+2025-11-10 02:33:50,266 - INFO -   Nome encontrado: MICROQUALITY ® - CURSO PROFISSIONALIZANTE EM DUQUE DE CAXIAS - Refrigeração | Eletricista | Celular | Idosos | Necropsia |
+2025-11-10 02:33:50,275 - INFO -   Endereço encontrado:  · Av. Dr. Plínio Casado, 229
+2025-11-10 02:33:50,282 - INFO -   Rating encontrado: 4.8
+2025-11-10 02:33:50,287 - INFO -   Reviews encontrado: 213
+2025-11-10 02:33:50,293 - INFO -   Telefone encontrado: (21) 2671-1832
+2025-11-10 02:33:50,300 - INFO -   Website encontrado: https://microquality.weebly.com/
+2025-11-10 02:33:50,307 - INFO -   Tipo de negócio encontrado: Centro de treinamento
+2025-11-10 02:33:50,307 - INFO -   Cartão 7 (ID: -1510334603945958852) - NOVO. Adicionado.
+2025-11-10 02:33:50,307 - INFO - Tentando extrair dados para o cartão 8...
+2025-11-10 02:33:50,311 - INFO -   Nome encontrado: Clima Roger
+2025-11-10 02:34:20,327 - WARNING -   Cartão 8: Endereço não encontrado.
+2025-11-10 02:34:20,333 - INFO -   Rating encontrado: 4.9
+2025-11-10 02:34:20,338 - INFO -   Reviews encontrado: 35
+2025-11-10 02:34:20,344 - INFO -   Telefone encontrado: (21) 96418-7497
+2025-11-10 02:34:50,351 - WARNING -   Cartão 8: Website não encontrado ou é um link de anúncio.
+2025-11-10 02:34:50,373 - INFO -   Tipo de negócio encontrado: Prestador de serviços de climatização
+2025-11-10 02:34:50,373 - INFO -   Cartão 8 (ID: -6369685582282244716) - NOVO. Adicionado.
+2025-11-10 02:34:50,375 - INFO - Tentando extrair dados para o cartão 9...
+2025-11-10 02:34:50,383 - INFO -   Nome encontrado: Rioflux Ventiladores Climatizadores Exaustores Coifas Vendas e Locações
+2025-11-10 02:34:50,394 - INFO -   Endereço encontrado:  · R. República De Veneza, 140
+2025-11-10 02:34:50,401 - INFO -   Rating encontrado: 5.0
+2025-11-10 02:34:50,408 - INFO -   Reviews encontrado: 30
+2025-11-10 02:34:50,416 - INFO -   Telefone encontrado: (21) 3424-0482
+2025-11-10 02:34:50,425 - INFO -   Website encontrado: https://rioflux.com/
+2025-11-10 02:34:50,432 - INFO -   Tipo de negócio encontrado: Fornecedor de equipamento
+2025-11-10 02:34:50,432 - INFO -   Cartão 9 (ID: 5262058706008395680) - NOVO. Adicionado.
+2025-11-10 02:34:50,432 - INFO - Novas empresas únicas detectadas nesta rolagem. Resetando contador.
+2025-11-10 02:34:50,462 - INFO - Empresas visíveis antes da rolagem: 10
+2025-11-10 02:34:54,912 - INFO - Empresas visíveis após rolagem: 20
+2025-11-10 02:34:54,913 - INFO - Novas empresas visíveis detectadas: 10
+2025-11-10 02:34:54,913 - INFO - Tentando extrair dados para o cartão 0...
+2025-11-10 02:34:54,921 - INFO -   Nome encontrado: Salvatec
+2025-11-10 02:35:24,940 - WARNING -   Cartão 0: Endereço não encontrado.
+2025-11-10 02:35:24,951 - INFO -   Rating encontrado: 4.8
+2025-11-10 02:35:24,960 - INFO -   Reviews encontrado: 133
+2025-11-10 02:35:24,967 - INFO -   Telefone encontrado: (21) 97014-9588
+2025-11-10 02:35:24,975 - INFO -   Website encontrado: https://www.instagram.com/salvatec.climatizacao/
+2025-11-10 02:35:24,983 - INFO -   Tipo de negócio encontrado: Prestador de serviços de climatização
+2025-11-10 02:35:24,983 - INFO -   Cartão 0 (ID: -1524411431002922244) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:35:24,983 - INFO - Tentando extrair dados para o cartão 1...
+2025-11-10 02:35:24,992 - INFO -   Nome encontrado: F&R Climatização
+2025-11-10 02:35:55,010 - WARNING -   Cartão 1: Endereço não encontrado.
+2025-11-10 02:35:55,020 - INFO -   Rating encontrado: 5.0
+2025-11-10 02:35:55,030 - INFO -   Reviews encontrado: 14
+2025-11-10 02:35:55,038 - INFO -   Telefone encontrado: (21) 97989-8465
+2025-11-10 02:36:25,046 - WARNING -   Cartão 1: Website não encontrado ou é um link de anúncio.
+2025-11-10 02:36:25,065 - INFO -   Tipo de negócio encontrado: Prestador de serviços de climatização
+2025-11-10 02:36:25,065 - INFO -   Cartão 1 (ID: -3548017696720946276) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:36:25,066 - INFO - Tentando extrair dados para o cartão 2...
+2025-11-10 02:36:25,075 - INFO -   Nome encontrado: Anjos Climatização e Elétrica
+2025-11-10 02:36:55,086 - WARNING -   Cartão 2: Endereço não encontrado.
+2025-11-10 02:36:55,092 - INFO -   Rating encontrado: 5.0
+2025-11-10 02:36:55,101 - INFO -   Reviews encontrado: 384
+2025-11-10 02:36:55,108 - INFO -   Telefone encontrado: (21) 96551-5169
+2025-11-10 02:36:55,116 - INFO -   Website encontrado: https://anjoscerj.com/
+2025-11-10 02:36:55,124 - INFO -   Tipo de negócio encontrado: Prestador de serviços de climatização
+2025-11-10 02:36:55,124 - INFO -   Cartão 2 (ID: -1497156933704663997) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:36:55,124 - INFO - Tentando extrair dados para o cartão 3...
+2025-11-10 02:36:55,132 - INFO -   Nome encontrado: Th Climatização
+2025-11-10 02:37:25,139 - WARNING -   Cartão 3: Endereço não encontrado.
+2025-11-10 02:37:25,154 - INFO -   Rating encontrado: 5.0
+2025-11-10 02:37:25,174 - INFO -   Reviews encontrado: 97
+2025-11-10 02:37:25,190 - INFO -   Telefone encontrado: (21) 97442-6346
+2025-11-10 02:37:25,207 - INFO -   Website encontrado: https://shre.ink/buNb
+2025-11-10 02:37:25,219 - INFO -   Tipo de negócio encontrado: Prestador de serviços de climatização
+2025-11-10 02:37:25,219 - INFO -   Cartão 3 (ID: -7397315192268909371) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:37:25,219 - INFO - Tentando extrair dados para o cartão 4...
+2025-11-10 02:37:25,227 - INFO -   Nome encontrado: Recigases Ambiental de Refrigeração
+2025-11-10 02:37:25,236 - INFO -   Endereço encontrado:  · Rua General Argolo, 3 - Térreo
+2025-11-10 02:37:25,244 - INFO -   Rating encontrado: 4.7
+2025-11-10 02:37:25,252 - INFO -   Reviews encontrado: 35
+2025-11-10 02:37:25,260 - INFO -   Telefone encontrado: (21) 2580-9296
+2025-11-10 02:37:25,267 - INFO -   Website encontrado: http://www.recigases.com/
+2025-11-10 02:37:25,275 - INFO -   Tipo de negócio encontrado: Fábrica de circuitos de refrigeração
+2025-11-10 02:37:25,275 - INFO -   Cartão 4 (ID: 8487955953177102744) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:37:25,275 - INFO - Tentando extrair dados para o cartão 5...
+2025-11-10 02:37:25,282 - INFO -   Nome encontrado: Loja Midea Carrier
+2025-11-10 02:37:25,289 - INFO -   Endereço encontrado:  · Campo de São Cristóvão, 290
+2025-11-10 02:37:25,297 - INFO -   Rating encontrado: 3.7
+2025-11-10 02:37:25,305 - INFO -   Reviews encontrado: 663
+2025-11-10 02:37:25,312 - INFO -   Telefone encontrado: 0800 555 4466
+2025-11-10 02:37:25,320 - INFO -   Website encontrado: https://www.mideacarrier.com.br/lojas-proprias/loja_riodejaneiro
+2025-11-10 02:37:25,328 - INFO -   Tipo de negócio encontrado: Fornecedor de ar-condicionado
+2025-11-10 02:37:25,328 - INFO -   Cartão 5 (ID: -3848357741102474472) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:37:25,328 - INFO - Tentando extrair dados para o cartão 6...
+2025-11-10 02:37:25,336 - INFO -   Nome encontrado: Paes Serviços - Refrigeração | Instalação - Manutenção - Reparo | Ar Condicionado - Câmara Frigorífica - Ilha de Congelados .
+2025-11-10 02:37:55,353 - WARNING -   Cartão 6: Endereço não encontrado.
+2025-11-10 02:37:55,371 - INFO -   Rating encontrado: 5.0
+2025-11-10 02:37:55,385 - INFO -   Reviews encontrado: 79
+2025-11-10 02:37:55,393 - INFO -   Telefone encontrado: (21) 97173-9111
+2025-11-10 02:37:55,407 - INFO -   Website encontrado: http://www.paesservicos.com/
+2025-11-10 02:37:55,417 - INFO -   Tipo de negócio encontrado: Prestador de serviços de climatização
+2025-11-10 02:37:55,417 - INFO -   Cartão 6 (ID: -1500671275038334985) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:37:55,417 - INFO - Tentando extrair dados para o cartão 7...
+2025-11-10 02:37:55,428 - INFO -   Nome encontrado: MICROQUALITY ® - CURSO PROFISSIONALIZANTE EM DUQUE DE CAXIAS - Refrigeração | Eletricista | Celular | Idosos | Necropsia |
+2025-11-10 02:37:55,436 - INFO -   Endereço encontrado:  · Av. Dr. Plínio Casado, 229
+2025-11-10 02:37:55,445 - INFO -   Rating encontrado: 4.8
+2025-11-10 02:37:55,455 - INFO -   Reviews encontrado: 213
+2025-11-10 02:37:55,464 - INFO -   Telefone encontrado: (21) 2671-1832
+2025-11-10 02:37:55,472 - INFO -   Website encontrado: https://microquality.weebly.com/
+2025-11-10 02:37:55,480 - INFO -   Tipo de negócio encontrado: Centro de treinamento
+2025-11-10 02:37:55,480 - INFO -   Cartão 7 (ID: -1510334603945958852) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:37:55,480 - INFO - Tentando extrair dados para o cartão 8...
+2025-11-10 02:37:55,490 - INFO -   Nome encontrado: Clima Roger
+2025-11-10 02:38:25,506 - WARNING -   Cartão 8: Endereço não encontrado.
+2025-11-10 02:38:25,526 - INFO -   Rating encontrado: 4.9
+2025-11-10 02:38:25,540 - INFO -   Reviews encontrado: 35
+2025-11-10 02:38:25,548 - INFO -   Telefone encontrado: (21) 96418-7497
+2025-11-10 02:38:55,560 - WARNING -   Cartão 8: Website não encontrado ou é um link de anúncio.
+2025-11-10 02:38:55,578 - INFO -   Tipo de negócio encontrado: Prestador de serviços de climatização
+2025-11-10 02:38:55,578 - INFO -   Cartão 8 (ID: -6369685582282244716) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:38:55,578 - INFO - Tentando extrair dados para o cartão 9...
+2025-11-10 02:38:55,594 - INFO -   Nome encontrado: Rioflux Ventiladores Climatizadores Exaustores Coifas Vendas e Locações
+2025-11-10 02:38:55,608 - INFO -   Endereço encontrado:  · R. República De Veneza, 140
+2025-11-10 02:38:55,617 - INFO -   Rating encontrado: 5.0
+2025-11-10 02:38:55,627 - INFO -   Reviews encontrado: 30
+2025-11-10 02:38:55,634 - INFO -   Telefone encontrado: (21) 3424-0482
+2025-11-10 02:38:55,644 - INFO -   Website encontrado: https://rioflux.com/
+2025-11-10 02:38:55,652 - INFO -   Tipo de negócio encontrado: Fornecedor de equipamento
+2025-11-10 02:38:55,652 - INFO -   Cartão 9 (ID: 5262058706008395680) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:38:55,652 - INFO - Tentando extrair dados para o cartão 10...
+2025-11-10 02:38:55,660 - INFO -   Nome encontrado: Frioline
+2025-11-10 02:38:55,669 - INFO -   Endereço encontrado:  · Estrada Intendente Magalhães, 413
+2025-11-10 02:38:55,676 - INFO -   Rating encontrado: 4.6
+2025-11-10 02:38:55,684 - WARNING -   Cartão 10: Reviews não encontrado.
+2025-11-10 02:38:55,693 - INFO -   Telefone encontrado: (21) 3359-8354
+2025-11-10 02:38:55,702 - INFO -   Website encontrado: http://www.frioline.com.br/
+2025-11-10 02:38:55,709 - INFO -   Tipo de negócio encontrado: Serviço de ar condicionado automotivo
+2025-11-10 02:38:55,709 - INFO -   Cartão 10 (ID: -5096539096250878377) - NOVO. Adicionado.
+2025-11-10 02:38:55,709 - INFO - Tentando extrair dados para o cartão 11...
+2025-11-10 02:38:55,718 - INFO -   Nome encontrado: Qualidade Ar Condicionado - Engenharia e Climatização
+2025-11-10 02:39:25,725 - WARNING -   Cartão 11: Endereço não encontrado.
+2025-11-10 02:39:25,731 - INFO -   Rating encontrado: 4.7
+2025-11-10 02:39:25,736 - INFO -   Reviews encontrado: 30
+2025-11-10 02:39:25,743 - INFO -   Telefone encontrado: (11) 2155-0989
+2025-11-10 02:39:25,748 - INFO -   Website encontrado: https://qualidadear.com.br/
+2025-11-10 02:39:25,755 - INFO -   Tipo de negócio encontrado: Fornecedor de ar-condicionado
+2025-11-10 02:39:25,755 - INFO -   Cartão 11 (ID: 5896248247608589928) - NOVO. Adicionado.
+2025-11-10 02:39:25,756 - INFO - Tentando extrair dados para o cartão 12...
+2025-11-10 02:39:25,762 - INFO -   Nome encontrado: CAPRERJ
+2025-11-10 02:39:25,771 - INFO -   Endereço encontrado:  · Avenida Ministro Edgard Romero 206, Terceiro andar
+2025-11-10 02:39:25,779 - INFO -   Rating encontrado: 4.9
+2025-11-10 02:39:25,785 - INFO -   Reviews encontrado: 414
+2025-11-10 02:39:25,792 - INFO -   Telefone encontrado: (21) 97030-6788
+2025-11-10 02:39:25,800 - INFO -   Website encontrado: http://www.cursocaprerj.com.br/
+2025-11-10 02:39:25,807 - INFO -   Tipo de negócio encontrado: Escola preparatória
+2025-11-10 02:39:25,807 - INFO -   Cartão 12 (ID: 5710438463124062919) - NOVO. Adicionado.
+2025-11-10 02:39:25,807 - INFO - Tentando extrair dados para o cartão 13...
+2025-11-10 02:39:25,813 - INFO -   Nome encontrado: Fixmaster
+2025-11-10 02:39:25,822 - INFO -   Endereço encontrado:  · Av. Nossa Sra. de Copacabana, 435 - sala 611
+2025-11-10 02:39:25,830 - INFO -   Rating encontrado: 4.2
+2025-11-10 02:39:25,838 - INFO -   Reviews encontrado: 65
+2025-11-10 02:39:25,846 - INFO -   Telefone encontrado: (21) 2599-0099
+2025-11-10 02:39:25,854 - INFO -   Website encontrado: https://www.fixmaster.com.br/
+2025-11-10 02:39:25,864 - INFO -   Tipo de negócio encontrado: Empresa de aquecedores
+2025-11-10 02:39:25,864 - INFO -   Cartão 13 (ID: 8281599089544112234) - NOVO. Adicionado.
+2025-11-10 02:39:25,864 - INFO - Tentando extrair dados para o cartão 14...
+2025-11-10 02:39:25,872 - INFO -   Nome encontrado: Hamilton instalações elétricas cabeamentos estruturados e fotovoltaica
+2025-11-10 02:39:55,876 - WARNING -   Cartão 14: Endereço não encontrado.
+2025-11-10 02:39:55,888 - INFO -   Rating encontrado: 5.0
+2025-11-10 02:39:55,899 - INFO -   Reviews encontrado: 1
+2025-11-10 02:39:55,907 - INFO -   Telefone encontrado: (21) 96962-1040
+2025-11-10 02:40:25,915 - WARNING -   Cartão 14: Website não encontrado ou é um link de anúncio.
+2025-11-10 02:40:25,928 - INFO -   Tipo de negócio encontrado: Eletricista
+2025-11-10 02:40:25,928 - INFO -   Cartão 14 (ID: -1935027844386229877) - NOVO. Adicionado.
+2025-11-10 02:40:25,928 - INFO - Tentando extrair dados para o cartão 15...
+2025-11-10 02:40:25,938 - INFO -   Nome encontrado: Eletricista Certificado Renan Mello – Seropédica e Região RJ
+2025-11-10 02:40:55,949 - WARNING -   Cartão 15: Endereço não encontrado.
+2025-11-10 02:40:55,972 - INFO -   Rating encontrado: 5.0
+2025-11-10 02:40:55,991 - INFO -   Reviews encontrado: 86
+2025-11-10 02:40:56,003 - INFO -   Telefone encontrado: (21) 97176-9814
+2025-11-10 02:41:26,019 - WARNING -   Cartão 15: Website não encontrado ou é um link de anúncio.
+2025-11-10 02:41:26,034 - INFO -   Tipo de negócio encontrado: Eletricista
+2025-11-10 02:41:26,034 - INFO -   Cartão 15 (ID: 7507903912101712029) - NOVO. Adicionado.
+2025-11-10 02:41:26,034 - INFO - Tentando extrair dados para o cartão 16...
+2025-11-10 02:41:26,047 - INFO -   Nome encontrado: Clima refrigeração
+2025-11-10 02:41:56,056 - WARNING -   Cartão 16: Endereço não encontrado.
+2025-11-10 02:41:56,068 - INFO -   Rating encontrado: 5.0
+2025-11-10 02:41:56,078 - INFO -   Reviews encontrado: 25
+2025-11-10 02:41:56,087 - INFO -   Telefone encontrado: (21) 98247-0428
+2025-11-10 02:41:56,093 - INFO -   Website encontrado: https://climarefrigeracao.agenciabalboa.com.br/
+2025-11-10 02:41:56,105 - INFO -   Tipo de negócio encontrado: Serviço de conserto de refrigeradores
+2025-11-10 02:41:56,106 - INFO -   Cartão 16 (ID: 7689417941412850227) - NOVO. Adicionado.
+2025-11-10 02:41:56,106 - INFO - Tentando extrair dados para o cartão 17...
+2025-11-10 02:41:56,113 - INFO -   Nome encontrado: Eletricista Credenciado Light/Enel -Postes de Concreto/ Galvanizado homologado pela Light venda e instalação
+2025-11-10 02:42:26,121 - WARNING -   Cartão 17: Endereço não encontrado.
+2025-11-10 02:42:26,132 - INFO -   Rating encontrado: 5.0
+2025-11-10 02:42:26,139 - INFO -   Reviews encontrado: 403
+2025-11-10 02:42:26,149 - INFO -   Telefone encontrado: (21) 97745-1204
+2025-11-10 02:42:26,158 - INFO -   Website encontrado: https://www.instagram.com/eletricistacredenciadorj?igsh=MWI3dXdxbTQxazgxcg==
+2025-11-10 02:42:26,168 - INFO -   Tipo de negócio encontrado: Eletricista
+2025-11-10 02:42:26,168 - INFO -   Cartão 17 (ID: -5851935353742525785) - NOVO. Adicionado.
+2025-11-10 02:42:26,168 - INFO - Tentando extrair dados para o cartão 18...
+2025-11-10 02:42:26,177 - INFO -   Nome encontrado: Royce Connect Ar Condicionado para Veículos Ltda
+2025-11-10 02:42:56,194 - WARNING -   Cartão 18: Endereço não encontrado.
+2025-11-10 02:42:56,203 - INFO -   Rating encontrado: 4.3
+2025-11-10 02:42:56,211 - INFO -   Reviews encontrado: 53
+2025-11-10 02:42:56,223 - INFO -   Telefone encontrado: (21) 2391-7800
+2025-11-10 02:42:56,232 - INFO -   Website encontrado: https://www.royce.com.br/
+2025-11-10 02:42:56,242 - INFO -   Tipo de negócio encontrado: Fornecedor de ar-condicionado
+2025-11-10 02:42:56,242 - INFO -   Cartão 18 (ID: 6817347043806146416) - NOVO. Adicionado.
+2025-11-10 02:42:56,242 - INFO - Tentando extrair dados para o cartão 19...
+2025-11-10 02:42:56,254 - INFO -   Nome encontrado: PARA CARROS, CAMINHÕES , TRATORES E MAQUINAS AGRICOLAS/ MECÂNICA EM GERAL
+2025-11-10 02:42:56,264 - INFO -   Endereço encontrado:  · Av. Nelson Cardoso, 138
+2025-11-10 02:42:56,270 - INFO -   Rating encontrado: 4.5
+2025-11-10 02:42:56,278 - INFO -   Reviews encontrado: 39
+2025-11-10 02:42:56,283 - INFO -   Telefone encontrado: (21) 96435-4543
+2025-11-10 02:43:26,298 - WARNING -   Cartão 19: Website não encontrado ou é um link de anúncio.
+2025-11-10 02:43:26,308 - INFO -   Tipo de negócio encontrado: Oficina mecânica
+2025-11-10 02:43:26,308 - INFO -   Cartão 19 (ID: -5999833995840940658) - NOVO. Adicionado.
+2025-11-10 02:43:26,308 - INFO - Novas empresas únicas detectadas nesta rolagem. Resetando contador.
+2025-11-10 02:43:26,358 - INFO - Empresas visíveis antes da rolagem: 20
+2025-11-10 02:43:33,139 - INFO - Empresas visíveis após rolagem: 20
+2025-11-10 02:43:33,139 - INFO - Nenhuma nova empresa visível detectada. Contador: 1/2
+2025-11-10 02:43:33,139 - INFO - Tentando extrair dados para o cartão 0...
+2025-11-10 02:43:33,144 - INFO -   Nome encontrado: Salvatec
+2025-11-10 02:44:03,150 - WARNING -   Cartão 0: Endereço não encontrado.
+2025-11-10 02:44:03,156 - INFO -   Rating encontrado: 4.8
+2025-11-10 02:44:03,160 - INFO -   Reviews encontrado: 133
+2025-11-10 02:44:03,170 - INFO -   Telefone encontrado: (21) 97014-9588
+2025-11-10 02:44:03,178 - INFO -   Website encontrado: https://www.instagram.com/salvatec.climatizacao/
+2025-11-10 02:44:03,188 - INFO -   Tipo de negócio encontrado: Prestador de serviços de climatização
+2025-11-10 02:44:03,188 - INFO -   Cartão 0 (ID: -1524411431002922244) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:44:03,188 - INFO - Tentando extrair dados para o cartão 1...
+2025-11-10 02:44:03,198 - INFO -   Nome encontrado: F&R Climatização
+2025-11-10 02:44:33,220 - WARNING -   Cartão 1: Endereço não encontrado.
+2025-11-10 02:44:33,234 - INFO -   Rating encontrado: 5.0
+2025-11-10 02:44:33,249 - INFO -   Reviews encontrado: 14
+2025-11-10 02:44:33,262 - INFO -   Telefone encontrado: (21) 97989-8465
+2025-11-10 02:45:03,275 - WARNING -   Cartão 1: Website não encontrado ou é um link de anúncio.
+2025-11-10 02:45:03,296 - INFO -   Tipo de negócio encontrado: Prestador de serviços de climatização
+2025-11-10 02:45:03,296 - INFO -   Cartão 1 (ID: -3548017696720946276) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:45:03,296 - INFO - Tentando extrair dados para o cartão 2...
+2025-11-10 02:45:03,310 - INFO -   Nome encontrado: Anjos Climatização e Elétrica
+2025-11-10 02:45:33,325 - WARNING -   Cartão 2: Endereço não encontrado.
+2025-11-10 02:45:33,334 - INFO -   Rating encontrado: 5.0
+2025-11-10 02:45:33,351 - INFO -   Reviews encontrado: 384
+2025-11-10 02:45:33,369 - INFO -   Telefone encontrado: (21) 96551-5169
+2025-11-10 02:45:33,376 - INFO -   Website encontrado: https://anjoscerj.com/
+2025-11-10 02:45:33,383 - INFO -   Tipo de negócio encontrado: Prestador de serviços de climatização
+2025-11-10 02:45:33,383 - INFO -   Cartão 2 (ID: -1497156933704663997) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:45:33,383 - INFO - Tentando extrair dados para o cartão 3...
+2025-11-10 02:45:33,390 - INFO -   Nome encontrado: Th Climatização
+2025-11-10 02:46:03,409 - WARNING -   Cartão 3: Endereço não encontrado.
+2025-11-10 02:46:03,424 - INFO -   Rating encontrado: 5.0
+2025-11-10 02:46:03,439 - INFO -   Reviews encontrado: 97
+2025-11-10 02:46:03,450 - INFO -   Telefone encontrado: (21) 97442-6346
+2025-11-10 02:46:03,461 - INFO -   Website encontrado: https://shre.ink/buNb
+2025-11-10 02:46:03,470 - INFO -   Tipo de negócio encontrado: Prestador de serviços de climatização
+2025-11-10 02:46:03,471 - INFO -   Cartão 3 (ID: -7397315192268909371) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:46:03,471 - INFO - Tentando extrair dados para o cartão 4...
+2025-11-10 02:46:03,479 - INFO -   Nome encontrado: Recigases Ambiental de Refrigeração
+2025-11-10 02:46:03,487 - INFO -   Endereço encontrado:  · Rua General Argolo, 3 - Térreo
+2025-11-10 02:46:03,494 - INFO -   Rating encontrado: 4.7
+2025-11-10 02:46:03,502 - INFO -   Reviews encontrado: 35
+2025-11-10 02:46:03,512 - INFO -   Telefone encontrado: (21) 2580-9296
+2025-11-10 02:46:03,518 - INFO -   Website encontrado: http://www.recigases.com/
+2025-11-10 02:46:03,526 - INFO -   Tipo de negócio encontrado: Fábrica de circuitos de refrigeração
+2025-11-10 02:46:03,526 - INFO -   Cartão 4 (ID: 8487955953177102744) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:46:03,526 - INFO - Tentando extrair dados para o cartão 5...
+2025-11-10 02:46:03,534 - INFO -   Nome encontrado: Loja Midea Carrier
+2025-11-10 02:46:03,542 - INFO -   Endereço encontrado:  · Campo de São Cristóvão, 290
+2025-11-10 02:46:03,549 - INFO -   Rating encontrado: 3.7
+2025-11-10 02:46:03,556 - INFO -   Reviews encontrado: 663
+2025-11-10 02:46:03,566 - INFO -   Telefone encontrado: 0800 555 4466
+2025-11-10 02:46:03,577 - INFO -   Website encontrado: https://www.mideacarrier.com.br/lojas-proprias/loja_riodejaneiro
+2025-11-10 02:46:03,588 - INFO -   Tipo de negócio encontrado: Fornecedor de ar-condicionado
+2025-11-10 02:46:03,588 - INFO -   Cartão 5 (ID: -3848357741102474472) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:46:03,588 - INFO - Tentando extrair dados para o cartão 6...
+2025-11-10 02:46:03,600 - INFO -   Nome encontrado: Paes Serviços - Refrigeração | Instalação - Manutenção - Reparo | Ar Condicionado - Câmara Frigorífica - Ilha de Congelados .
+2025-11-10 02:46:33,609 - WARNING -   Cartão 6: Endereço não encontrado.
+2025-11-10 02:46:33,616 - INFO -   Rating encontrado: 5.0
+2025-11-10 02:46:33,624 - INFO -   Reviews encontrado: 79
+2025-11-10 02:46:33,633 - INFO -   Telefone encontrado: (21) 97173-9111
+2025-11-10 02:46:33,636 - INFO -   Website encontrado: http://www.paesservicos.com/
+2025-11-10 02:46:33,636 - INFO -   Tipo de negócio encontrado: Prestador de serviços de climatização
+2025-11-10 02:46:33,646 - INFO -   Cartão 6 (ID: -1500671275038334985) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:46:33,646 - INFO - Tentando extrair dados para o cartão 7...
+2025-11-10 02:46:33,654 - INFO -   Nome encontrado: MICROQUALITY ® - CURSO PROFISSIONALIZANTE EM DUQUE DE CAXIAS - Refrigeração | Eletricista | Celular | Idosos | Necropsia |
+2025-11-10 02:46:33,661 - INFO -   Endereço encontrado:  · Av. Dr. Plínio Casado, 229
+2025-11-10 02:46:33,669 - INFO -   Rating encontrado: 4.8
+2025-11-10 02:46:33,676 - INFO -   Reviews encontrado: 213
+2025-11-10 02:46:33,683 - INFO -   Telefone encontrado: (21) 2671-1832
+2025-11-10 02:46:33,691 - INFO -   Website encontrado: https://microquality.weebly.com/
+2025-11-10 02:46:33,699 - INFO -   Tipo de negócio encontrado: Centro de treinamento
+2025-11-10 02:46:33,699 - INFO -   Cartão 7 (ID: -1510334603945958852) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:46:33,699 - INFO - Tentando extrair dados para o cartão 8...
+2025-11-10 02:46:33,707 - INFO -   Nome encontrado: Clima Roger
+2025-11-10 02:47:03,722 - WARNING -   Cartão 8: Endereço não encontrado.
+2025-11-10 02:47:03,740 - INFO -   Rating encontrado: 4.9
+2025-11-10 02:47:03,757 - INFO -   Reviews encontrado: 35
+2025-11-10 02:47:03,765 - INFO -   Telefone encontrado: (21) 96418-7497
+2025-11-10 02:47:33,783 - WARNING -   Cartão 8: Website não encontrado ou é um link de anúncio.
+2025-11-10 02:47:33,794 - INFO -   Tipo de negócio encontrado: Prestador de serviços de climatização
+2025-11-10 02:47:33,794 - INFO -   Cartão 8 (ID: -6369685582282244716) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:47:33,795 - INFO - Tentando extrair dados para o cartão 9...
+2025-11-10 02:47:33,804 - INFO -   Nome encontrado: Rioflux Ventiladores Climatizadores Exaustores Coifas Vendas e Locações
+2025-11-10 02:47:33,814 - INFO -   Endereço encontrado:  · R. República De Veneza, 140
+2025-11-10 02:47:33,828 - INFO -   Rating encontrado: 5.0
+2025-11-10 02:47:33,843 - INFO -   Reviews encontrado: 30
+2025-11-10 02:47:33,856 - INFO -   Telefone encontrado: (21) 3424-0482
+2025-11-10 02:47:33,868 - INFO -   Website encontrado: https://rioflux.com/
+2025-11-10 02:47:33,878 - INFO -   Tipo de negócio encontrado: Fornecedor de equipamento
+2025-11-10 02:47:33,879 - INFO -   Cartão 9 (ID: 5262058706008395680) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:47:33,879 - INFO - Tentando extrair dados para o cartão 10...
+2025-11-10 02:47:33,886 - INFO -   Nome encontrado: Frioline
+2025-11-10 02:47:33,892 - INFO -   Endereço encontrado:  · Estrada Intendente Magalhães, 413
+2025-11-10 02:47:33,902 - INFO -   Rating encontrado: 4.6
+2025-11-10 02:47:33,910 - WARNING -   Cartão 10: Reviews não encontrado.
+2025-11-10 02:47:33,920 - INFO -   Telefone encontrado: (21) 3359-8354
+2025-11-10 02:47:33,930 - INFO -   Website encontrado: http://www.frioline.com.br/
+2025-11-10 02:47:33,939 - INFO -   Tipo de negócio encontrado: Serviço de ar condicionado automotivo
+2025-11-10 02:47:33,939 - INFO -   Cartão 10 (ID: -5096539096250878377) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:47:33,939 - INFO - Tentando extrair dados para o cartão 11...
+2025-11-10 02:47:33,947 - INFO -   Nome encontrado: Qualidade Ar Condicionado - Engenharia e Climatização
+2025-11-10 02:48:03,954 - WARNING -   Cartão 11: Endereço não encontrado.
+2025-11-10 02:48:03,973 - INFO -   Rating encontrado: 4.7
+2025-11-10 02:48:03,988 - INFO -   Reviews encontrado: 30
+2025-11-10 02:48:03,998 - INFO -   Telefone encontrado: (11) 2155-0989
+2025-11-10 02:48:04,007 - INFO -   Website encontrado: https://qualidadear.com.br/
+2025-11-10 02:48:04,016 - INFO -   Tipo de negócio encontrado: Fornecedor de ar-condicionado
+2025-11-10 02:48:04,017 - INFO -   Cartão 11 (ID: 5896248247608589928) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:48:04,017 - INFO - Tentando extrair dados para o cartão 12...
+2025-11-10 02:48:04,026 - INFO -   Nome encontrado: CAPRERJ
+2025-11-10 02:48:04,033 - INFO -   Endereço encontrado:  · Avenida Ministro Edgard Romero 206, Terceiro andar
+2025-11-10 02:48:04,042 - INFO -   Rating encontrado: 4.9
+2025-11-10 02:48:04,049 - INFO -   Reviews encontrado: 414
+2025-11-10 02:48:04,056 - INFO -   Telefone encontrado: (21) 97030-6788
+2025-11-10 02:48:04,059 - INFO -   Website encontrado: http://www.cursocaprerj.com.br/
+2025-11-10 02:48:04,074 - INFO -   Tipo de negócio encontrado: Escola preparatória
+2025-11-10 02:48:04,074 - INFO -   Cartão 12 (ID: 5710438463124062919) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:48:04,074 - INFO - Tentando extrair dados para o cartão 13...
+2025-11-10 02:48:04,081 - INFO -   Nome encontrado: Fixmaster
+2025-11-10 02:48:04,089 - INFO -   Endereço encontrado:  · Av. Nossa Sra. de Copacabana, 435 - sala 611
+2025-11-10 02:48:04,096 - INFO -   Rating encontrado: 4.2
+2025-11-10 02:48:04,104 - INFO -   Reviews encontrado: 65
+2025-11-10 02:48:04,112 - INFO -   Telefone encontrado: (21) 2599-0099
+2025-11-10 02:48:04,121 - INFO -   Website encontrado: https://www.fixmaster.com.br/
+2025-11-10 02:48:04,131 - INFO -   Tipo de negócio encontrado: Empresa de aquecedores
+2025-11-10 02:48:04,131 - INFO -   Cartão 13 (ID: 8281599089544112234) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:48:04,131 - INFO - Tentando extrair dados para o cartão 14...
+2025-11-10 02:48:04,140 - INFO -   Nome encontrado: Hamilton instalações elétricas cabeamentos estruturados e fotovoltaica
+2025-11-10 02:48:34,158 - WARNING -   Cartão 14: Endereço não encontrado.
+2025-11-10 02:48:34,169 - INFO -   Rating encontrado: 5.0
+2025-11-10 02:48:34,178 - INFO -   Reviews encontrado: 1
+2025-11-10 02:48:34,184 - INFO -   Telefone encontrado: (21) 96962-1040
+2025-11-10 02:49:04,191 - WARNING -   Cartão 14: Website não encontrado ou é um link de anúncio.
+2025-11-10 02:49:04,203 - INFO -   Tipo de negócio encontrado: Eletricista
+2025-11-10 02:49:04,204 - INFO -   Cartão 14 (ID: -1935027844386229877) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:49:04,204 - INFO - Tentando extrair dados para o cartão 15...
+2025-11-10 02:49:04,213 - INFO -   Nome encontrado: Eletricista Certificado Renan Mello – Seropédica e Região RJ
+2025-11-10 02:49:34,227 - WARNING -   Cartão 15: Endereço não encontrado.
+2025-11-10 02:49:34,234 - INFO -   Rating encontrado: 5.0
+2025-11-10 02:49:34,236 - INFO -   Reviews encontrado: 86
+2025-11-10 02:49:34,247 - INFO -   Telefone encontrado: (21) 97176-9814
+2025-11-10 02:50:04,259 - WARNING -   Cartão 15: Website não encontrado ou é um link de anúncio.
+2025-11-10 02:50:04,271 - INFO -   Tipo de negócio encontrado: Eletricista
+2025-11-10 02:50:04,272 - INFO -   Cartão 15 (ID: 7507903912101712029) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:50:04,272 - INFO - Tentando extrair dados para o cartão 16...
+2025-11-10 02:50:04,282 - INFO -   Nome encontrado: Clima refrigeração
+2025-11-10 02:50:34,291 - WARNING -   Cartão 16: Endereço não encontrado.
+2025-11-10 02:50:34,304 - INFO -   Rating encontrado: 5.0
+2025-11-10 02:50:34,319 - INFO -   Reviews encontrado: 25
+2025-11-10 02:50:34,334 - INFO -   Telefone encontrado: (21) 98247-0428
+2025-11-10 02:50:34,347 - INFO -   Website encontrado: https://climarefrigeracao.agenciabalboa.com.br/
+2025-11-10 02:50:34,360 - INFO -   Tipo de negócio encontrado: Serviço de conserto de refrigeradores
+2025-11-10 02:50:34,360 - INFO -   Cartão 16 (ID: 7689417941412850227) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:50:34,360 - INFO - Tentando extrair dados para o cartão 17...
+2025-11-10 02:50:34,368 - INFO -   Nome encontrado: Eletricista Credenciado Light/Enel -Postes de Concreto/ Galvanizado homologado pela Light venda e instalação
+2025-11-10 02:51:04,381 - WARNING -   Cartão 17: Endereço não encontrado.
+2025-11-10 02:51:04,388 - INFO -   Rating encontrado: 5.0
+2025-11-10 02:51:04,405 - INFO -   Reviews encontrado: 403
+2025-11-10 02:51:04,413 - INFO -   Telefone encontrado: (21) 97745-1204
+2025-11-10 02:51:04,420 - INFO -   Website encontrado: https://www.instagram.com/eletricistacredenciadorj?igsh=MWI3dXdxbTQxazgxcg==
+2025-11-10 02:51:04,429 - INFO -   Tipo de negócio encontrado: Eletricista
+2025-11-10 02:51:04,429 - INFO -   Cartão 17 (ID: -5851935353742525785) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:51:04,429 - INFO - Tentando extrair dados para o cartão 18...
+2025-11-10 02:51:04,435 - INFO -   Nome encontrado: Royce Connect Ar Condicionado para Veículos Ltda
+2025-11-10 02:51:34,453 - WARNING -   Cartão 18: Endereço não encontrado.
+2025-11-10 02:51:34,466 - INFO -   Rating encontrado: 4.3
+2025-11-10 02:51:34,473 - INFO -   Reviews encontrado: 53
+2025-11-10 02:51:34,483 - INFO -   Telefone encontrado: (21) 2391-7800
+2025-11-10 02:51:34,492 - INFO -   Website encontrado: https://www.royce.com.br/
+2025-11-10 02:51:34,501 - INFO -   Tipo de negócio encontrado: Fornecedor de ar-condicionado
+2025-11-10 02:51:34,502 - INFO -   Cartão 18 (ID: 6817347043806146416) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:51:34,502 - INFO - Tentando extrair dados para o cartão 19...
+2025-11-10 02:51:34,511 - INFO -   Nome encontrado: PARA CARROS, CAMINHÕES , TRATORES E MAQUINAS AGRICOLAS/ MECÂNICA EM GERAL
+2025-11-10 02:51:34,518 - INFO -   Endereço encontrado:  · Av. Nelson Cardoso, 138
+2025-11-10 02:51:34,527 - INFO -   Rating encontrado: 4.5
+2025-11-10 02:51:34,535 - INFO -   Reviews encontrado: 39
+2025-11-10 02:51:34,543 - INFO -   Telefone encontrado: (21) 96435-4543
+2025-11-10 02:52:04,558 - WARNING -   Cartão 19: Website não encontrado ou é um link de anúncio.
+2025-11-10 02:52:04,574 - INFO -   Tipo de negócio encontrado: Oficina mecânica
+2025-11-10 02:52:04,575 - INFO -   Cartão 19 (ID: -5999833995840940658) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:52:04,575 - INFO - Nenhuma nova empresa única detectada. Contador: 2/2
+2025-11-10 02:52:04,575 - INFO - Limite de não encontrar novas empresas únicas atingido. Parando a rolagem.
+2025-11-10 02:52:04,640 - INFO - Conteúdo HTML da página salvo em results\debug_page_content.html para depuração.
+2025-11-10 02:52:05,592 - INFO - Navegador fechado.
+2025-11-10 02:52:05,613 - INFO - Aguardando 8.12 segundos antes da próxima requisição para evitar bloqueio...
+2025-11-10 02:52:13,734 - INFO - Iniciando busca para o nicho 'Auditoria de ruído urbano e isolamento acústico' na cidade 'Rio de Janeiro'.
+2025-11-10 02:52:15,286 - INFO - Navegando para o Google Maps para buscar 'Auditoria de ruído urbano e isolamento acústico' em 'Rio de Janeiro'...
+2025-11-10 02:52:25,394 - INFO - Pop-up de cookies não encontrado ou já aceito.
+2025-11-10 02:52:34,181 - INFO - Busca realizada. Aguardando resultados...
+2025-11-10 02:52:37,626 - ERROR - Elemento rolável não encontrado ou não visível.
+2025-11-10 02:52:38,285 - INFO - Conteúdo HTML da página salvo em results\debug_page_content.html para depuração.
+2025-11-10 02:52:38,882 - INFO - Navegador fechado.
+2025-11-10 02:52:38,909 - INFO - Aguardando 8.59 segundos antes da próxima requisição para evitar bloqueio...
+2025-11-10 02:52:47,504 - INFO - Iniciando busca para o nicho 'Gestão e descarte técnico de resíduos de obras' na cidade 'Rio de Janeiro'.
+2025-11-10 02:52:49,065 - INFO - Navegando para o Google Maps para buscar 'Gestão e descarte técnico de resíduos de obras' em 'Rio de Janeiro'...
+2025-11-10 02:52:58,824 - INFO - Pop-up de cookies não encontrado ou já aceito.
+2025-11-10 02:53:05,277 - INFO - Busca realizada. Aguardando resultados...
+2025-11-10 02:53:08,554 - INFO - Empresas visíveis antes da rolagem: 9
+2025-11-10 02:53:14,800 - INFO - Empresas visíveis após rolagem: 9
+2025-11-10 02:53:14,800 - INFO - Nenhuma nova empresa visível detectada. Contador: 1/2
+2025-11-10 02:53:14,800 - INFO - Tentando extrair dados para o cartão 0...
+2025-11-10 02:53:14,809 - INFO -   Nome encontrado: Coleta de Lixo Eletrônico sem custo
+2025-11-10 02:53:44,829 - WARNING -   Cartão 0: Endereço não encontrado.
+2025-11-10 02:53:44,850 - INFO -   Rating encontrado: 4.5
+2025-11-10 02:53:44,868 - INFO -   Reviews encontrado: 64
+2025-11-10 02:53:44,880 - INFO -   Telefone encontrado: (21) 98381-0591
+2025-11-10 02:54:14,891 - WARNING -   Cartão 0: Website não encontrado ou é um link de anúncio.
+2025-11-10 02:54:14,904 - INFO -   Tipo de negócio encontrado: Centro de Reciclagem
+2025-11-10 02:54:14,904 - INFO -   Cartão 0 (ID: -1436713480787149580) - NOVO. Adicionado.
+2025-11-10 02:54:14,904 - INFO - Tentando extrair dados para o cartão 1...
+2025-11-10 02:54:14,915 - INFO -   Nome encontrado: Ecológica Coleta e Destinação de Resíduos Químicos Ltda.
+2025-11-10 02:54:44,925 - WARNING -   Cartão 1: Endereço não encontrado.
+2025-11-10 02:54:44,938 - INFO -   Rating encontrado: 5.0
+2025-11-10 02:54:44,947 - INFO -   Reviews encontrado: 1
+2025-11-10 02:54:44,956 - INFO -   Telefone encontrado: (21) 99721-7458
+2025-11-10 02:54:44,961 - INFO -   Website encontrado: https://ecologicacoletarj.com.br/
+2025-11-10 02:54:44,971 - INFO -   Tipo de negócio encontrado: Serviço de coleta de lixo
+2025-11-10 02:54:44,971 - INFO -   Cartão 1 (ID: -1711912329757092913) - NOVO. Adicionado.
+2025-11-10 02:54:44,971 - INFO - Tentando extrair dados para o cartão 2...
+2025-11-10 02:54:44,978 - INFO -   Nome encontrado: Clean Ambiental - Coleta de resíduos
+2025-11-10 02:54:44,987 - INFO -   Endereço encontrado:  · R. Paraopeba, 330
+2025-11-10 02:54:44,999 - INFO -   Rating encontrado: 3.1
+2025-11-10 02:54:45,008 - INFO -   Reviews encontrado: 93
+2025-11-10 02:54:45,016 - INFO -   Telefone encontrado: 3104-2992
+2025-11-10 02:54:45,026 - INFO -   Website encontrado: https://www.cleanambiental.com.br/
+2025-11-10 02:54:45,035 - INFO -   Tipo de negócio encontrado: Serviço de gerenciamento de descartes
+2025-11-10 02:54:45,035 - INFO -   Cartão 2 (ID: -6205074394545450119) - NOVO. Adicionado.
+2025-11-10 02:54:45,035 - INFO - Tentando extrair dados para o cartão 3...
+2025-11-10 02:54:45,041 - INFO -   Nome encontrado: Resgate Ambiental
+2025-11-10 02:54:45,049 - INFO -   Endereço encontrado:  · Av. Washington Luís, 10
+2025-11-10 02:54:45,056 - INFO -   Rating encontrado: 3.0
+2025-11-10 02:54:45,062 - INFO -   Reviews encontrado: 39
+2025-11-10 02:54:45,066 - INFO -   Telefone encontrado: (21) 3604-2000
+2025-11-10 02:54:45,072 - INFO -   Website encontrado: http://www.resgateambiental.com.br/
+2025-11-10 02:54:45,078 - INFO -   Tipo de negócio encontrado: Serviço de coleta de lixo
+2025-11-10 02:54:45,078 - INFO -   Cartão 3 (ID: -4082760158751885901) - NOVO. Adicionado.
+2025-11-10 02:54:45,079 - INFO - Tentando extrair dados para o cartão 4...
+2025-11-10 02:54:45,085 - INFO -   Nome encontrado: Retirada de Entulhos RJ - Remoção de Entulhos RJ - Minerais pedras Zero - Coleta de Entulhos RJ
+2025-11-10 02:54:45,092 - INFO -   Endereço encontrado:  · fds - Rua Nuassu, 406 - casa 1
+2025-11-10 02:54:45,098 - INFO -   Rating encontrado: 4.9
+2025-11-10 02:54:45,105 - INFO -   Reviews encontrado: 34
+2025-11-10 02:54:45,111 - INFO -   Telefone encontrado: (21) 96494-9428
+2025-11-10 02:55:15,118 - WARNING -   Cartão 4: Website não encontrado ou é um link de anúncio.
+2025-11-10 02:55:15,134 - INFO -   Tipo de negócio encontrado: Secretaria de obras
+2025-11-10 02:55:15,134 - INFO -   Cartão 4 (ID: 490677969173851180) - NOVO. Adicionado.
+2025-11-10 02:55:15,134 - INFO - Tentando extrair dados para o cartão 5...
+2025-11-10 02:55:15,142 - INFO -   Nome encontrado: Rodocon Resíduos
+2025-11-10 02:55:15,151 - INFO -   Endereço encontrado:  · Estr. da Figueira, 623C
+2025-11-10 02:55:15,159 - INFO -   Rating encontrado: 4.8
+2025-11-10 02:55:15,166 - INFO -   Reviews encontrado: 31
+2025-11-10 02:55:15,172 - INFO -   Telefone encontrado: (21) 3867-6625
+2025-11-10 02:55:15,177 - INFO -   Website encontrado: https://rodoconresiduos.com.br/
+2025-11-10 02:55:15,187 - INFO -   Tipo de negócio encontrado: Serviço de coleta de lixo
+2025-11-10 02:55:15,187 - INFO -   Cartão 5 (ID: 3199527799511396113) - NOVO. Adicionado.
+2025-11-10 02:55:15,187 - INFO - Tentando extrair dados para o cartão 6...
+2025-11-10 02:55:15,197 - INFO -   Nome encontrado: COOPAMA - Cooperativa Popular Amigos do Meio Ambiente Ltda
+2025-11-10 02:55:45,203 - WARNING -   Cartão 6: Endereço não encontrado.
+2025-11-10 02:55:45,221 - INFO -   Rating encontrado: 4.4
+2025-11-10 02:55:45,240 - INFO -   Reviews encontrado: 48
+2025-11-10 02:55:45,251 - INFO -   Telefone encontrado: (21) 3215-7030
+2025-11-10 02:55:45,263 - INFO -   Website encontrado: https://coopamarecicla.com.br/
+2025-11-10 02:55:45,271 - INFO -   Tipo de negócio encontrado: Centro de Reciclagem
+2025-11-10 02:55:45,272 - INFO -   Cartão 6 (ID: 3523490387857232643) - NOVO. Adicionado.
+2025-11-10 02:55:45,272 - INFO - Tentando extrair dados para o cartão 7...
+2025-11-10 02:55:45,278 - INFO -   Nome encontrado: Coop Ceu Azul
+2025-11-10 02:56:15,288 - WARNING -   Cartão 7: Endereço não encontrado.
+2025-11-10 02:56:15,306 - INFO -   Rating encontrado: 3.8
+2025-11-10 02:56:15,319 - INFO -   Reviews encontrado: 10
+2025-11-10 02:56:15,332 - INFO -   Telefone encontrado: (21) 3474-2901
+2025-11-10 02:56:15,340 - INFO -   Website encontrado: http://www.e-lixo.rj.com.br/
+2025-11-10 02:56:15,349 - INFO -   Tipo de negócio encontrado: Centro de Reciclagem
+2025-11-10 02:56:15,349 - INFO -   Cartão 7 (ID: -3217855793417375861) - NOVO. Adicionado.
+2025-11-10 02:56:15,349 - INFO - Tentando extrair dados para o cartão 8...
+2025-11-10 02:56:15,357 - INFO -   Nome encontrado: S.O.S. Entulho
+2025-11-10 02:56:45,375 - WARNING -   Cartão 8: Endereço não encontrado.
+2025-11-10 02:56:45,388 - INFO -   Rating encontrado: 5.0
+2025-11-10 02:56:45,397 - INFO -   Reviews encontrado: 30
+2025-11-10 02:56:45,404 - INFO -   Telefone encontrado: (21) 97371-1953
+2025-11-10 02:56:45,411 - INFO -   Website encontrado: https://www.sosentulhorj.com.br/
+2025-11-10 02:56:45,417 - INFO -   Tipo de negócio encontrado: Empresa de Coleta de Entulho
+2025-11-10 02:56:45,417 - INFO -   Cartão 8 (ID: 2613006316387568054) - NOVO. Adicionado.
+2025-11-10 02:56:45,417 - INFO - Novas empresas únicas detectadas nesta rolagem. Resetando contador.
+2025-11-10 02:56:45,455 - INFO - Empresas visíveis antes da rolagem: 9
+2025-11-10 02:56:50,943 - INFO - Empresas visíveis após rolagem: 9
+2025-11-10 02:56:50,943 - INFO - Nenhuma nova empresa visível detectada. Contador: 1/2
+2025-11-10 02:56:50,943 - INFO - Tentando extrair dados para o cartão 0...
+2025-11-10 02:56:50,951 - INFO -   Nome encontrado: Coleta de Lixo Eletrônico sem custo
+2025-11-10 02:57:20,957 - WARNING -   Cartão 0: Endereço não encontrado.
+2025-11-10 02:57:20,969 - INFO -   Rating encontrado: 4.5
+2025-11-10 02:57:20,983 - INFO -   Reviews encontrado: 64
+2025-11-10 02:57:20,996 - INFO -   Telefone encontrado: (21) 98381-0591
+2025-11-10 02:57:51,002 - WARNING -   Cartão 0: Website não encontrado ou é um link de anúncio.
+2025-11-10 02:57:51,014 - INFO -   Tipo de negócio encontrado: Centro de Reciclagem
+2025-11-10 02:57:51,014 - INFO -   Cartão 0 (ID: -1436713480787149580) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:57:51,015 - INFO - Tentando extrair dados para o cartão 1...
+2025-11-10 02:57:51,026 - INFO -   Nome encontrado: Ecológica Coleta e Destinação de Resíduos Químicos Ltda.
+2025-11-10 02:58:21,037 - WARNING -   Cartão 1: Endereço não encontrado.
+2025-11-10 02:58:21,049 - INFO -   Rating encontrado: 5.0
+2025-11-10 02:58:21,061 - INFO -   Reviews encontrado: 1
+2025-11-10 02:58:21,072 - INFO -   Telefone encontrado: (21) 99721-7458
+2025-11-10 02:58:21,081 - INFO -   Website encontrado: https://ecologicacoletarj.com.br/
+2025-11-10 02:58:21,090 - INFO -   Tipo de negócio encontrado: Serviço de coleta de lixo
+2025-11-10 02:58:21,090 - INFO -   Cartão 1 (ID: -1711912329757092913) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:58:21,090 - INFO - Tentando extrair dados para o cartão 2...
+2025-11-10 02:58:21,097 - INFO -   Nome encontrado: Clean Ambiental - Coleta de resíduos
+2025-11-10 02:58:21,105 - INFO -   Endereço encontrado:  · R. Paraopeba, 330
+2025-11-10 02:58:21,111 - INFO -   Rating encontrado: 3.1
+2025-11-10 02:58:21,117 - INFO -   Reviews encontrado: 93
+2025-11-10 02:58:21,125 - INFO -   Telefone encontrado: 3104-2992
+2025-11-10 02:58:21,133 - INFO -   Website encontrado: https://www.cleanambiental.com.br/
+2025-11-10 02:58:21,140 - INFO -   Tipo de negócio encontrado: Serviço de gerenciamento de descartes
+2025-11-10 02:58:21,140 - INFO -   Cartão 2 (ID: -6205074394545450119) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:58:21,140 - INFO - Tentando extrair dados para o cartão 3...
+2025-11-10 02:58:21,147 - INFO -   Nome encontrado: Resgate Ambiental
+2025-11-10 02:58:21,154 - INFO -   Endereço encontrado:  · Av. Washington Luís, 10
+2025-11-10 02:58:21,162 - INFO -   Rating encontrado: 3.0
+2025-11-10 02:58:21,170 - INFO -   Reviews encontrado: 39
+2025-11-10 02:58:21,175 - INFO -   Telefone encontrado: (21) 3604-2000
+2025-11-10 02:58:21,180 - INFO -   Website encontrado: http://www.resgateambiental.com.br/
+2025-11-10 02:58:21,187 - INFO -   Tipo de negócio encontrado: Serviço de coleta de lixo
+2025-11-10 02:58:21,187 - INFO -   Cartão 3 (ID: -4082760158751885901) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:58:21,187 - INFO - Tentando extrair dados para o cartão 4...
+2025-11-10 02:58:21,190 - INFO -   Nome encontrado: Retirada de Entulhos RJ - Remoção de Entulhos RJ - Minerais pedras Zero - Coleta de Entulhos RJ
+2025-11-10 02:58:21,200 - INFO -   Endereço encontrado:  · fds - Rua Nuassu, 406 - casa 1
+2025-11-10 02:58:21,207 - INFO -   Rating encontrado: 4.9
+2025-11-10 02:58:21,213 - INFO -   Reviews encontrado: 34
+2025-11-10 02:58:21,219 - INFO -   Telefone encontrado: (21) 96494-9428
+2025-11-10 02:58:51,237 - WARNING -   Cartão 4: Website não encontrado ou é um link de anúncio.
+2025-11-10 02:58:51,247 - INFO -   Tipo de negócio encontrado: Secretaria de obras
+2025-11-10 02:58:51,247 - INFO -   Cartão 4 (ID: 490677969173851180) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:58:51,247 - INFO - Tentando extrair dados para o cartão 5...
+2025-11-10 02:58:51,256 - INFO -   Nome encontrado: Rodocon Resíduos
+2025-11-10 02:58:51,267 - INFO -   Endereço encontrado:  · Estr. da Figueira, 623C
+2025-11-10 02:58:51,277 - INFO -   Rating encontrado: 4.8
+2025-11-10 02:58:51,287 - INFO -   Reviews encontrado: 31
+2025-11-10 02:58:51,297 - INFO -   Telefone encontrado: (21) 3867-6625
+2025-11-10 02:58:51,304 - INFO -   Website encontrado: https://rodoconresiduos.com.br/
+2025-11-10 02:58:51,312 - INFO -   Tipo de negócio encontrado: Serviço de coleta de lixo
+2025-11-10 02:58:51,312 - INFO -   Cartão 5 (ID: 3199527799511396113) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:58:51,313 - INFO - Tentando extrair dados para o cartão 6...
+2025-11-10 02:58:51,318 - INFO -   Nome encontrado: COOPAMA - Cooperativa Popular Amigos do Meio Ambiente Ltda
+2025-11-10 02:59:21,327 - WARNING -   Cartão 6: Endereço não encontrado.
+2025-11-10 02:59:21,334 - INFO -   Rating encontrado: 4.4
+2025-11-10 02:59:21,353 - INFO -   Reviews encontrado: 48
+2025-11-10 02:59:21,362 - INFO -   Telefone encontrado: (21) 3215-7030
+2025-11-10 02:59:21,366 - INFO -   Website encontrado: https://coopamarecicla.com.br/
+2025-11-10 02:59:21,371 - INFO -   Tipo de negócio encontrado: Centro de Reciclagem
+2025-11-10 02:59:21,372 - INFO -   Cartão 6 (ID: 3523490387857232643) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:59:21,372 - INFO - Tentando extrair dados para o cartão 7...
+2025-11-10 02:59:21,379 - INFO -   Nome encontrado: Coop Ceu Azul
+2025-11-10 02:59:51,393 - WARNING -   Cartão 7: Endereço não encontrado.
+2025-11-10 02:59:51,402 - INFO -   Rating encontrado: 3.8
+2025-11-10 02:59:51,410 - INFO -   Reviews encontrado: 10
+2025-11-10 02:59:51,419 - INFO -   Telefone encontrado: (21) 3474-2901
+2025-11-10 02:59:51,426 - INFO -   Website encontrado: http://www.e-lixo.rj.com.br/
+2025-11-10 02:59:51,432 - INFO -   Tipo de negócio encontrado: Centro de Reciclagem
+2025-11-10 02:59:51,432 - INFO -   Cartão 7 (ID: -3217855793417375861) - JÁ PROCESSADO. Ignorando.
+2025-11-10 02:59:51,432 - INFO - Tentando extrair dados para o cartão 8...
+2025-11-10 02:59:51,438 - INFO -   Nome encontrado: S.O.S. Entulho
+2025-11-10 03:00:21,446 - WARNING -   Cartão 8: Endereço não encontrado.
+2025-11-10 03:00:21,458 - INFO -   Rating encontrado: 5.0
+2025-11-10 03:00:21,473 - INFO -   Reviews encontrado: 30
+2025-11-10 03:00:21,491 - INFO -   Telefone encontrado: (21) 97371-1953
+2025-11-10 03:00:21,502 - INFO -   Website encontrado: https://www.sosentulhorj.com.br/
+2025-11-10 03:00:21,510 - INFO -   Tipo de negócio encontrado: Empresa de Coleta de Entulho
+2025-11-10 03:00:21,510 - INFO -   Cartão 8 (ID: 2613006316387568054) - JÁ PROCESSADO. Ignorando.
+2025-11-10 03:00:21,512 - INFO - Nenhuma nova empresa única detectada. Contador: 2/2
+2025-11-10 03:00:21,512 - INFO - Limite de não encontrar novas empresas únicas atingido. Parando a rolagem.
+2025-11-10 03:00:21,577 - INFO - Conteúdo HTML da página salvo em results\debug_page_content.html para depuração.
+2025-11-10 03:00:22,542 - INFO - Navegador fechado.
+2025-11-10 03:00:22,563 - INFO - Aguardando 6.32 segundos antes da próxima requisição para evitar bloqueio...
+2025-11-10 03:00:28,887 - INFO - Iniciando busca para o nicho 'Projetos de adaptação climática urbana' na cidade 'Rio de Janeiro'.
+2025-11-10 03:00:30,620 - INFO - Navegando para o Google Maps para buscar 'Projetos de adaptação climática urbana' em 'Rio de Janeiro'...
+2025-11-10 03:00:41,973 - INFO - Pop-up de cookies não encontrado ou já aceito.
+2025-11-10 03:00:50,568 - INFO - Busca realizada. Aguardando resultados...
+2025-11-10 03:00:53,118 - ERROR - Elemento rolável não encontrado ou não visível.
+2025-11-10 03:00:53,513 - INFO - Conteúdo HTML da página salvo em results\debug_page_content.html para depuração.
+2025-11-10 03:00:53,976 - INFO - Navegador fechado.
+2025-11-10 03:00:54,003 - INFO - Aguardando 8.30 segundos antes da próxima requisição para evitar bloqueio...
+2025-11-10 03:01:02,302 - INFO - Iniciando busca para o nicho 'Inventário e mapeamento de árvores urbanas' na cidade 'Rio de Janeiro'.
+2025-11-10 03:01:04,023 - INFO - Navegando para o Google Maps para buscar 'Inventário e mapeamento de árvores urbanas' em 'Rio de Janeiro'...
+2025-11-10 03:01:14,869 - INFO - Pop-up de cookies não encontrado ou já aceito.
+2025-11-10 03:01:25,033 - INFO - Busca realizada. Aguardando resultados...
+2025-11-10 03:01:28,333 - ERROR - Elemento rolável não encontrado ou não visível.
+2025-11-10 03:01:28,934 - INFO - Conteúdo HTML da página salvo em results\debug_page_content.html para depuração.
+2025-11-10 03:01:29,390 - INFO - Navegador fechado.
+2025-11-10 03:01:29,428 - INFO - Aguardando 6.44 segundos antes da próxima requisição para evitar bloqueio...
+2025-11-10 03:01:35,883 - INFO - Arquivo existente renomeado para C:\Users\Ken\Desktop\Projeto\Oportunidades Empresa\Trae - Negocios\results\csv\dados_empresas_googlemaps_sub_20251110_030135.csv
+2025-11-10 03:01:35,895 - INFO - 
+\u2705 Dados salvos em 'C:\Users\Ken\Desktop\Projeto\Oportunidades Empresa\Trae - Negocios\results\csv\dados_empresas_googlemaps.csv' com 63 registros.
+2025-11-10 03:01:35,904 - INFO - 
 \U0001f4ca Resumo inicial:
-2025-11-08 23:39:43,903 - INFO -                                                                    quantidade_empresas  ...  total_reviews
-cidade         nicho                                                                    ...               
-Rio de Janeiro Regularização de imóveis antigos e galpões indu...                   11  ...           1857
-
-[1 rows x 3 columns]
+2025-11-10 03:01:35,904 - INFO -                                                                    quantidade_empresas  nota_media  total_reviews
+cidade         nicho                                                                                             
+Rio de Janeiro Certificação de instalações elétricas para cond...                    8    4.287500            503
+               Certificação de qualidade do ar e climatização                       20    4.755000           2799
+               Gestão e descarte técnico de resíduos de obras                        9    4.277778            350
+               Laudos de estabilidade e segurança estrutural p...                    3    1.666667              2
+               Laudos e medições de aterramento e SPDA (para-r...                    5    4.980000            214
+               Laudos e regularização de sistemas de incêndio ...                    7    4.714286            256
+               Projetos de automação de portarias e controle d...                    2    4.950000            288
+               Reabilitação e impermeabilização de subsolos e ...                    2    4.700000             59
+               Retrofit elétrico e de iluminação LED para préd...                    4    3.325000            143
+               Topografia e demarcação de terrenos para regula...                    3    4.833333            138

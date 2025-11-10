@@ -47,9 +47,7 @@ async def extract_business_data(page, card_locator, card_index, nicho, cidade):
     longitude = "N/A"
 
     logging.info(f"Tentando extrair dados para o cartão {card_index}...")
-    # Log do conteúdo do card_locator para depuração
-    # card_content = await card_locator.evaluate('el => el.outerHTML')
-    # logging.info(f"  Conteúdo completo do card_locator para o cartão {card_index}:\n{card_content}") 
+
 
     # Tentativas para extrair o nome
     try:
@@ -123,13 +121,13 @@ async def extract_business_data(page, card_locator, card_index, nicho, cidade):
     return {
         "nicho": nicho,
         "cidade": cidade,
-        "Nome": nome,
+        "nome": nome,
         "Endereço": endereco,
         "Telefone": telefone,
         "Website": website,
         "Tipo": tipo,
-        "Rating": rating,
-        "Reviews": reviews,
+        "nota": rating,
+        "reviews": reviews,
         "Descricao": descricao,
         "Latitude": latitude,
         "Longitude": longitude,
@@ -141,8 +139,9 @@ async def buscar_google_maps(nicho: str, cidade: str):
     Abre o Google Maps, realiza uma busca pelo nicho e cidade fornecidos e extrai informações das empresas.
     """
     async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=False) # headless=False para ver o navegador em ação
-        page = await browser.new_page()
+        browser = await p.chromium.launch(headless=False, args=["--start-maximized"]) # headless=False para ver o navegador em ação
+        context = await browser.new_context(no_viewport=True)
+        page = await context.new_page()
 
         try:
             logging.info(f"Navegando para o Google Maps para buscar '{nicho}' em '{cidade}'...")
@@ -191,7 +190,7 @@ async def buscar_google_maps(nicho: str, cidade: str):
             processed_business_ids = set() # Para armazenar IDs únicos de empresas já processadas
             last_scroll_height = -1
             no_new_businesses_count = 0
-            max_no_new_businesses = 15 # Aumentar o limite de vezes que podemos não encontrar novas empresas
+            max_no_new_businesses = 2 # Aumentar o limite de vezes que podemos não encontrar novas empresas
 
             while True:
                 # Registrar o número de empresas visíveis antes da rolagem
@@ -202,20 +201,29 @@ async def buscar_google_maps(nicho: str, cidade: str):
 
                 # Rolar para o final do elemento rolável em incrementos maiores
                 await scrollable_element.evaluate("element => element.scrollBy(0, 1000)") # Rolar 1000px para baixo
-                await page.wait_for_timeout(random.randint(3000, 7000)) # Esperar mais tempo para o conteúdo carregar
+                await page.wait_for_timeout(random.randint(3000, 7000)) 
 
                 current_scroll_height = await scrollable_element.evaluate("element => element.scrollHeight")
 
                 # Obter todos os cartões de negócios visíveis na página atual
-                business_cards = await page.locator('div.Nv2PK, div.TFQHme > div > div.Nv2PK').all()
-                if not business_cards:
-                    business_cards = await page.locator('div[role="article"]').all()
+                results_container = page.locator('div[aria-label*="Resultados para"]')
+                if await results_container.count() > 0:
+                    logging.debug(f"Contêiner de resultados encontrado com aria-label: {await results_container.get_attribute('aria-label')}")
+                    # Obter todos os cartões de negócios visíveis na página atual dentro do contêiner
+                    business_cards = await results_container.locator('div.Nv2PK').all()
+                    logging.debug(f"Business cards found with new selector (div[aria-label*=\"Resultados para\"] div.Nv2PK): {len(business_cards)}")
+                else:
+                    logging.warning("Contêiner de resultados com aria-label não encontrado. Usando seletores alternativos.")
+                    business_cards = await page.locator('div.Nv2PK, div.TFQHme > div > div.Nv2PK').all()
+                    if not business_cards:
+                        business_cards = await page.locator('div[role="article"]').all()
+                    logging.debug(f"Business cards found with fallback selectors: {len(business_cards)}")
                 logging.info(f"Empresas visíveis após rolagem: {len(business_cards)}")
 
                 # Verificar se o número de empresas visíveis aumentou
                 if len(business_cards) > previous_business_cards_count:
                     logging.info(f"Novas empresas visíveis detectadas: {len(business_cards) - previous_business_cards_count}")
-                    no_new_businesses_count = 0 # Resetar o contador se novas empresas forem visíveis
+                    no_new_businesses_count = 0
                 else:
                     no_new_businesses_count += 1
                     logging.info(f"Nenhuma nova empresa visível detectada. Contador: {no_new_businesses_count}/{max_no_new_businesses}")
@@ -257,9 +265,9 @@ async def buscar_google_maps(nicho: str, cidade: str):
                 if await more_results_button.is_visible():
                     logging.info("Botão 'Mais resultados' encontrado. Clicando para carregar mais.")
                     await more_results_button.click()
-                    await page.wait_for_timeout(random.randint(3000, 6000)) # Esperar o carregamento
-                    no_new_businesses_count = 0 # Resetar o contador após clicar no botão
-                    continue # Continuar o loop para processar os novos resultados
+                    await page.wait_for_timeout(random.randint(3000, 6000))
+                    no_new_businesses_count = 0 
+                    continue
 
                 if current_scroll_height == last_scroll_height:
                     logging.info("Fim da rolagem. Nenhuma nova altura de rolagem detectada. Parando a rolagem.")
@@ -269,6 +277,12 @@ async def buscar_google_maps(nicho: str, cidade: str):
 
             return empresas_encontradas
         finally:
+            # Salvar o conteúdo HTML da página para depuração
+            debug_html_path = os.path.join("results", "debug_page_content.html")
+            os.makedirs(os.path.dirname(debug_html_path), exist_ok=True)
+            with open(debug_html_path, "w", encoding="utf-8") as f:
+                f.write(await page.content())
+            logging.info(f"Conteúdo HTML da página salvo em {debug_html_path} para depuração.")
             await browser.close()
             logging.info("Navegador fechado.")
         return empresas_encontradas
@@ -320,14 +334,14 @@ def main():
     df = pd.DataFrame(todas_empresas)
 
     # Garante que as colunas estejam na ordem correta, adicionando as que podem estar faltando
-    expected_columns = ["nicho", "cidade", "Nome", "Endereço", "Telefone", "Website", "Tipo", "Rating", "Reviews", "Descricao", "Latitude", "Longitude"]
+    expected_columns = ["nicho", "cidade", "nome", "Endereço", "Telefone", "Website", "Tipo", "nota", "reviews", "Descricao", "Latitude", "Longitude"]
     for col in expected_columns:
         if col not in df.columns:
             df[col] = "N/A"
     df = df[expected_columns]
 
     if not df.empty:
-        for col in ["Rating", "Reviews"]:
+        for col in ["nota", "reviews"]:
             df[col] = pd.to_numeric(df[col], errors="coerce").fillna(0)
 
         # Salvar CSV
@@ -354,13 +368,13 @@ def main():
             logging.info(f"\n✅ Dados salvos em '{output_path}' com {len(df)} registros.")
 
         resumo = df.groupby(["cidade", "nicho"]).agg({
-            "Nome": "count",
-            "Rating": "mean",
-            "Reviews": "sum"
+            "nome": "count",
+            "nota": "mean",
+            "reviews": "sum"
         }).rename(columns={
-            "Nome": "quantidade_empresas",
-            "Rating": "nota_media",
-            "Reviews": "total_reviews"
+            "nome": "quantidade_empresas",
+            "nota": "nota_media",
+            "reviews": "total_reviews"
         })
 
         logging.info("\n📊 Resumo inicial:")
